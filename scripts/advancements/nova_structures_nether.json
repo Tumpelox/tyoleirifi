@@ -1,0 +1,24 @@
+{
+  "nova_structures:nether/find_piglin_outpost": {
+    "parrent": "nova_structures:nether/find_piglins",
+    "frame": "task",
+    "iconId": "minecraft:gilded_blackstone",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancement.dnt.nether.find_piglin_outpost.title",
+    "description": "advancement.dnt.nether.find_piglin_outpost"
+  },
+  "nova_structures:nether/find_skeleton_tower": {
+    "parrent": "nova_structures:nether/find_nether_skeleton",
+    "frame": "task",
+    "iconId": "minecraft:bone_block",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancement.dnt.nether.find_skeleton_tower.title",
+    "description": "advancement.dnt.nether.find_skeleton_tower"
+  }
+}

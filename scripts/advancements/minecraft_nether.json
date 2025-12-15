@@ -1,0 +1,266 @@
+{
+  "minecraft:nether/root": {
+    "parrent": null,
+    "frame": "task",
+    "iconId": "minecraft:red_nether_bricks",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancements.nether.root.title",
+    "description": "advancements.nether.root.description"
+  },
+  "minecraft:nether/ride_strider": {
+    "parrent": "minecraft:nether/root",
+    "frame": "task",
+    "iconId": "minecraft:warped_fungus_on_a_stick",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAPFBMVEUAAAD/pGi0s7OWlpb/ZQAUtIV0dHSJZyd5YVJkZGQPiXUWfoZoTh4+T1gWYVtERERJNyxJNhU1NTUoHguGc+FHAAAAAXRSTlMAQObYZgAAAFhJREFUeNp9z8EOgCAMA9CKgG7qJuz//1VD4MBi7O31sKz4DalzsclaTpu9mTpDnUHOIH8vOyPvaGlOgoO0O4SKJcrdXWx9ixj5GkatAKcUW2PjX2aRj8UP6VAEOfMdWQEAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.nether.ride_strider.title",
+    "description": "advancements.nether.ride_strider.description"
+  },
+  "minecraft:nether/return_to_sender": {
+    "parrent": "minecraft:nether/root",
+    "frame": "challenge",
+    "iconId": "minecraft:fire_charge",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJFBMVEUAAADurBiViW3BbQtsYFZ6XEOZNQBRSTE3NSlWKgA3KigfFhWyK1crAAAAAXRSTlMAQObYZgAAAFdJREFUeNpjwApWrYLSnRVgFld7mFPFBhCjxCg4HcRY4Spq6pQNZKxMCnSJrAYylge7Gk0BMXa4GqWmdwMZ3KUp08s2gBid5dPB2hl2t1Xshhi9ezdWmwFU7RrIw8S8CwAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.nether.return_to_sender.title",
+    "description": "advancements.nether.return_to_sender.description"
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "parrent": "minecraft:nether/root",
+    "frame": "task",
+    "iconId": "minecraft:crying_obsidian",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancements.nether.obtain_crying_obsidian.title",
+    "description": "advancements.nether.obtain_crying_obsidian.description"
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "parrent": "minecraft:nether/root",
+    "frame": "task",
+    "iconId": "minecraft:ancient_debris",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancements.nether.obtain_ancient_debris.title",
+    "description": "advancements.nether.obtain_ancient_debris.description"
+  },
+  "minecraft:nether/find_fortress": {
+    "parrent": "minecraft:nether/root",
+    "frame": "task",
+    "iconId": "minecraft:nether_bricks",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancements.nether.find_fortress.title",
+    "description": "advancements.nether.find_fortress.description"
+  },
+  "minecraft:nether/find_bastion": {
+    "parrent": "minecraft:nether/root",
+    "frame": "task",
+    "iconId": "minecraft:polished_blackstone_bricks",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancements.nether.find_bastion.title",
+    "description": "advancements.nether.find_bastion.description"
+  },
+  "minecraft:nether/fast_travel": {
+    "parrent": "minecraft:nether/root",
+    "frame": "challenge",
+    "iconId": "minecraft:map",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAFVBMVEUAAACnqEja3arq6sf8/PK7wXeHiDl+gYyIAAAAAXRSTlMAQObYZgAAAEZJREFUeNqVjzkSgDAMA3U4+v+TGQJMHCrYTrtujB+Qr21xy6oyW64TZeULZm65bsRsuzwv8hgrQDNOgGU8gkU0EnSS7z8eqkoBXX1zFmAAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.nether.fast_travel.title",
+    "description": "advancements.nether.fast_travel.description"
+  },
+  "minecraft:nether/distract_piglin": {
+    "parrent": "minecraft:nether/root",
+    "frame": "task",
+    "iconId": "minecraft:gold_ingot",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAG1BMVEUAAAD//////eD99V/61krpsRXclhOyZBF1KALSidGuAAAAAXRSTlMAQObYZgAAAE5JREFUeNqVz0ESgDAMQlFMSOH+J3YmrVaX/bvHDpwk/SVSH2WnJeaKBhT5FpGGGI8iBw0xY6rGWAOvqVGkoUpuGoCqhyo357LVSfbBxRs/dgKAjgB7sgAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.nether.distract_piglin.title",
+    "description": "advancements.nether.distract_piglin.description"
+  },
+  "minecraft:nether/uneasy_alliance": {
+    "parrent": "minecraft:nether/return_to_sender",
+    "frame": "challenge",
+    "iconId": "minecraft:ghast_tear",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAATUlEQVQ4y2NgGAV4gUVExH9zL6//ZGveevv2//mHD5NnCMiA8x8/gg0h2QCY7SADQJhkV8BsBwGyDQC5AATIDgeQBooCEWYI2ZpHEAAALQlb55AbNLUAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.nether.uneasy_alliance.title",
+    "description": "advancements.nether.uneasy_alliance.description"
+  },
+  "minecraft:nether/ride_strider_in_overworld_lava": {
+    "parrent": "minecraft:nether/ride_strider",
+    "frame": "task",
+    "iconId": "minecraft:warped_fungus_on_a_stick",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAPFBMVEUAAAD/pGi0s7OWlpb/ZQAUtIV0dHSJZyd5YVJkZGQPiXUWfoZoTh4+T1gWYVtERERJNyxJNhU1NTUoHguGc+FHAAAAAXRSTlMAQObYZgAAAFhJREFUeNp9z8EOgCAMA9CKgG7qJuz//1VD4MBi7O31sKz4DalzsclaTpu9mTpDnUHOIH8vOyPvaGlOgoO0O4SKJcrdXWx9ixj5GkatAKcUW2PjX2aRj8UP6VAEOfMdWQEAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.nether.ride_strider_in_overworld_lava.title",
+    "description": "advancements.nether.ride_strider_in_overworld_lava.description"
+  },
+  "minecraft:nether/powder_snow": {
+    "parrent": "minecraft:nether/find_fortress",
+    "frame": "challenge",
+    "iconId": "minecraft:powder_snow_bucket",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIVBMVEUAAAD////w/f3c9fW+8PDY2Nhxw9KoqKiWlpZycnI1NTUdnAYYAAAAAXRSTlMAQObYZgAAAGNJREFUeNptzEEOxDAIQ9EQjAm+/4FHoqmYRf/OT4j1RJLrL5o5RkSzDQf1bmyHmxN6ALRtDoIXJLrDIV2IlCSozgsRkYnyAYvMU5UXsgEDdS/6R0tEQ++GjMjTMJKzW7r12Q/9QwPlgecLVgAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancement.dnt.nether.powder_snow.title",
+    "description": "advancement.dnt.nether.powder_snow"
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "parrent": "minecraft:nether/find_fortress",
+    "frame": "task",
+    "iconId": "minecraft:blaze_rod",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbklEQVR42mOgO9icLfl/dhj7f7I0r8iV/v//s+7/nZNl/k81ZvhPss3/f9SBNa+zAWom0Waw5hvr1P7vjyLdZpizgZpJt5kizTA/U+bsdTbkaD7IQHZoD5DNG6MFyAxthO2IREIOAKZriLMHAgAAbgx59s0hcWsAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.nether.obtain_blaze_rod.title",
+    "description": "advancements.nether.obtain_blaze_rod.description"
+  },
+  "minecraft:nether/netherite_armor": {
+    "parrent": "minecraft:nether/obtain_ancient_debris",
+    "frame": "challenge",
+    "iconId": "minecraft:netherite_chestplate",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAHlBMVEUAAAB2anZdVl1NSU1HPj83NTc1LS0kHyAnHB0XERElrX5TAAAAAXRSTlMAQObYZgAAAGhJREFUeNpjwATs5eUMDOXlBQzsJuEMDKXOQIareQNHcQiQEeZc0W6SCmQoBokXqgoBGdNCFIVcMycwMHA6GSmrAGkGzlBFoVAwwyU01AXMAKkBM9KcVNJADIaZqWEzwbZxzpw5AclyALL0GIDADuxaAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.nether.netherite_armor.title",
+    "description": "advancements.nether.netherite_armor.description"
+  },
+  "minecraft:nether/loot_bastion": {
+    "parrent": "minecraft:nether/find_bastion",
+    "frame": "task",
+    "iconId": "minecraft:chest",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancements.nether.loot_bastion.title",
+    "description": "advancements.nether.loot_bastion.description"
+  },
+  "minecraft:nether/get_wither_skull": {
+    "parrent": "minecraft:nether/find_fortress",
+    "frame": "task",
+    "iconId": "minecraft:wither_skeleton_skull",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancements.nether.get_wither_skull.title",
+    "description": "advancements.nether.get_wither_skull.description"
+  },
+  "minecraft:nether/explore_nether": {
+    "parrent": "minecraft:nether/ride_strider",
+    "frame": "challenge",
+    "iconId": "minecraft:netherite_boots",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcklEQVR42mMYZsBQQ+O/irzCf1zyIDmQGgZ8CsqyysCG4JITFxTEb0BsWCxOA3w9fYkzwN3OHqIQIQ4SI2AAwha4QjRxWhmAqQiPFxByeDWb6uqiGwASwzQEzQZkzSgKoHxkNRgGwDThDSSIPAIPk/wDAP5Kfi2DXilPAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.nether.explore_nether.title",
+    "description": "advancements.nether.explore_nether.description"
+  },
+  "minecraft:nether/charge_respawn_anchor": {
+    "parrent": "minecraft:nether/obtain_crying_obsidian",
+    "frame": "task",
+    "iconId": "minecraft:respawn_anchor",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancements.nether.charge_respawn_anchor.title",
+    "description": "advancements.nether.charge_respawn_anchor.description"
+  },
+  "minecraft:nether/summon_wither": {
+    "parrent": "minecraft:nether/get_wither_skull",
+    "frame": "task",
+    "iconId": "minecraft:nether_star",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAHlBMVEUAAAD9/6ja4uLg4nfL1ta5ycnS0gCIpKRkkJBVa2uOynhjAAAAAXRSTlMAQObYZgAAAEpJREFUeNpjwA4aoDRHJZTRrj4BwmgVhTA6SkQqQSyOUhcR10qQCkXBZMHwCSARV9NwsL6ZJaKVENVTxaHap7tDGZyVDFAwAdliAFlNENjnSBVaAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.nether.summon_wither.title",
+    "description": "advancements.nether.summon_wither.description"
+  },
+  "minecraft:nether/brew_potion": {
+    "parrent": "minecraft:nether/obtain_blaze_rod",
+    "frame": "task",
+    "iconId": "minecraft:potion",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbElEQVQ4y2NgGNTgSq7nfxBe6a76n3TNT7//P7N+KRxvPv+GNENAGkA2g/B0czHSDYAZAqJj+w/9JysMKDIAFAbIfJIMgWlG9zdRhuDSTLQhFBuAS2P32gvEBSguBUQbgE0RSZqRDUHHNMlwADOSe7Rn5KNOAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.nether.brew_potion.title",
+    "description": "advancements.nether.brew_potion.description"
+  },
+  "minecraft:nether/create_beacon": {
+    "parrent": "minecraft:nether/summon_wither",
+    "frame": "task",
+    "iconId": "minecraft:beacon",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancements.nether.create_beacon.title",
+    "description": "advancements.nether.create_beacon.description"
+  },
+  "minecraft:nether/all_potions": {
+    "parrent": "minecraft:nether/brew_potion",
+    "frame": "challenge",
+    "iconId": "minecraft:milk_bucket",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIVBMVEUAAAD////d8/XY2NiszNWoqKiYmJiWlpZ4eHhycnI1NTUfW6naAAAAAXRSTlMAQObYZgAAAFZJREFUeNptz9sKwDAIA9B5rc3/f/DAGhijefNgBJ970PmMVZmZJJSriKh64YDLxMEDririwIAFOnsRzCxi7Q/IgRiIP+yGU2GnoefpWKwBChconfvjL/d2A7IAtkSVAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.nether.all_potions.title",
+    "description": "advancements.nether.all_potions.description"
+  },
+  "minecraft:nether/create_full_beacon": {
+    "parrent": "minecraft:nether/create_beacon",
+    "frame": "goal",
+    "iconId": "minecraft:beacon",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancements.nether.create_full_beacon.title",
+    "description": "advancements.nether.create_full_beacon.description"
+  },
+  "minecraft:nether/all_effects": {
+    "parrent": "minecraft:nether/all_potions",
+    "frame": "challenge",
+    "iconId": "minecraft:bucket",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAAnRSTlMAAHaTzTgAAABdSURBVHjabc/BCcBACETRNGUn3u3hF2MNlmQ3CUxWsoSdmw8d8DrHlG0kM6uGDCICSOyFcPcACJsC9wiYGusyhRzo7qpkg1tALag/MJAC3Qg0r5uuFHwyCyPK+fEHwvlD+oD5xgIAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.nether.all_effects.title",
+    "description": "advancements.nether.all_effects.description"
+  }
+}

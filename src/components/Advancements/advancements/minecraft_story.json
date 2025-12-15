@@ -1,0 +1,178 @@
+{
+  "minecraft:story/root": {
+    "parrent": null,
+    "frame": "task",
+    "iconId": "minecraft:grass_block",
+    "icon": {
+      "src": "data:image/png;base64, UklGRsABAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSC8AAAABDzD/ERECQeI2OpiASZr1SZqAhxp4ARH9D7DFNW9IbFKX9Evmj0t6k5Lwhmu2AABWUDggagEAAPAHAJ0BKiAAIAA+bS6TRqQioaEwGAgAgA2JagCdMoR+HalO+hY3KB4AaS9mLeHK1ZZL65nLulhv6CO6piqRk9as7gw23pAAAAD++cI+5mCUhT5ag4/PjJkhTtlYmgOvqNcrQbAkvfOXd+lkAG7pCPyRkZ/sJn58/4wfIp+J5KqQoC3XbEx2/xw4XwCl1kUbXU1btVXYQHwCOmdHSih0Mdx+TaR7h/ewYvvcTsBwsyBEtR3+DZPseMYpahRnq6DhEDiGaHdE86ckT3fqJoLdQe1uhZbu60uXrWqtYNOM82aKUNbQUJYqHuMP+fDrF5qTaPlGN0BXyryarPMMk5weg2c7qwGcNU7jPLKIuW4dgZEqCjmXfp2XnYdK2t+uXjbMAeT20TC72J8xeHxKP0Ua4lO3ijgyD1Z5/ZRhkBqKSsH4E1fHeBopgUOYduJ70zrgi16sk7BvjtXvG9esOo5CgNT0PRq8FBAFH/gA",
+      "type": "blob"
+    },
+    "title": "advancements.story.root.title",
+    "description": "advancements.story.root.description"
+  },
+  "minecraft:story/mine_stone": {
+    "parrent": "minecraft:story/root",
+    "frame": "task",
+    "iconId": "minecraft:wooden_pickaxe",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAGFBMVEUAAACIZiZ1WCFqUB5JNhU3KRAoHgsgGAr7mH1CAAAAAXRSTlMAQObYZgAAAERJREFUeNpjwApCQwPANKuQsaozmBVebiwGlXQyh9AsZkYFYIZjQnEBRIAByAALMBQVQAQYCgsgAgzsUAGoFigjDc1mACKSC0HPQpJlAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.story.mine_stone.title",
+    "description": "advancements.story.mine_stone.description"
+  },
+  "minecraft:story/upgrade_tools": {
+    "parrent": "minecraft:story/mine_stone",
+    "frame": "task",
+    "iconId": "minecraft:stone_pickaxe",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAHlBMVEUAAACampqJiYl/f3+JZydoTh5JSUlJNhUoHgsYGBi6HSktAAAAAXRSTlMAQObYZgAAAEVJREFUeNpjwArS0hLANJuQsVopmJU509gDKllkCaHZI4wmgBklDZMnQAQYgAywAMOkCRABhokTIAIMnFABqBYoowPNZgA3CQ9j/SFa9AAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.story.upgrade_tools.title",
+    "description": "advancements.story.upgrade_tools.description"
+  },
+  "minecraft:story/smelt_iron": {
+    "parrent": "minecraft:story/upgrade_tools",
+    "frame": "task",
+    "iconId": "minecraft:iron_ingot",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAAnRSTlMAAHaTzTgAAABWSURBVHjalc8xEcAwDENRkzKXTgIhCEIjSGbj3sWXXjpG2/ub4mbAX7B5qqrKPLULur51FwPurS46A3aPRGqCR6TtDMjeVGZEQCtIuThFz9YUZF5cfAGg5lJ3ApNkTAAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.story.smelt_iron.title",
+    "description": "advancements.story.smelt_iron.description"
+  },
+  "minecraft:story/obtain_armor": {
+    "parrent": "minecraft:story/smelt_iron",
+    "frame": "task",
+    "iconId": "minecraft:iron_chestplate",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAAnRSTlMAAHaTzTgAAABaSURBVHjajY85EYAAEANjIyKi7PxEUjScGxg4hm8o2Cq7XfADbdyHlo5wG+rEAuTOhCRtyckRylm6O4lLAMgaTYrEBg8PMTATfIW8gsevUN4p4ixPB7jz/XUF4chIZvUULX8AAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.story.obtain_armor.title",
+    "description": "advancements.story.obtain_armor.description"
+  },
+  "minecraft:story/lava_bucket": {
+    "parrent": "minecraft:story/smelt_iron",
+    "frame": "task",
+    "iconId": "minecraft:lava_bucket",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAJ1BMVEUAAAD////Y2Njk0lyoqKjjjD+2jHuWlpaff3hycnLMRih/Piw1NTWgo7oyAAAAAXRSTlMAQObYZgAAAFxJREFUeNptz0EOwCAIRNG2gMro/c/bqQrpwr+bF2LidW7MftNaKUDQaBAxE0MZC8BBomzQToII6oZHO4N5AlOtcE24P/AEXYAEj4tKiEcIsQlKqAtS4iBkdv74C05YBCYmMm+kAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.story.lava_bucket.title",
+    "description": "advancements.story.lava_bucket.description"
+  },
+  "minecraft:story/iron_tools": {
+    "parrent": "minecraft:story/smelt_iron",
+    "frame": "task",
+    "iconId": "minecraft:iron_pickaxe",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAHlBMVEUAAAD////Y2NjBwcGJZydoTh5ERERJNhUoHgsYGBhl7cYfAAAAAXRSTlMAQObYZgAAAEVJREFUeNpjwArS0hLANJuQsVopmJU509gDKllkCaHZI4wmgBklDZMnQAQYgAywAMOkCRABhokTIAIMnFABqBYoowPNZgA3CQ9j/SFa9AAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.story.iron_tools.title",
+    "description": "advancements.story.iron_tools.description"
+  },
+  "minecraft:story/mine_diamond": {
+    "parrent": "minecraft:story/iron_tools",
+    "frame": "task",
+    "iconId": "minecraft:diamond",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIVBMVEUAAAD////V//ah++hK7dks4NggxbUaqqcckZoRcnoUXlN/hNeyAAAAAXRSTlMAQObYZgAAAFxJREFUeNqNjzkOxDAMAyORS1n8/4MXyGEnQIpMN1Po2L7S3f3wiMi+O4mUbw4kKK8QGUl6OQmUyldIAhgrhABw1BWSrKqSxjnELEmqucW/I2Ae4kEC8jbxzvubfzBNAqq5tnU2AAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.story.mine_diamond.title",
+    "description": "advancements.story.mine_diamond.description"
+  },
+  "minecraft:story/form_obsidian": {
+    "parrent": "minecraft:story/lava_bucket",
+    "frame": "task",
+    "iconId": "minecraft:obsidian",
+    "icon": {
+      "src": "data:image/png;base64, UklGRiwBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSC8AAAABDzD/ERECQeI2OpiASZr1SZqAhxp4ARH9D7DFNW9IbFKX9Evmj0t6k5Lwhmu2AABWUDgg1gAAAPAFAJ0BKiAAIAA+bTCURyQioiEoCqiADYlnAMTZi1H00OF3zWx6wDX8k6uzeAI4SPZI9cy0+JYAAP7+Skj0LlZioSoTll4/m5qIZ4F7CpboYC15v5BqqWHvTC/yAnn2tBjtaK1izu3tb42KY9HzmH4VA4KDTyh0/lOzGhJOwumFIH5mt7oAlqzYrd+/MFiayFaOaWaTN0cF0WqSVlvHbo3vB53TJenwKJMU86SR/PdCfW0/4GusZbgFQ1Tt8EXINonEFaWjiZUrZVnxvhRMHj7yM0kAAAA=",
+      "type": "blob"
+    },
+    "title": "advancements.story.form_obsidian.title",
+    "description": "advancements.story.form_obsidian.description"
+  },
+  "minecraft:story/deflect_arrow": {
+    "parrent": "minecraft:story/obtain_armor",
+    "frame": "task",
+    "iconId": "minecraft:shield",
+    "icon": {
+      "src": "data:image/png;base64, UklGRmwBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSC8AAAABDzD/ERFCMSRJUhk0wqCs2qAtymLs774JIvofAC7wMgwvYWtT/KgpPcUiyAIGAABWUDggFgEAALAGAJ0BKiAAIAA+bSyTRqQiIaEwGAgAgA2JQBad1rzcFk+ZoDA2lfd9QiLKZ3ltxYcCU4iaw87gl3aIZfIkAP6L2vZpR4r6eZk9LIkTFnJAjz50nStalsyQPlLo5vSLLdlARozw/YAcOjHlpqj2XYidygdUvcZA39/xaTEKQpVdREU3TtwoXVeYv85ZF9SezHZhP3A4OUw/vVdaEFgxthX3wulzfmMYB4Jllkd31wzT1Y7Rqy1Zm3wBSiIBV0Nyg/Rbd9WMoXi8wUd/EqtovWnon+DLCs2/ceRsw201/k07LC6p/qe1SBAY07rn7OOULM+WxlMHRRjj9O3X6B7/9coNeRIwqneDg/jT9cKs//r3WsfyJOAA",
+      "type": "blob"
+    },
+    "title": "advancements.story.deflect_arrow.title",
+    "description": "advancements.story.deflect_arrow.description"
+  },
+  "minecraft:story/shiny_gear": {
+    "parrent": "minecraft:story/mine_diamond",
+    "frame": "task",
+    "iconId": "minecraft:diamond_chestplate",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGFBMVEUAAAD///+h++hK7dkgxbUaqqcOPzYIJSASzXVWAAAAAXRSTlMAQObYZgAAAFNJREFUeNqNz0EOgEAIBEGkB/j/j806JmuMB/vE1I34Ua+eRx+J4T46QR3RSgxAqluAocSRmYBqwUx5Qs3Earxhwg0GbeAF8t5QuiqDZW/L1fevJzKqAlDbFhetAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.story.shiny_gear.title",
+    "description": "advancements.story.shiny_gear.description"
+  },
+  "minecraft:story/enter_the_nether": {
+    "parrent": "minecraft:story/form_obsidian",
+    "frame": "task",
+    "iconId": "minecraft:flint_and_steel",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAAnRSTlMAAHaTzTgAAABhSURBVHjabcsxEcAwCIVhNhyggRlEPAf4iII4Ya6FuOull/ZIL2z/B9BxgF+Pgb3Tmm1gZBskSh2hgTBfZIG1RBqRRJHZ6kyvzPbo+smzv1QqRFcR5QIu6lFOWIWZqcyqGwPEFZXDuhxGAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.story.enter_the_nether.title",
+    "description": "advancements.story.enter_the_nether.description"
+  },
+  "minecraft:story/enchant_item": {
+    "parrent": "minecraft:story/mine_diamond",
+    "frame": "task",
+    "iconId": "minecraft:enchanted_book",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAPFBMVEUAAADW1ta3t7fTohbUlhqZmZlbW1ukLCtlSxfFEzmdGzeJISBUPhNSLhBEMxBsFxdEJQphFBQxIQQWEAV8/BcXAAAAAXRSTlMAQObYZgAAAG1JREFUeNp1z0EWgyAMBNA0NA0WwTG5/101Ik9dOLv5ZBbQa8zsWWvOlyxLzREbr6pTbi3kPJ7/0yUx7hIAOy5aiO4Vv5jwIZoShIXI64djhfRlFsMpgGgRgzt1EeZSeh2CskYdAvhKt7j76683mGkGwVjE2/sAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.story.enchant_item.title",
+    "description": "advancements.story.enchant_item.description"
+  },
+  "minecraft:story/follow_ender_eye": {
+    "parrent": "minecraft:story/enter_the_nether",
+    "frame": "task",
+    "iconId": "minecraft:ender_eye",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJ1BMVEUAAADL/N215FqX0WuIw1pxrEllm31XkUNOg4YxY2QeSDUQLDEbKxAqU3maAAAAAXRSTlMAQObYZgAAAFxJREFUeNpjwAo4V0HpGR0Q1oy0tMwFQJqrTcg1bRaIkai8PCwbyFiZZHWqNHMDkBHqBWWkVp1yjdwAUhyyOCIbpHhGamnrbJA5Ozs6gEqAgHvnzN0QO7h3I9sMALZ6HlQBXYEgAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.story.follow_ender_eye.title",
+    "description": "advancements.story.follow_ender_eye.description"
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "parrent": "minecraft:story/enter_the_nether",
+    "frame": "goal",
+    "iconId": "minecraft:golden_apple",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEUAAAD+/+b2+JLq7lfsy0XbohOyZBF1KAJUJAlUEglKVtcNAAAAAXRSTlMAQObYZgAAAFhJREFUeNp9z0sOgCAMRVGg70P3v2EDptEY9c3uSSdt3/OjNX8PJE/7SnZOgXZ1jN77CNoFewgWIBAAArnBJECCN+BqBrOVYFF1s1aCKmgpSmeX2M58f/oACs4CWTAWE9cAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.story.cure_zombie_villager.title",
+    "description": "advancements.story.cure_zombie_villager.description"
+  },
+  "minecraft:story/enter_the_end": {
+    "parrent": "minecraft:story/follow_ender_eye",
+    "frame": "task",
+    "iconId": "minecraft:end_stone",
+    "icon": {
+      "src": "data:image/png;base64, UklGRqwBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSC8AAAABDzD/ERECQeI2OpiASZr1SZqAhxp4ARH9D7DFNW9IbFKX9Evmj0t6k5Lwhmu2AABWUDggVgEAAPAGAJ0BKiAAIAA+bS6SRaQioZgEAEAGxLEAZGOAqwBbAjgVxMqB7V0G9+/dKK7zeyP7kGXsixQB6gMXKr5yzDAA/vqooiSFiYggzmeYuGXrCLEPsSFaY2XNIuvQCiDrtBWHpB4dhR8xRf/dSXFFIMzZjaF09yGEE87nocHhWnT6+AugOYC/ifXO0W5mdSwvcVXm9yc8xs/0DL2IWfqFtMC3TN/RHC04DxXshRVH/0Hvp9zpXn9kXjEPrHpSHLhTaLd9AFeMZ/zY+ow85UCSo/f5vBuUKfTNWO4jWtP/+/XD3LDrnWoXqQ7YW8RxHheyl9dZz8jaxNkMpMjM7VsGBG4f+a4IYTwGntH0qCeJy1K34Ldn1csBQiPcPm3qmXVurwEgiNq9kJIReQ1amc7rhcbq55w+GlOF9qkqD/Zi2EDbsP/Ad5GaUnUhEHpXq2q4wer2T0cAAA==",
+      "type": "blob"
+    },
+    "title": "advancements.story.enter_the_end.title",
+    "description": "advancements.story.enter_the_end.description"
+  }
+}

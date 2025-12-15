@@ -1,0 +1,255 @@
+{
+  "minecraft:nether/root": {
+    "parrent": null,
+    "frame": "task",
+    "iconId": "minecraft:red_nether_bricks",
+    "icon": {
+      "src": "data:image/png;base64, UklGRkYBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSC8AAAABDzD/ERECQeI2OpiASZr1SZqAhxp4ARH9D7DFNW9IbFKX9Evmj0t6k5Lwhmu2AABWUDgg8AAAAFAFAJ0BKiAAIAA+bTCSRiQjIaEwGAgAgA2JZmJ3H9fekOVgeLlJRbf+RkAQ8TyZn/xbgAD++ZovhiGaRKJUCLFlleBzitTwfvdQcHgsXNrRuvz4lCi/A5rCvzOEzCWpNKYw5YY3DlTmC10b1cxRcZWmq6GSpdrMTa3ZYaWiNqb6wPuyjRfMbWHl89gcxWfU/3sBHWtiCtvIByRGr4CfHYs+qjHirMueoLpWxxNaPJ27Z3zqCaFSApL2OqQSMXRNndks7DSJc2gCkllDTLsgtsFcblHciba935yrTxrzNcW4dkSDij9vxyD5LHke6RAAAA==",
+      "type": "blob"
+    },
+    "title": "advancements.nether.root.title",
+    "description": "advancements.nether.root.description"
+  },
+  "minecraft:nether/ride_strider": {
+    "parrent": "minecraft:nether/root",
+    "frame": "task",
+    "iconId": "minecraft:warped_fungus_on_a_stick",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAPFBMVEUAAAD/pGi0s7OWlpb/ZQAUtIV0dHSJZyd5YVJkZGQPiXUWfoZoTh4+T1gWYVtERERJNyxJNhU1NTUoHguGc+FHAAAAAXRSTlMAQObYZgAAAFhJREFUeNp9z8EOgCAMA9CKgG7qJuz//1VD4MBi7O31sKz4DalzsclaTpu9mTpDnUHOIH8vOyPvaGlOgoO0O4SKJcrdXWx9ixj5GkatAKcUW2PjX2aRj8UP6VAEOfMdWQEAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.nether.ride_strider.title",
+    "description": "advancements.nether.ride_strider.description"
+  },
+  "minecraft:nether/return_to_sender": {
+    "parrent": "minecraft:nether/root",
+    "frame": "challenge",
+    "iconId": "minecraft:fire_charge",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJFBMVEUAAADurBiViW3BbQtsYFZ6XEOZNQBRSTE3NSlWKgA3KigfFhWyK1crAAAAAXRSTlMAQObYZgAAAFdJREFUeNpjwApWrYLSnRVgFld7mFPFBhCjxCg4HcRY4Spq6pQNZKxMCnSJrAYylge7Gk0BMXa4GqWmdwMZ3KUp08s2gBid5dPB2hl2t1Xshhi9ezdWmwFU7RrIw8S8CwAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.nether.return_to_sender.title",
+    "description": "advancements.nether.return_to_sender.description"
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "parrent": "minecraft:nether/root",
+    "frame": "task",
+    "iconId": "minecraft:crying_obsidian",
+    "icon": {
+      "src": "data:image/png;base64, UklGRoYBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSC8AAAABDzD/ERECQeI2OpiASZr1SZqAhxp4ARH9D7DFNW9IbFKX9Evmj0t6k5Lwhmu2AABWUDggMAEAALAGAJ0BKiAAIAA+bS6SRqQioaEoDVCADYlAF2OwAuUZzA4CVA9sZCv8AUWfxx4Z/Q6HlpIc49FAgDZ8cF6AAP792u0+qBuv6tbo3QBvD4R17lrABf6rdKoLHmxoaU/UPzWr0ve1h9Ay8Fw91Kp1mNFjOEzMGJ4Owb30CthXqnA0yrER/Q3z9YBvBsk8D6+4BoSYzvzyc2JKaIJAfwHjZPXnM4K4W66XBejCEpXeQ4kdjEFJjXzoGONwbe7YjeNXTni7SJJtVvXTaHtMsmEkwpq1pRNzjQNDx+fXPTJAHIxHZX46B3rG1A7H+Z69mdUNlTETj6uA4d+AKWK738uU8Y44SrCdhsdUjRRotu8LwAA2wm/HhnZ2F7Yodwm08UA35BqTmhY8rqXu1CSaeT2AAAA=",
+      "type": "blob"
+    },
+    "title": "advancements.nether.obtain_crying_obsidian.title",
+    "description": "advancements.nether.obtain_crying_obsidian.description"
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "parrent": "minecraft:nether/root",
+    "frame": "task",
+    "iconId": "minecraft:ancient_debris",
+    "icon": {
+      "src": "data:image/png;base64, UklGRvYBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSC8AAAABDzD/ERECQeI2OpiASZr1SZqAhxp4ARH9D7DFNW9IbFKX9Evmj0t6k5Lwhmu2AABWUDggoAEAADAIAJ0BKiAAIAA+bSqRRaQiIZgMBgBABsSgCdMxx/d2DMc4s/pSaDLN0gUzLxj6gHNAezGHWnoGjUDcMwkld8FerHDoEU2z5peAAP72jp6ZzlNcyr9r58aFUZ1Y2wW6ZeraL20EboDUcv1VNFKicZCTEaeNKAo57oVhwmndhVC8AssltKeBHjuLsy3mY4YD8am6WNWzV85LoilETqmoreqHiydeBjGRk3gYc3MoHUpaZ6GFbqFK2CAWqjyGrbWMKhVVK2KyGz6oKnv1zzKt/k4hux8S8vRE+8ESo8qQ0kVzq1OjyTNRbu/10qZgfp9waK+DfdtFIm/D7rp8I/2gpQmtHuU1tL+AMBnwJHNPdHHiZZo96z96pRNwt5HTk9ZeiY5zSHHQOAOrHLhh10y+J+A4Tpl4VBgB+frO/Yki8rdNKMmheV7WpcUKYoDmcTUZOkfd8L+6qmjy95fdUX2XAcLII+eFvk44V93rJMXxAaLqVM5xxaFpiiO7taJU1TaOwePm4FkVW4l22O3Zv2Wy/eEYAQMdCSHJFD3qGkixRAAA",
+      "type": "blob"
+    },
+    "title": "advancements.nether.obtain_ancient_debris.title",
+    "description": "advancements.nether.obtain_ancient_debris.description"
+  },
+  "minecraft:nether/find_fortress": {
+    "parrent": "minecraft:nether/root",
+    "frame": "task",
+    "iconId": "minecraft:nether_bricks",
+    "icon": {
+      "src": "data:image/png;base64, UklGRiABAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSC8AAAABDzD/ERECQeI2OpiASZr1SZqAhxp4ARH9D7DFNW9IbFKX9Evmj0t6k5Lwhmu2AABWUDggygAAANAFAJ0BKiAAIAA+bS6TRiQioaEwGAgAgA2JZQDMIJOVn/m+7pJbZEFx/dDrIXGtKCUf1d94e2AA/vyrA4PA/BRUSuOnMvIAlnky8n01vTHoWy9Ws7ou5v/sHLMcgnMIPe7w08u9q4XcOtxtoC6dTOhpP3e2gsmXuzuWQ2ClNAXah81xSbUHSiLFnXeioVqE1yRWzxKr2b9kjSJFAEGy0wqPeQB8xAtTNm//AxhVq6ijx7g7mj6lxpsliX64eeryl0bD/8gZLKIAAAA=",
+      "type": "blob"
+    },
+    "title": "advancements.nether.find_fortress.title",
+    "description": "advancements.nether.find_fortress.description"
+  },
+  "minecraft:nether/find_bastion": {
+    "parrent": "minecraft:nether/root",
+    "frame": "task",
+    "iconId": "minecraft:polished_blackstone_bricks",
+    "icon": {
+      "src": "data:image/png;base64, UklGRk4BAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSC8AAAABDzD/ERECQeI2OpiASZr1SZqAhxp4ARH9D7DFNW9IbFKX9Evmj0t6k5Lwhmu2AABWUDgg+AAAAJAGAJ0BKiAAIAA+bSiRRaQiIZv6rABABsS0gGXyBA7SSwLgYN3/IbtIhrp6jbbkyOs3kU+uIFH1B9OZsAAA/v2cES1SieVV0qm2xC1LIg2tX5aM8rZB+0+EUMnT06wdliRyvP7JPvXoDn9LPH3uO0jUW7Y3+NAwz5Axpt5+mJED21uJo6gYbQijilPe3froWAqAGoIpzWszgagcv3T8/UCKGvm0cMFlflDVoOQGwym2APGgfu2pZcjwAGvVZT7IMlRJlWjMcle/5WIB07U3ux2qOeGrDnazMwiBDwgDTwfLcCBET4VGlXC8Fix23z1BklPmDMatQAAA",
+      "type": "blob"
+    },
+    "title": "advancements.nether.find_bastion.title",
+    "description": "advancements.nether.find_bastion.description"
+  },
+  "minecraft:nether/fast_travel": {
+    "parrent": "minecraft:nether/root",
+    "frame": "challenge",
+    "iconId": "minecraft:map",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAFVBMVEUAAACnqEja3arq6sf8/PK7wXeHiDl+gYyIAAAAAXRSTlMAQObYZgAAAEZJREFUeNqVjzkSgDAMA3U4+v+TGQJMHCrYTrtujB+Qr21xy6oyW64TZeULZm65bsRsuzwv8hgrQDNOgGU8gkU0EnSS7z8eqkoBXX1zFmAAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.nether.fast_travel.title",
+    "description": "advancements.nether.fast_travel.description"
+  },
+  "minecraft:nether/distract_piglin": {
+    "parrent": "minecraft:nether/root",
+    "frame": "task",
+    "iconId": "minecraft:gold_ingot",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAG1BMVEUAAAD//////eD99V/61krpsRXclhOyZBF1KALSidGuAAAAAXRSTlMAQObYZgAAAE5JREFUeNqVz0ESgDAMQlFMSOH+J3YmrVaX/bvHDpwk/SVSH2WnJeaKBhT5FpGGGI8iBw0xY6rGWAOvqVGkoUpuGoCqhyo357LVSfbBxRs/dgKAjgB7sgAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.nether.distract_piglin.title",
+    "description": "advancements.nether.distract_piglin.description"
+  },
+  "minecraft:nether/uneasy_alliance": {
+    "parrent": "minecraft:nether/return_to_sender",
+    "frame": "challenge",
+    "iconId": "minecraft:ghast_tear",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAATUlEQVQ4y2NgGAV4gUVExH9zL6//ZGveevv2//mHD5NnCMiA8x8/gg0h2QCY7SADQJhkV8BsBwGyDQC5AATIDgeQBooCEWYI2ZpHEAAALQlb55AbNLUAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.nether.uneasy_alliance.title",
+    "description": "advancements.nether.uneasy_alliance.description"
+  },
+  "minecraft:nether/ride_strider_in_overworld_lava": {
+    "parrent": "minecraft:nether/ride_strider",
+    "frame": "task",
+    "iconId": "minecraft:warped_fungus_on_a_stick",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAPFBMVEUAAAD/pGi0s7OWlpb/ZQAUtIV0dHSJZyd5YVJkZGQPiXUWfoZoTh4+T1gWYVtERERJNyxJNhU1NTUoHguGc+FHAAAAAXRSTlMAQObYZgAAAFhJREFUeNp9z8EOgCAMA9CKgG7qJuz//1VD4MBi7O31sKz4DalzsclaTpu9mTpDnUHOIH8vOyPvaGlOgoO0O4SKJcrdXWx9ixj5GkatAKcUW2PjX2aRj8UP6VAEOfMdWQEAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.nether.ride_strider_in_overworld_lava.title",
+    "description": "advancements.nether.ride_strider_in_overworld_lava.description"
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "parrent": "minecraft:nether/find_fortress",
+    "frame": "task",
+    "iconId": "minecraft:blaze_rod",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbklEQVR42mOgO9icLfl/dhj7f7I0r8iV/v//s+7/nZNl/k81ZvhPss3/f9SBNa+zAWom0Waw5hvr1P7vjyLdZpizgZpJt5kizTA/U+bsdTbkaD7IQHZoD5DNG6MFyAxthO2IREIOAKZriLMHAgAAbgx59s0hcWsAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.nether.obtain_blaze_rod.title",
+    "description": "advancements.nether.obtain_blaze_rod.description"
+  },
+  "minecraft:nether/netherite_armor": {
+    "parrent": "minecraft:nether/obtain_ancient_debris",
+    "frame": "challenge",
+    "iconId": "minecraft:netherite_chestplate",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAHlBMVEUAAAB2anZdVl1NSU1HPj83NTc1LS0kHyAnHB0XERElrX5TAAAAAXRSTlMAQObYZgAAAGhJREFUeNpjwATs5eUMDOXlBQzsJuEMDKXOQIareQNHcQiQEeZc0W6SCmQoBokXqgoBGdNCFIVcMycwMHA6GSmrAGkGzlBFoVAwwyU01AXMAKkBM9KcVNJADIaZqWEzwbZxzpw5AclyALL0GIDADuxaAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.nether.netherite_armor.title",
+    "description": "advancements.nether.netherite_armor.description"
+  },
+  "minecraft:nether/loot_bastion": {
+    "parrent": "minecraft:nether/find_bastion",
+    "frame": "task",
+    "iconId": "minecraft:chest",
+    "icon": {
+      "src": "data:image/png;base64, UklGRrgBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSDoAAAABDzD/ERGCUWzbTS59GQlIQRqRFimRkCX9LmkGIvo/AdxPDZQAxwRK0qZo+FfWIWrFNcMyQh4gVgAAVlA4IFgBAADQBwCdASogACAAPm0okUWkIiGb+qwAQAbEtABYkqCc1TAEqB2BBgSoIZ74woXX8cpknuB6xAhH1PQXmBb4iOpCPeSdKB1nAAD+/xrd2UCSK9J9uRNnV/aBy/oXQHmqyA5/OOksakxY7RURHz6B/ugkocIE03TYFDym0KdcnDgtAIKV/tDhRT7zBJm3m5Bu/6p2rLuGIWYxOfvvDYNExN3P0eiYgCxvfLfs5sIDGWiR0xFHAvtm7S+fMk1riMKcV+8RXVOX1En/qjG3fC8F3pb80TzYGfImcPe+MKb/6j0Xevexct+nNg3qzjN/sqeJ7KJJuxnPIeWU35f0qOerr+BcW8+tHnzbQnPnTL3p3AzsFp6tEUGYH0vHQ42WcB5HhmzkcwTB3h5lEBP8FkDqQXmCiIevXeQRs/qXlnjjYf2ikVTYSHaxrfMniKjUmkq8MrWTLlT5egJ0AA==",
+      "type": "blob"
+    },
+    "title": "advancements.nether.loot_bastion.title",
+    "description": "advancements.nether.loot_bastion.description"
+  },
+  "minecraft:nether/get_wither_skull": {
+    "parrent": "minecraft:nether/find_fortress",
+    "frame": "task",
+    "iconId": "minecraft:wither_skeleton_skull",
+    "icon": {
+      "src": "data:image/png;base64, UklGRhABAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSDQAAAABDzD/ERGCUSRbcYY1RyRh/UuJBARQNbesBiL6PwE8GwXWgD1BCS2nHv8ILSjsCWtAFK4DVlA4ILYAAAAwBQCdASogACAAPm0skUWkIqGYBABABsS0gAHzSQNfliC06ewMojlqQnaH/yGCWKF8QAD+/ofT4q0e0kUlkapOPJ7hba0D+Tdb16qRItdc+I6IwEoj5aEnHtICo3nzJRb9JiYeWYnSgYTqSqKA4EWi6wzPTYb4Du30hdqNId2m9Q43CIkIhb0+/tFAWGUeUerrdF5wz3jzBiNuWZYgUF2eA3egaEx+NuR3xwcSfBxLPkNHgAAAAA==",
+      "type": "blob"
+    },
+    "title": "advancements.nether.get_wither_skull.title",
+    "description": "advancements.nether.get_wither_skull.description"
+  },
+  "minecraft:nether/explore_nether": {
+    "parrent": "minecraft:nether/ride_strider",
+    "frame": "challenge",
+    "iconId": "minecraft:netherite_boots",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcklEQVR42mMYZsBQQ+O/irzCf1zyIDmQGgZ8CsqyysCG4JITFxTEb0BsWCxOA3w9fYkzwN3OHqIQIQ4SI2AAwha4QjRxWhmAqQiPFxByeDWb6uqiGwASwzQEzQZkzSgKoHxkNRgGwDThDSSIPAIPk/wDAP5Kfi2DXilPAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.nether.explore_nether.title",
+    "description": "advancements.nether.explore_nether.description"
+  },
+  "minecraft:nether/charge_respawn_anchor": {
+    "parrent": "minecraft:nether/obtain_crying_obsidian",
+    "frame": "task",
+    "iconId": "minecraft:respawn_anchor",
+    "icon": {
+      "src": "data:image/png;base64, UklGRpABAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSC8AAAABDzD/ERECQeI2OpiASZr1SZqAhxp4ARH9D7DFNW9IbFKX9Evmj0t6k5Lwhmu2AABWUDggOgEAAFAGAJ0BKiAAIAA+bSySRaQioZgEAEAGxLGAYH5z/YxVAoAPbK90G/Vpl6sn1+grSkv2cMdbowAnekAAAP78SgXG9SHN72qkccnTGCnWwZGcQ/Dbp44E3GOOUx5zD1Gjlr90vsOZEjIanemRtRg6Fm0QqcBuhtQ077Jz51LAiEI3DXw+ukHy2cf13w/baEaO/KT+IXlTL71Zlz6fZmjuP8JU24RvOlmaY3jVi9hv/wmBXJjBK9bSUiVp9ieq98o9NTrNdaHedkpxYc01MpgAuTMej1xP7G7mfBFW59/vp9HlD3wtMOgwTBgI81xEpMstTEIPHv1PLANVwJ8Ca7PLHqPL5qjU9B9pnZLVo5Y2hQUjT3BPEPTXz0+p5A0QGgBEYlSqxejfZPtd0sz6AXv2qAUU/9HN0ZfLgAAA",
+      "type": "blob"
+    },
+    "title": "advancements.nether.charge_respawn_anchor.title",
+    "description": "advancements.nether.charge_respawn_anchor.description"
+  },
+  "minecraft:nether/summon_wither": {
+    "parrent": "minecraft:nether/get_wither_skull",
+    "frame": "task",
+    "iconId": "minecraft:nether_star",
+    "icon": {
+      "src": "/sprites/Invicon_Nether_Star.gif",
+      "type": "url"
+    },
+    "title": "advancements.nether.summon_wither.title",
+    "description": "advancements.nether.summon_wither.description"
+  },
+  "minecraft:nether/brew_potion": {
+    "parrent": "minecraft:nether/obtain_blaze_rod",
+    "frame": "task",
+    "iconId": "minecraft:potion",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbElEQVQ4y2NgGNTgSq7nfxBe6a76n3TNT7//P7N+KRxvPv+GNENAGkA2g/B0czHSDYAZAqJj+w/9JysMKDIAFAbIfJIMgWlG9zdRhuDSTLQhFBuAS2P32gvEBSguBUQbgE0RSZqRDUHHNMlwADOSe7Rn5KNOAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.nether.brew_potion.title",
+    "description": "advancements.nether.brew_potion.description"
+  },
+  "minecraft:nether/create_beacon": {
+    "parrent": "minecraft:nether/summon_wither",
+    "frame": "task",
+    "iconId": "minecraft:beacon",
+    "icon": {
+      "src": "data:image/png;base64, UklGRnwCAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSGsAAAABDzD/ERHCbWzbqnK+K1KCQ/iHyK0zlwbIvYBfAtaHhz/E7SARHUT0fwLwWxGBoA7IIUCooVITxOC6a9iXfqrwqhYOpLMkoxMy3CLDPTLc+sueTO5JZ08mPTLtkr7pqyrhvgK8NOD6gKmEXwBWUDgg6gEAALAJAJ0BKiAAIAA+bSySRaQioZgEAEAGxLYATpmaGoBXXAJki2AOfM9kj9qmGBxScDf0Cc5pEB1AC1ZuOEJOTXsRfw79MsaVIoF0t0hN8ElCUobsVlEAAP77LIn8AgzikegfopReHzqafEGnFz1B1Oe7FmZ0eEDCJA/61nxBl/OcwBCAtT0Lsj/II0Q2ZfHWGdG9my4r8ADfLybo3YBpv0f1q9Si0od+wlXfTjpX/PxvXsL9zKP/jXtsdE2/9s+HgdZJ0IfxcIddY1cU17bAoZfu/EGd+27piD85GCPhCZXmfp6Z3reOpL6X9+lUxW1IBRGs97IRr7gFt1dTDej686B/tTt+nnXKkTIEn3TQorBF4evcM96fb2vnn57sKHeR3ENLcQi/3znW23ymST6ZPUYWBESEADRbJd/C1feIMu/034oj2F/1FIFZztzcGUaPJhA/aUpK6DGuPTimtl5ehb98AMWL4jFyajSozICMVXF+ol9XO2BpHvxoK8rbPmAo09wc2L93EWFML1q+BaOBiIdyPutbFqR2xNdqJf2/OB2vRPrvAtzJHaSIXKif8isk+fGk38UnFU57ZtjiUclhEY+nXz4tPh7VykeRv54T9AACEgFRAJNF3n6R1iPaS7c6OeUIdFm1gGEAAAA=",
+      "type": "blob"
+    },
+    "title": "advancements.nether.create_beacon.title",
+    "description": "advancements.nether.create_beacon.description"
+  },
+  "minecraft:nether/all_potions": {
+    "parrent": "minecraft:nether/brew_potion",
+    "frame": "challenge",
+    "iconId": "minecraft:milk_bucket",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIVBMVEUAAAD////d8/XY2NiszNWoqKiYmJiWlpZ4eHhycnI1NTUfW6naAAAAAXRSTlMAQObYZgAAAFZJREFUeNptz9sKwDAIA9B5rc3/f/DAGhijefNgBJ970PmMVZmZJJSriKh64YDLxMEDririwIAFOnsRzCxi7Q/IgRiIP+yGU2GnoefpWKwBChconfvjL/d2A7IAtkSVAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.nether.all_potions.title",
+    "description": "advancements.nether.all_potions.description"
+  },
+  "minecraft:nether/create_full_beacon": {
+    "parrent": "minecraft:nether/create_beacon",
+    "frame": "goal",
+    "iconId": "minecraft:beacon",
+    "icon": {
+      "src": "data:image/png;base64, UklGRnwCAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSGsAAAABDzD/ERHCbWzbqnK+K1KCQ/iHyK0zlwbIvYBfAtaHhz/E7SARHUT0fwLwWxGBoA7IIUCooVITxOC6a9iXfqrwqhYOpLMkoxMy3CLDPTLc+sueTO5JZ08mPTLtkr7pqyrhvgK8NOD6gKmEXwBWUDgg6gEAALAJAJ0BKiAAIAA+bSySRaQioZgEAEAGxLYATpmaGoBXXAJki2AOfM9kj9qmGBxScDf0Cc5pEB1AC1ZuOEJOTXsRfw79MsaVIoF0t0hN8ElCUobsVlEAAP77LIn8AgzikegfopReHzqafEGnFz1B1Oe7FmZ0eEDCJA/61nxBl/OcwBCAtT0Lsj/II0Q2ZfHWGdG9my4r8ADfLybo3YBpv0f1q9Si0od+wlXfTjpX/PxvXsL9zKP/jXtsdE2/9s+HgdZJ0IfxcIddY1cU17bAoZfu/EGd+27piD85GCPhCZXmfp6Z3reOpL6X9+lUxW1IBRGs97IRr7gFt1dTDej686B/tTt+nnXKkTIEn3TQorBF4evcM96fb2vnn57sKHeR3ENLcQi/3znW23ymST6ZPUYWBESEADRbJd/C1feIMu/034oj2F/1FIFZztzcGUaPJhA/aUpK6DGuPTimtl5ehb98AMWL4jFyajSozICMVXF+ol9XO2BpHvxoK8rbPmAo09wc2L93EWFML1q+BaOBiIdyPutbFqR2xNdqJf2/OB2vRPrvAtzJHaSIXKif8isk+fGk38UnFU57ZtjiUclhEY+nXz4tPh7VykeRv54T9AACEgFRAJNF3n6R1iPaS7c6OeUIdFm1gGEAAAA=",
+      "type": "blob"
+    },
+    "title": "advancements.nether.create_full_beacon.title",
+    "description": "advancements.nether.create_full_beacon.description"
+  },
+  "minecraft:nether/all_effects": {
+    "parrent": "minecraft:nether/all_potions",
+    "frame": "challenge",
+    "iconId": "minecraft:bucket",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAAnRSTlMAAHaTzTgAAABdSURBVHjabc/BCcBACETRNGUn3u3hF2MNlmQ3CUxWsoSdmw8d8DrHlG0kM6uGDCICSOyFcPcACJsC9wiYGusyhRzo7qpkg1tALag/MJAC3Qg0r5uuFHwyCyPK+fEHwvlD+oD5xgIAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.nether.all_effects.title",
+    "description": "advancements.nether.all_effects.description"
+  }
+}

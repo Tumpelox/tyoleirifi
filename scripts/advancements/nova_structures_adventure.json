@@ -1,0 +1,57 @@
+{
+  "nova_structures:adventure/loot_illager_hideout": {
+    "parrent": "nova_structures:adventure/find_all_illager_structures",
+    "frame": "task",
+    "iconId": "minecraft:deepslate_emerald_ore",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancement.dnt.adventure.loot_illager_hideout.title",
+    "description": "advancement.dnt.adventure.loot_illager_hideout"
+  },
+  "nova_structures:adventure/find_swamp_village": {
+    "parrent": "nova_structures:adventure/find_all_illager_structures",
+    "frame": "task",
+    "iconId": "minecraft:glass_bottle",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbElEQVQ4y2NgGNTgSq7nfxBe6a76n3TNT7//P7N+KRxvPv+GNENAGkA2g/B0czHSDYAZAqJj+w/9JysMKDIAFAbIfJIMgWlG9zdRhuDSTLQhFBuAS2P32gvEBSguBUQbgE0RSZqRDUHHNMlwADOSe7Rn5KNOAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancement.dnt.adventure.find_swamp_village.title",
+    "description": "advancement.dnt.adventure.find_swamp_village"
+  },
+  "nova_structures:adventure/find_pillager_outpost": {
+    "parrent": "nova_structures:adventure/find_all_illager_structures",
+    "frame": "task",
+    "iconId": "minecraft:crossbow",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancement.dnt.adventure.find_pillager_outpost.title",
+    "description": "advancement.dnt.adventure.find_pillager_outpost"
+  },
+  "nova_structures:adventure/find_illager_mansion": {
+    "parrent": "nova_structures:adventure/find_all_illager_structures",
+    "frame": "task",
+    "iconId": "minecraft:dark_oak_door",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAASklEQVR42mMYXMBIkf9/oIkUQUzQACANwZh8/Abk5+fDNbjoiIEwOp+gC4a0AYgwwIr/3478f2YKA8WxMATCgD4uoG1eIAKjGAAAG/3YOLOUvh4AAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancement.dnt.adventure.find_illager_mansion.title",
+    "description": "advancement.dnt.adventure.find_illager_mansion"
+  },
+  "nova_structures:adventure/tavern_quest": {
+    "parrent": "nova_structures:adventure/find_tavern",
+    "frame": "task",
+    "iconId": "minecraft:map",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAFVBMVEUAAACnqEja3arq6sf8/PK7wXeHiDl+gYyIAAAAAXRSTlMAQObYZgAAAEZJREFUeNqVjzkSgDAMA3U4+v+TGQJMHCrYTrtujB+Qr21xy6oyW64TZeULZm65bsRsuzwv8hgrQDNOgGU8gkU0EnSS7z8eqkoBXX1zFmAAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancement.dnt.adventure.tavern_quest.title",
+    "description": "advancement.dnt.adventure.tavern_quest"
+  }
+}

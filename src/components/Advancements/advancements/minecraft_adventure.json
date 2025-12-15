@@ -1,0 +1,519 @@
+{
+  "minecraft:adventure/root": {
+    "parrent": null,
+    "frame": "task",
+    "iconId": "minecraft:map",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAFVBMVEUAAACnqEja3arq6sf8/PK7wXeHiDl+gYyIAAAAAXRSTlMAQObYZgAAAEZJREFUeNqVjzkSgDAMA3U4+v+TGQJMHCrYTrtujB+Qr21xy6oyW64TZeULZm65bsRsuzwv8hgrQDNOgGU8gkU0EnSS7z8eqkoBXX1zFmAAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.root.title",
+    "description": "advancements.adventure.root.description"
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "parrent": "minecraft:adventure/root",
+    "frame": "task",
+    "iconId": "minecraft:white_banner",
+    "icon": {
+      "src": "data:image/png;base64, UklGRiIBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSCUAAAABDzD/ERECTSNJmVeARZw8wi9UfIeAiP5PgOdGk+YO+dMixSkzAFZQOCDWAAAAcAUAnQEqIAAgAD5pKJBFpCKhm/qsAEAGhLOADtACI2Vo340fTasVie+dcv498KnBn3FpAAD+//EsRvPN/qYU0fu4uVC2g4CP+fr54B/qf//uRG5+KWby6is+jBk8jdlz7rxyrPVwfZOPuQZL0SIrfru9B2dSzMf2N/d+/11zVWknVo9f/iz7vc2EglfpaUgdLGSExvwnKZzESyrV2yN8fYR/W4dklCUSr/xmbcsmi49h4cmKnApntB6gsOz31fKOz4L//29s+GxHHQil82oXPJfUcgQAAA==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.voluntary_exile.title",
+    "description": "advancements.adventure.voluntary_exile.description"
+  },
+  "minecraft:adventure/use_lodestone": {
+    "parrent": "minecraft:adventure/root",
+    "frame": "task",
+    "iconId": "minecraft:lodestone",
+    "icon": {
+      "src": "data:image/png;base64, UklGRsABAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSC8AAAABDzD/ERECQeI2OpiASZr1SZqAhxp4ARH9D7DFNW9IbFKX9Evmj0t6k5Lwhmu2AABWUDggagEAAPAHAJ0BKiAAIAA+aSiRRaQioZv6rABABoS0gAWAI4FcUqgnzHnD84FEB64/1A9lULITwnugcCZDkwmxycIfLJ+UB58XSSrwgAD8U4kH99mvCcjEAAEBRwbvZUPvpo4+6XP4XobK0c6eOA6XGeMwjLk1syODfUWFMNHss37Q2tgHjhYQiqJDiohxFcll2jFYBKcsESfDIuGppvqq8BFpugc1a/mUE2Ug4CGhU75S+3ugHUsMwe6VXMunsP7vH9P5fc4yxk6MzpnO+9ASfVZfV2oe8nMeo1M5gyrTmtGYNccmjVCWWla2ojAXd5kq20M/kOOw3opunTxIpS7FQ+RAcCB0h2DnfSkGebRkL0tBOzrSFOYUdOCNXxZIZaz6eSYOHoVHn5Vc8GHwlMCypiFQySfvSJCwBV/6VWw08C6NvZ04LJCc5tq3tbhuqmExNPl98m6hu2lg/3VXOkVeTmO6I3y0sMQpohr8CAAA",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.use_lodestone.title",
+    "description": "advancements.adventure.use_lodestone.description"
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "parrent": "minecraft:adventure/root",
+    "frame": "task",
+    "iconId": "minecraft:dune_armor_trim_smithing_template",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAJFBMVEUAAAD//ee4///t68vj27CD+PjVxJa/pnFLycmwllYgmriFbzc13brMAAAAAXRSTlMAQObYZgAAAGpJREFUeNpNzFEOBCEMAtBZS6Ho/e+7UZvM8McL4bkh9XwjBvClWQQgv4NMcstqQHBsahF2oooNBsRDPmDBIwMg5x0QygpAdzAnifgBcD9UkQAoN1g5SLD7s2wpswdHliVXze5N9mpoWt3/HOwEeJMOfZwAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.trim_with_any_armor_pattern.title",
+    "description": "advancements.adventure.trim_with_any_armor_pattern.description"
+  },
+  "minecraft:adventure/trade": {
+    "parrent": "minecraft:adventure/root",
+    "frame": "task",
+    "iconId": "minecraft:emerald",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAIVBMVEUAAADb/+uv/c2C9q1B84QX3WIAqiwAlSkAexgAUwAALQC5+lfcAAAAAXRSTlMAQObYZgAAAENJREFUeNpjwApmzoTQnCKuE8CMiSpuUWABIRW31AUghmqQWhmUYdaGxgg2a4UyPEpBDIZpFe1WEAPTgTJgsGoVVpsBDRwS6h42ddsAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.trade.title",
+    "description": "advancements.adventure.trade.description"
+  },
+  "minecraft:adventure/spyglass_at_parrot": {
+    "parrent": "minecraft:adventure/root",
+    "frame": "task",
+    "iconId": "minecraft:spyglass",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAKlBMVEUAAAD////04GNovb3ekjq9aigzkJCoX1igVhF+PzkeZWZVKSVTKwszFxLdsQeLAAAAAXRSTlMAQObYZgAAAFJJREFUeNp9yDsWwCAIBVHCR0F8+99uTpqAjdPdoUtqdnoN6cd5yNOOK68hos3fWf8IfliZy5NZzXZ5RjfljEyUtyMTVDZzdIf5phYiQEcA3XoBJtoCXYU3DgwAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.spyglass_at_parrot.title",
+    "description": "advancements.adventure.spyglass_at_parrot.description"
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "parrent": "minecraft:adventure/root",
+    "frame": "task",
+    "iconId": "minecraft:red_bed",
+    "icon": {
+      "src": "data:image/png;base64, UklGRtQBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSEwAAAABDzD/ERGCUWzbTR59RyQgJbay+0iLlEhg2bl0LET0fwL0PzopkilhGjCNLyumHRNPPVgEH8ElaAYoxqdsBI3Yi9dIpzA6BTnpQ6s7VlA4IGIBAAAQCACdASogACAAPmEojkWkIqEb/VQAQAYEtgBYj3HBZEFcA9zcmJqLd+AGePZzP11lYjCSvbTSpskeftZZpkuBFcFipUAHImAAAP7/Qpfds6/1o2cKKFEsBBDMGQsjbfba9IU942OxMJ+KMbGy7Xk4SHlHIQ3auA/T/j33zXM6ux/TG6aStzj9VTqybPIOMI3ZZx0Socwsnstq1qmWPdYu3NGFertrCEn6IREKsep51zsVfsEMD6AvRzg3jc1iNOiDaxkETYqSrcKW4/RnZOZfsgXvRFRSXHyBFA/M3Snhr2Zp2Ud31jiFW2WLPH/WQctx9/Vb/ZOkZMmpBZxW3F39jwa9Zv8go6QTgUhuEVtfcVZZXJyMy7omGIvSz0Y/9z48fZfk1hPu16dV9LfO874hCvlI7NRrC24Ur9zvbEOOJlU3+sGdBREi8dW4mFn3tKchUWEK479av2fSJUYNY2g4AAA=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.sleep_in_bed.title",
+    "description": "advancements.adventure.sleep_in_bed.description"
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "parrent": "minecraft:adventure/root",
+    "frame": "task",
+    "iconId": "minecraft:brush",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAANlBMVEUAAAD7w7buw5r8mYLbppG/lX+lg2/BWjaHbluGZSZzX06lSSZ1WCFrUR9ZQxltNCFJNhUgGAq7k09NAAAAAXRSTlMAQObYZgAAAFRJREFUeNp9ylEOgCAMA9A5O5yAIve/rJAYCx/abB+vqXzH3WcrrHe0op2/RreOA4O2j1xYNyKN0ZISLCDS65ICKddettJIn7nI6CNXmYrHbKr85QZE5wKdmeyv0gAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.salvage_sherd.title",
+    "description": "advancements.adventure.salvage_sherd.description"
+  },
+  "minecraft:adventure/read_power_of_chiseled_bookshelf": {
+    "parrent": "minecraft:adventure/root",
+    "frame": "task",
+    "iconId": "minecraft:chiseled_bookshelf",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAASFBMVEUBAABgSipmVTFwXDZ2Xz18ZT+EbUiUc0CdgkytjVS2kl7Am2HMqHBRQitKPCdHNyA/NB49LxoxJxgmHREaEwoPDAcLCQUKBwQ8R0KYAAAAAXRSTlMAQObYZgAAAV5JREFUeNqV0AVyHTEQBNA3kj6Uc/+Lhu2V1OEN0xQONflbFQDwbOmvfnVwrpttvPz1wbMsVfqhThTKuabMolS0V4A6wYtqh1KlOVxeguLk7lPTLG07tRQPPnHPqKI7fOoNLw2mUTM1q9VKd2hVK+bQi4EZF1EyTKWkKcPtYMBKGVJ16JZUleo3MJBLDnI1VVxmuvJgEwaxU+PA1Yp5rlMYgFwyVS5Ka3dbMhYMiNj6muHuwRagGFTtghiZo9+S3dCwGWRkSoqdypZoC44qBrXqYhJQAI/VFAMJI5NIQeNJc/X0JYcDI2sX4LVWN7thgDG30muCp/TcbfY+gzLMtAz6Wz03G2dQhVTPqmiz2tXmDApJysaY1N0mQKOx205C6DSxofG0GSxNdlE7zOuXoN54jgFbq6QANDx5Dgaw9dqSpIHDc8AAWLoNeFvP+fGApUnKY17wqwO2Jm+e+696B8Wc0vk76MqTAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.read_power_from_chiseled_bookshelf.title",
+    "description": "advancements.adventure.read_power_from_chiseled_bookshelf.description"
+  },
+  "minecraft:adventure/ol_betsy": {
+    "parrent": "minecraft:adventure/root",
+    "frame": "task",
+    "iconId": "minecraft:crossbow",
+    "icon": {
+      "src": "data:image/png;base64, UklGRtoBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSEMAAAABDzD/ERGCcds2kgykgLQyu/udo/UUsMVc3wBzONNDRP8DgMSutD8mbxK6gdav8HTdWnDv8enCfG/SlR3emGGdAPZMAFZQOCBwAQAA8AgAnQEqIAAgAD5tMpRHpCKiISgIAIANiWwAsSVBUB3BTA0QQYDbnzTNfgGhVewDnw1e/kjqPP9754/7fosUQfLxGtLRx0gj272+H0dabIgA/OUuqEx3bt6odEmXhg6v1Ky+ljvcBNGC3V3f4PUsZ6HIoTaN/9mS3Ry1xleTrX5x+zWe2McN+uZudsOZ5kqyc3jIf6q5zYXBAoy6qnqY4YDO8i8DDFfxvV8CgUoL412O/956poc2A3WbXTSVtuAd3Ff0qxU3YUfvWB6v60z6cIvU5JAhqQ327Ay8gEVu2IFee10dXMIyuceW+z7JjebiOpMyCv/DzStPCf8GOL6px/syc7r+QrtbgNckMZVvltNCn229R0pCemO/B0rXj0+95z1r+P08zHLaFav9H6/FuZdNVYI1cA2f7ETOsppPHsiwVTWp1ykjW7Q8r60lhmtnDEM3i6+IyE6YYX/3RTUY/KIeXEXwSYzaOPQ9w35uAAA=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.ol_betsy.title",
+    "description": "advancements.adventure.ol_betsy.description"
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "parrent": "minecraft:adventure/root",
+    "frame": "task",
+    "iconId": "minecraft:chiseled_tuff",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABIUExURQAAADU6NExMRzA0LCwvKj9FRjo/PFVUTh4gGxsdGi8vLCcrKyAkICQnJTU0MF1bUjk4M2JrbFphXURJQUpQRIOBeVFZUHV2bkmY1f0AAAABdFJOUwBA5thmAAABlklEQVR42pWTUY7jMAxDx5LsyLKdNo2d3P+mSzndFoPtDjBE4B8+kvrJ1y91Hsf5gz16fzx6H/9PO7BtxzE+29tj37fe90/IwPa57/iw4c/3W063Pb2fZ+9P5H3LGEff3Nm8o++O4Nk6UhMgOkc/sN87eiD4uxcMXScQ4kInVh7ThDDmm6tVmwBHCsQYOrZ9CheOYWpVywUIcwxXy4aiK12qatYLCALEW3AL9ExrrfUFRJktOBfSFWn47QUkiUSOhMiLWTWU59wanr9AEorCgSVQLRl2yVBpFxDQEEFJCthReGZF1Up+ApKSwGVOIQh7u2kr5it6NYhE4hhJJATWmt1qihtafU5EEYqJKQoaGsYV8/oCZKZ57qQJZANgfu0EFkqJYEpySlFuWYsZOJ0ABQDsdzjl21DBV0q9AF5uTtCsqXDQgIV1LTYB5ki3m9sAOLdSTM3uqxXFxJQIx9tCUTiF2kprsBUjX28xE92WuLBkXdv9bob0dzFaFiJezZBWpP8Rc+QYrBbf/iyUkOk7/bFF9Zf/+x+6eRyuEhO1oAAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.minecraft_trials_edition.title",
+    "description": "advancements.adventure.minecraft_trials_edition.description"
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "parrent": "minecraft:adventure/root",
+    "frame": "task",
+    "iconId": "minecraft:lightning_rod",
+    "icon": {
+      "src": "data:image/png;base64, UklGRvgAAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSCAAAAABDzD/ERFCISNJzBWA97c5pMdoAhH9nwDMx0DXRPxhFVZQOCCyAAAAUAQAnQEqIAAgAD5tMJNHJCKhoSgKqIANiWQANQAC9FIVuk4yO65Uzvf1gAD++Sc//88x/+Def/6XjEup17OZFZ+DZr6OcaUiuSJB/cOse6KjpyoZQCn5lamuxKHX6d3OUOvUQSXogYT/l2OaDvoqaZCtyurDyiNriDXWWTwLhdiwN/5Df/9Df0T//7EjHmiJaeR885zACnwXylBngxI/DvqvVbJINChU4bVPAgy7AgQAAA==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.lightning_rod_with_villager_no_fire.title",
+    "description": "advancements.adventure.lightning_rod_with_villager_no_fire.description"
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "parrent": "minecraft:adventure/root",
+    "frame": "task",
+    "iconId": "minecraft:iron_sword",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAJFBMVEUAAABERET///9ra2soHgtoTh5JNhWJZyeWlpa+vr7Y2NgYGBikrEiaAAAAAXRSTlMAQObYZgAAAExJREFUeNp9zVEOgDAIA1DKNkV6//uaGSP2Y+OHvBLApACo3am+nHvnws9lZM3RIDZDMGO6gmiva0l8DAL8+exGfgkw+uyspzQpUoMb9sgB/CdGlcMAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.kill_a_mob.title",
+    "description": "advancements.adventure.kill_a_mob.description"
+  },
+  "minecraft:adventure/honey_block_slide": {
+    "parrent": "minecraft:adventure/root",
+    "frame": "task",
+    "iconId": "minecraft:honey_block",
+    "icon": {
+      "src": "data:image/png;base64, UklGRngDAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSPgBAAAJoFxbkyI5exGR1eCQmOUFw6rPEflGfVIjlqzQkvlnaMiMiEW10IKImAB+8Vpr/Rm1cvx4LJc/qt63E8cyT54clvVH3L9v+/ZvO4gcPhHL+j33qx844D3ITIEjR+x+/ZblfQ4dAkMNIaBw6FAsb+2q9zl8VBVSDVQE7ageO0ato88fTggGqgNiArhZC5HTL16MaH+9ExViwDQyM10E9z9/L4wbMXnzHiU0QlJEiob+9kcWKyMKTOzD70qYZbp3ePdeDbDRUAoDM/78IqD0GF6+HWYq4viokejcIqZ//dm9x4c3s8xAcWw0UKZQVGWQv/764++uqWq62uDs7Kiqzuegg+qGic2mlkrBRwa+idAQMHMmakLvk3lnpxNimw3oSsO2U0khm4krNjK0CGxxVh5Tnah0Zsp6ze7izaZI71MiULZbnNh67Oq9pzM3meq8ZKZbhCFNi/moQMNRQVu3Qon5IKyZFHZ66aw3LTTaip4wCUnM6L6juQ7Kuger7f//Q++R6zWaYCPaE5kYm9YwhkjYOFbS7puPrlyxvYeoojadaHRvNFPu3vXF1RGcOe+Pnqum2CQ8BRO9e9cWV/nG8+f7wwemA0jowL1bvljwnRcu2MMnkUNIv7X0q1f5gWfO9LonvVa7epUffOFC2dvrVxf8xDPnb97kOwFWUDggWgEAADAJAJ0BKiAAIAA+bTCSRiQjIaEwGAgAgA2JbACdMoR5n41+HPJn75NhnMfIGwRfoBvDugB54++AdI3+43owdf+C0NWkDQ9lKpTkJFOc1SgaQkgA/t6Ifu1keDkBmoukCHa7yrlOD98sWL/RfVDfDMHzUn4gqAT+YnQ1CYzgpAnhHuMt9xF99dvgsViWPiy/+awO1oOudNYHZMif8gVz8q9E66BXJZFBIkAjTztaT1knr44t6vdaY/7Q//ub5xdkCB5j/Z+mP/4GvxCLEfDOcBI7m5c38S9WfdNzauUPa/VApoh8AUpF+799G+w0/R+AYM9T3Vyss2kYHkM/yb7TWsEUVLSPWSNYjwhVw3r+V0K9UroVBkXiDcVcFxo+fFMMaXJziu17W7bXi9RXhvbBPksckUldapqeUgo4nIDgl7m63NPBvPkbr3mxvGCgtF4DUWm4b3z5JEf4AAA=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.honey_block_slide.title",
+    "description": "advancements.adventure.honey_block_slide.description"
+  },
+  "minecraft:adventure/heart_transplanter": {
+    "parrent": "minecraft:adventure/root",
+    "frame": "task",
+    "iconId": "minecraft:creaking_heart",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAXVBMVEUA/wBdUk9tY2FCOjguIx9FNC1MOzM3KiZYRTx8cW8yKykvKCcfGhkxLSwlISArJycTDgwWEQ8cFRIjHBgoIBweGBVBNC0xJiE5LSctIh0kHBgeFhRQSUhHQD88NTOd1NiMAAAAAXRSTlMAQObYZgAAAbxJREFUeNqVU8tu2zAQnFmSYmpXj8a92LL8//+Vaw9FgTapTe5WWglNjCCHDECK5MzOPgDhk9inRNxB7i7NTUSCfCDYZwNJJeMbF74eogWTCoJQpt+4g+QcY5NTnJFykzMpbxyYPFmV6uEg/T1uLsKUYtOklHPTxPzQxJjTfBJ+oQsu057MOadZN295YfP8Cew7IAKGx8PTVUCRqgZFUAMjHgD1Nk0N01mVKCGQ5N9aSglUGtyBNcDqmU+7P2oJQCy7aAwAgzuA1MVmMjIa7VbbSIeaCypUCwA7jGOM17JvKYAsGz0FbFkKAPzOn2QVUkEAYXUw0NZaiR/bOz2aLoBWU10kZoQSss1XBC4IoGKDHUSEIGkQyjYHMZN5eR7CQAKMYraw7hKCGawC6k2DJkABbms97aqjl8qbMEBQ1zaeEZ2h0tshDYTCxAdtdIeelOUma+3OKuHiZ/cWYmuEPrZSIDBIsduWfIs0MEpRQM0AexHbWExERYkKSL0a1Yj0ArFf+I/LdB7H0+l4Oj4OQ9sP7dB9xT0u5xnjePw2DH03dC3e47KbZkHb9n3X4x22RNO571b6Q0nXffJ//wdE/6T4K6/jXAAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.heart_transplanter.title",
+    "description": "advancements.adventure.heart_transplanter.description"
+  },
+  "minecraft:adventure/fall_from_world_height": {
+    "parrent": "minecraft:adventure/root",
+    "frame": "task",
+    "iconId": "minecraft:water_bucket",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAKlBMVEUAAAD////Y2NioqKiYmJiWlpZagvN4eHhycnJEb+k0X9ouWNMjT8w1NTVOyVFYAAAAAXRSTlMAQObYZgAAAFtJREFUeNptz0sOwCAIBNBWqvzvf90aKKkxzo4XhoTrHI8sI+IzU+RoyiKqhp5gPAbLEDavAybMYnXGG3iEesEMQKcF7gT4AHaggKxUJyDn7DToAb/Ewv7c+fEXrL0ElZIZxT0AAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.fall_from_world_height.title",
+    "description": "advancements.adventure.fall_from_world_height.description"
+  },
+  "minecraft:adventure/crafters_crafting_crafters": {
+    "parrent": "minecraft:adventure/root",
+    "frame": "task",
+    "iconId": "minecraft:crafter",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACQUExURQAAACQkJE9PT1xcXGdnZy4uLjY2NkREREBAQDg4ODExMSEhISoqKhwcHBYWFmZVMUIzHFE/I3BcNnZfPYluRnxlP2BKKiAYDBANCDsuGj80Hk0+JzInFkU4IhcRBykgER0UCCYmJhQHCToPEigMDhoKDVoXHEsVGl9fXy8OEVNTU2lpaZ+fnz4SFnp6eo2NjZCKRfsAAAABdFJOUwBA5thmAAAB7UlEQVR42pXTaXOkIBAG4Ah4cI84Mx5zZI+MFwj//99toybZ2k1SlbdKv/Qj3Qo+fTP+8fBflefZ2nEMn5W9DWGaQvD+IxKsD2FZ1stZ+y8J4+jctPhh6Hs/Lc7tjd57O7csQ+8AwG2JK83zK+mXx2yhtwtDPwTX932A1SY727CR3y8+WOviY95B1cclgp19KIoVvPzCOI7ulmkYvAc4wZTeF5TSFaQZQphEEhYYD65xLQum1AbSLI3Eezt6mGUeAyzOBJdSrgDlhzJNMCbEhxkSy5RyXj8LugOtyzJZSYDQGMHr+20HGGnI+ZxmGBESn5bip+DX+4UVOzDaaG1KaIQQo1LVSkne3ds3cDb6dDSmORySRMrr81Wpy6Vta/bWoiy1Pp6aRmeplN3tert0LVecsR2ctD4ctP7R6Bwz0UG141xQ8Qpyc9xIYxBm7Na2nBeMMyE2kKXG6OOxqspGY8JYV3N4lQj2D0XwGUYAcmoOmFB2hd4UgBC0WAFCWpcwgjklOoJacBEBl2xvkWMcRzBpXkWgADDKVVFwvoEsRwRrUwJAhIoIJIwhRAT7fiJMSFVlZ4QjUBJ2kyn59J5tqyqdZ1LGshDbWfibpHGrMInniAkJ5f+SAcGIMcGg98dJkizj8fN8njTj/Jv/+x/GXDee7omHnwAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.crafters_crafting_crafters.title",
+    "description": "advancements.adventure.crafters_crafting_crafters.description"
+  },
+  "minecraft:adventure/brush_armadillo": {
+    "parrent": "minecraft:adventure/root",
+    "frame": "task",
+    "iconId": "minecraft:armadillo_scute",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAGFBMVEUAAADGiIS2e3agZGCWWVSCSEhxPj5cLTBo7+IFAAAAAXRSTlMAQObYZgAAADxJREFUeNpjwA9YQ6GMYKUAiICSoBqEYawknABiBCkKi4AZwUYiKgUgRpKIijlYTbKJeQGYwVZewEAcAAAJEAdusewTWQAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.brush_armadillo.title",
+    "description": "advancements.adventure.brush_armadillo.description"
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "parrent": "minecraft:adventure/root",
+    "frame": "task",
+    "iconId": "minecraft:sculk_sensor",
+    "icon": {
+      "src": "/sprites/Invicon_Sculk_Sensor.gif",
+      "type": "url"
+    },
+    "title": "advancements.adventure.avoid_vibration.title",
+    "description": "advancements.adventure.avoid_vibration.description"
+  },
+  "minecraft:adventure/whos_the_pillager_now": {
+    "parrent": "minecraft:adventure/ol_betsy",
+    "frame": "task",
+    "iconId": "minecraft:crossbow",
+    "icon": {
+      "src": "data:image/png;base64, UklGRtoBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSEMAAAABDzD/ERGCcds2kgykgLQyu/udo/UUsMVc3wBzONNDRP8DgMSutD8mbxK6gdav8HTdWnDv8enCfG/SlR3emGGdAPZMAFZQOCBwAQAA8AgAnQEqIAAgAD5tMpRHpCKiISgIAIANiWwAsSVBUB3BTA0QQYDbnzTNfgGhVewDnw1e/kjqPP9754/7fosUQfLxGtLRx0gj272+H0dabIgA/OUuqEx3bt6odEmXhg6v1Ky+ljvcBNGC3V3f4PUsZ6HIoTaN/9mS3Ry1xleTrX5x+zWe2McN+uZudsOZ5kqyc3jIf6q5zYXBAoy6qnqY4YDO8i8DDFfxvV8CgUoL412O/956poc2A3WbXTSVtuAd3Ff0qxU3YUfvWB6v60z6cIvU5JAhqQ327Ay8gEVu2IFee10dXMIyuceW+z7JjebiOpMyCv/DzStPCf8GOL6px/syc7r+QrtbgNckMZVvltNCn229R0pCemO/B0rXj0+95z1r+P08zHLaFav9H6/FuZdNVYI1cA2f7ETOsppPHsiwVTWp1ykjW7Q8r60lhmtnDEM3i6+IyE6YYX/3RTUY/KIeXEXwSYzaOPQ9w35uAAA=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.whos_the_pillager_now.title",
+    "description": "advancements.adventure.whos_the_pillager_now.description"
+  },
+  "minecraft:adventure/who_needs_rockets": {
+    "parrent": "minecraft:adventure/minecraft_trials_edition",
+    "frame": "task",
+    "iconId": "minecraft:wind_charge",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAIVBMVEUAAADr7//g5v/T2//X2+W9yf/Hy9S3u8SrsbuWo7mElK8vBnL2AAAAAXRSTlMAQObYZgAAAExJREFUeNpjwA9mzoTQhi7pE8CMyUJujQZAOqolLUVoAZBhVeYiVLEUyFAsT0vvVAYymIXcKpwMGIBgRXmKKVhXZHvHAjCD2XQWfgsBsxQQoI8NfmgAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.who_needs_rockets.title",
+    "description": "advancements.adventure.who_needs_rockets.description"
+  },
+  "minecraft:adventure/walk_on_powder_snow_with_leather_boots": {
+    "parrent": "minecraft:adventure/sleep_in_bed",
+    "frame": "task",
+    "iconId": "minecraft:leather_boots",
+    "icon": {
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAdklEQVR42mMYhsBYQfQ/DGMTI6i5IdAYjBVFef/jEifbgHw3HbwGYCpEiIPECBiAUEi5AbHWqqQbYKyIUFTorgtRiJADiaEYjqF5cqwVCIMVhpgoohsAEgPJwdUg5BE2IGtGUQDlI6vBMACmCW8gQeUR6oYHAAByPIuE/2wfegAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.walk_on_powder_snow_with_leather_boots.title",
+    "description": "advancements.adventure.walk_on_powder_snow_with_leather_boots.description"
+  },
+  "minecraft:adventure/under_lock_and_key": {
+    "parrent": "minecraft:adventure/minecraft_trials_edition",
+    "frame": "task",
+    "iconId": "minecraft:trial_key",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEUAAAD8mYL/mVGhnpTWe1uFg3rBWjZscWuaUDhSWlGEQy1FSkJtNCE3OzVUKBopKCi4bYGuAAAAAXRSTlMAQObYZgAAAFpJREFUeNpjYGDg3r37AwMI7DQOnw9mbC0vrwcztmtOmg9hTK6EiPDOvQlRzH9rLYTB+2P9BQYwONHHAAHHYIwjeVDGwYwzUIaIH5Th9wCqxiUHwnj37h0DAwA6LB9nJOgxbwAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.under_lock_and_key.title",
+    "description": "advancements.adventure.under_lock_and_key.description"
+  },
+  "minecraft:adventure/two_birds_one_arrow": {
+    "parrent": "minecraft:adventure/ol_betsy",
+    "frame": "challenge",
+    "iconId": "minecraft:crossbow",
+    "icon": {
+      "src": "data:image/png;base64, UklGRtoBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSEMAAAABDzD/ERGCcds2kgykgLQyu/udo/UUsMVc3wBzONNDRP8DgMSutD8mbxK6gdav8HTdWnDv8enCfG/SlR3emGGdAPZMAFZQOCBwAQAA8AgAnQEqIAAgAD5tMpRHpCKiISgIAIANiWwAsSVBUB3BTA0QQYDbnzTNfgGhVewDnw1e/kjqPP9754/7fosUQfLxGtLRx0gj272+H0dabIgA/OUuqEx3bt6odEmXhg6v1Ky+ljvcBNGC3V3f4PUsZ6HIoTaN/9mS3Ry1xleTrX5x+zWe2McN+uZudsOZ5kqyc3jIf6q5zYXBAoy6qnqY4YDO8i8DDFfxvV8CgUoL412O/956poc2A3WbXTSVtuAd3Ff0qxU3YUfvWB6v60z6cIvU5JAhqQ327Ay8gEVu2IFee10dXMIyuceW+z7JjebiOpMyCv/DzStPCf8GOL6px/syc7r+QrtbgNckMZVvltNCn229R0pCemO/B0rXj0+95z1r+P08zHLaFav9H6/FuZdNVYI1cA2f7ETOsppPHsiwVTWp1ykjW7Q8r60lhmtnDEM3i6+IyE6YYX/3RTUY/KIeXEXwSYzaOPQ9w35uAAA=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.two_birds_one_arrow.title",
+    "description": "advancements.adventure.two_birds_one_arrow.description"
+  },
+  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
+    "parrent": "minecraft:adventure/trim_with_any_armor_pattern",
+    "frame": "challenge",
+    "iconId": "minecraft:silence_armor_trim_smithing_template",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAACD+PhLyckgmrhubm4HeZVYWFhAV2xLTE9BQUE4NzcxMDADQVAkJCQFKjIRGyENEhcpd/iXAAAAAXRSTlMAQObYZgAAAHlJREFUeNpVy1sSQjEMAtD0IYI3Tbr/1TrXto7yxxmwFYD2G6D3PyIhwV/fji4+lJFzQ+9FjfAtAohalfGMA4WFt8w0s+kQSxGZ65EeVQWVunLcgwyh1gCua3wG4YzmjTqQEdGCZ2DT8x5BB2zOTGr3Q5EbTnKMsfob/nQGXueYxlUAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.trim_with_all_exclusive_armor_patterns.title",
+    "description": "advancements.adventure.trim_with_all_exclusive_armor_patterns.description"
+  },
+  "minecraft:adventure/trade_at_world_height": {
+    "parrent": "minecraft:adventure/trade",
+    "frame": "task",
+    "iconId": "minecraft:emerald",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAIVBMVEUAAADb/+uv/c2C9q1B84QX3WIAqiwAlSkAexgAUwAALQC5+lfcAAAAAXRSTlMAQObYZgAAAENJREFUeNpjwApmzoTQnCKuE8CMiSpuUWABIRW31AUghmqQWhmUYdaGxgg2a4UyPEpBDIZpFe1WEAPTgTJgsGoVVpsBDRwS6h42ddsAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.trade_at_world_height.title",
+    "description": "advancements.adventure.trade_at_world_height.description"
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "parrent": "minecraft:adventure/kill_a_mob",
+    "frame": "goal",
+    "iconId": "minecraft:totem_of_undying",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEUAAAD9++747qXq24TRp11B5n/Fh0IAu0agWyOFQA8RGs9sAAAAAXRSTlMAQObYZgAAAF1JREFUeNptzkkOwDAMAsDYEGr+/+FK6RJXKjfPATz+UyvtxsoWIyIT3kAmyAYxyZgN5hE5jwZigvKetAD5ni7QoERZV69dGQmw7PcxklQrrRWPLZTk8QV6dPFTeAJoLQLslSF6LQAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.totem_of_undying.title",
+    "description": "advancements.adventure.totem_of_undying.description"
+  },
+  "minecraft:adventure/throw_trident": {
+    "parrent": "minecraft:adventure/kill_a_mob",
+    "frame": "task",
+    "iconId": "minecraft:trident",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbUlEQVQ4y2NgoAeYNm3afxCgSPONGzfABoBoog3DpRkkTrQBZGsGgezs7P96cQH/0TUT7Q2Q5oi5fWBD0DWDDCfKAIfKTDBGdglRmsXcLcEaQTQIgzTBMNE2gzSSHO8wf480zWQHGCy6yNYMBACktqum4kbbjgAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.throw_trident.title",
+    "description": "advancements.adventure.throw_trident.description"
+  },
+  "minecraft:adventure/summon_iron_golem": {
+    "parrent": "minecraft:adventure/trade",
+    "frame": "goal",
+    "iconId": "minecraft:carved_pumpkin",
+    "icon": {
+      "src": "data:image/png;base64, UklGRjYCAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSC8AAAABDzD/ERECQeI2OpiASZr1SZqAhxp4ARH9D7DFNW9IbFKX9Evmj0t6k5Lwhmu2AABWUDgg4AEAADALAJ0BKiAAIAA+ZSiPRaQioRv9VABABkS2AE6ZQjgb0b8IOTmcrgNd4BvAPOz6Lr0NvVA3iT/Gf7f0QKXbklhmOIG+Pc5zncrbbHe8cx7N2FCxMv2DdS8e6KpVbuvKwuoAANahNg88PtSX5F37lF1j9oytCVjYmbpYCGgQ7LxWSlqFKoFkefvxbS+sOpMhfhCTMCwsaohG/uaLMzZ5Oowguz/+YRs3A7KRWGj1vRH+6XPzNkv+X5wK79hQgm7WiJdXtbb3VArBjRaS2fKTZVeiDmSwLtqJJ4RAt0KHo97Okeimhfg42yKy1U1Bp1XKmSy1yzAQMJW1UiMxz9Rd9Rm2cYBBY1/Wh1pgsbUZKyAhr/uf7xPFCvIDZJ87q4ypy8gijKCkHiBuWdE/0splmzlSe7BfxsYSimb9/rwKdVB5Q+EsQv0PrHEPt8utdGyiahrhYfmIGBRbG0+nQhW2qRX0msHL7Hm7crKouJuDGCP0PP5/sYYxnDQVILJEhY50iSwIfkVneohW3QqAErd9csP+ygi7qMjb4vdUGb6uY44pa3gWforpuW1XiTXsgqE24brXI7hUA2ft2+nvquCvz708tSTJcDz7IKsZKcXiV3Mka02Df1cUEEdSCMP/2wAAAA==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.summon_iron_golem.title",
+    "description": "advancements.adventure.summon_iron_golem.description"
+  },
+  "minecraft:adventure/spyglass_at_ghast": {
+    "parrent": "minecraft:adventure/spyglass_at_parrot",
+    "frame": "task",
+    "iconId": "minecraft:spyglass",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAKlBMVEUAAAD////04GNovb3ekjq9aigzkJCoX1igVhF+PzkeZWZVKSVTKwszFxLdsQeLAAAAAXRSTlMAQObYZgAAAFJJREFUeNp9yDsWwCAIBVHCR0F8+99uTpqAjdPdoUtqdnoN6cd5yNOOK68hos3fWf8IfliZy5NZzXZ5RjfljEyUtyMTVDZzdIf5phYiQEcA3XoBJtoCXYU3DgwAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.spyglass_at_ghast.title",
+    "description": "advancements.adventure.spyglass_at_ghast.description"
+  },
+  "minecraft:adventure/spear_many_mobs": {
+    "parrent": "minecraft:adventure/kill_a_mob",
+    "frame": "goal",
+    "iconId": "minecraft:iron_spear",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAABERERJNhWFhYVnKQtBGAWjSyJoTh66XzSxsbHY2Nj///9ra2tUV1iJZycoHgsYGBiCCeb1AAAAAXRSTlMAQObYZgAAAEdJREFUeNqFy0sSgDAIA9DQ+gPEcv/TOq5KujG7l0xAERGmeVaq+Z2T3bQY0r896kPZaB5Ri3aOJD8DyCTP/Htbfe3sg43VL5J9AqCUooXYAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.spear_many_mobs.title",
+    "description": "advancements.adventure.spear_many_mobs.description"
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "parrent": "minecraft:adventure/kill_a_mob",
+    "frame": "task",
+    "iconId": "minecraft:bow",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAZ0lEQVR42mOgK/A0E/2PjEnW1Jmu/j/DTw6EwWwNOW7chqBoQmiAYcKas7OzQRqxanBxcSGsedq0aWAaJk5jzQgDQM4mWzMsoPBoJmw72AACmgm7gL6aMZ2P0EyWAeiaSfcCuYBczQDVGni1FlvOEgAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.shoot_arrow.title",
+    "description": "advancements.adventure.shoot_arrow.description"
+  },
+  "minecraft:adventure/play_jukebox_in_meadows": {
+    "parrent": "minecraft:adventure/sleep_in_bed",
+    "frame": "task",
+    "iconId": "minecraft:jukebox",
+    "icon": {
+      "src": "data:image/png;base64, UklGRtABAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSC8AAAABDzD/ERECQeI2OpiASZr1SZqAhxp4ARH9D7DFNW9IbFKX9Evmj0t6k5Lwhmu2AABWUDggegEAAJAIAJ0BKiAAIAA+ZSaQRaQiIZv9VABABkSgCdMt7A/2M4DetJMEYB2RhgUedkCRLcllxAG+yzitbjNX1Ld8gOHQaysCFwlAe/ibQaYAAP73eA1BsbLBghamEBFFoDlhjWzN3jtEamRckeciZg25k9TMrgzfRpny7BpDQx1R024IuM0T1Lgt4AJmv7g3licXMGDyAnNhZaElbgumV7Ox67bu5+anID70Gv8i+cUsIwemE3oWJfW69Jzf8b3O82WIZQv53StMpuO50G7mfIURCkm6XPwRHdvd12QKrI3ylGR/uvWudYl7kYRP4prmoOzkU61IfPHJIGS0VV250mYz340spKUQuqd0p8wugaJmAmIfSfcne9Afjo6BHZRVIwuifGTaGiVLl2YPUWqj2AMEtLDl3+BASoKtFe2d71q2ZgJ+kNxeJyivv2d8OS48KncK6R6aH5lC4C1nqxoapCx6e8uz6AtH5armXAEFJdr+/YpNQTnIrBCQmQAAAA==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.play_jukebox_in_meadows.title",
+    "description": "advancements.adventure.play_jukebox_in_meadows.description"
+  },
+  "minecraft:adventure/overoverkill": {
+    "parrent": "minecraft:adventure/minecraft_trials_edition",
+    "frame": "challenge",
+    "iconId": "minecraft:mace",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAJ1BMVEUAAABCR1IuMztVXGmZoa6/zud8hJG1pcp6gsQjQmlQY5BmbHoeIimfHQpmAAAAAXRSTlMAQObYZgAAAE9JREFUeNpdi0EOwCAMw2poOxj9/3unHYbIfLOj2AZMwAPrHN49qtXhLT1OJz3oX2FlZoAUh2rsUy31e1RDfJrs13xf4gd/h6E7q0yo0vAALKYCQcUVkjkAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.overoverkill.title",
+    "description": "advancements.adventure.overoverkill.description"
+  },
+  "minecraft:adventure/lighten_up": {
+    "parrent": "minecraft:adventure/minecraft_trials_edition",
+    "frame": "task",
+    "iconId": "minecraft:copper_bulb",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABmUExURQAAAEIkGeCAa2MzJFwvH5JTRT0hDVYyGkoqFHxFMXI/LoBKN4lPOms6KZhPN14yFcBqS3JAH4RNKMZzVY5IMNN6WrBhRqVZP1UxJC0aDDUfECYUCE0qHlozK08uIkYnHD0gFjkdE+kK9lsAAAABdFJOUwBA5thmAAABq0lEQVR42pXT246lIBAF0FEUQfCKF5Cb/v9PziY0Pkyf6aTrwZxkryoKkvPnl3WeZ/1DPB6oef4fGadpXY5jWabpEzmVmpdlRU3TjCnfulGYntqV2v+dsimF5tS67+dZfr9TxnGex7peV7Tt23amfBnHWqk6k7bdNnTls/FRakVhWu2qDIRsxxHJMefhaofbd6/j/QU4lRJTJsSZ1HXtvXUF8J5Rmg5KNzkW5Cm2xscnA0pYx2SbCB4SZ2utvb1MtAVQ1nWcUypFupHX1joHYF/QAUhBgfjgfXCX0QHgegHyTgC0fU988PG6AsBlCuCSMZZATxKIN4CzxrhQgBCCDZx2lPaNdxbTQ4U1YrjLkoIPzUA7iMbbNLx6tIMsAMHQNOkgAMxG/mhA8wL0ykZynoEOFXJzvYDjFoxLynsusIPDhtoBmLJk3zMATinNwFqDz2W8+wIDyYC9S2YQXT5Ckp4C4NMxRrBDAtFeNtwJpCIE0zlUBgYA56T4rYbkp07AR6wXqqpkhQx4R5KWjLe1D+JvNQyC88bHOz4Y/rFIw4mvqhJ/JETfv/y//wVE3iwvt5EAwgAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.lighten_up.title",
+    "description": "advancements.adventure.lighten_up.description"
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "parrent": "minecraft:adventure/kill_a_mob",
+    "frame": "challenge",
+    "iconId": "minecraft:sculk_catalyst",
+    "icon": {
+      "src": "data:image/png;base64, UklGRuIBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSC8AAAABDzD/ERECQeI2OpiASZr1SZqAhxp4ARH9D7DFNW9IbFKX9Evmj0t6k5Lwhmu2AABWUDggjAEAAPAHAJ0BKiAAIAA+aSqPRaQioRgGAEAGhLKATplBkdDltuJz5jF4N4yTtnk+A3P/LTtoFm+Jr5EztCqnlXDS+CT5F/jm3pi0AAD+/3CE504G/lGwBerjsmt/lr5v5OHRZ+TmFy7ULZJfWtpHnZMswNfuLeQNyLXAX7gjfP31g//teENG10fHTW9/76lUC0/Ch5kQwc2iNZiZHpe70mBpqw+LPtw4dpa3yRbJs/tPlr912WI2t3g1dOyk+J8Er5x+GaqZ8TS6WAcOS6RVAaxhM6rNkczWY+MHHf/v0J7WyE9LgmM5oXNh18mDadKqEENskyNjtJNkhN7tb4jdvbjnijXH4sGXgqUJcc3+wV6oTevX8bl3wn3rnzytefOz+wEHVtkQqx7yecGkurjn6hKp1WMFRNwKNofnWfHtM2fqwa10iVydFOWs+nbAq5hLA3i1rEtAyJRis/2s9wY6ormS40fDoc1NCjN9jonfFG2AWWaVy3dUXbiLNJi44P8U8d6wgv/fhmDpJsBS4AAAAA==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.kill_mob_near_sculk_catalyst.title",
+    "description": "advancements.adventure.kill_mob_near_sculk_catalyst.description"
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "parrent": "minecraft:adventure/kill_a_mob",
+    "frame": "challenge",
+    "iconId": "minecraft:diamond_sword",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAJFBMVEUAAAAOPzYIJSAz68uk/fArx6weincVY1VoTh5JNhUoHguJZycazUdMAAAAAXRSTlMAQObYZgAAAExJREFUGNN1jsENwDAMAgGndpLuv29/jZFa/+4QwkA/ks5jyPky8cHxwyQAxslZNAaYiux9Zlb4A0XjNcVu1r0hvYacGwB0Rq0OSC4ehwkBE0lygnsAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.kill_all_mobs.title",
+    "description": "advancements.adventure.kill_all_mobs.description"
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "parrent": "minecraft:adventure/voluntary_exile",
+    "frame": "challenge",
+    "iconId": "minecraft:white_banner",
+    "icon": {
+      "src": "data:image/png;base64, UklGRiIBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSCUAAAABDzD/ERECTSNJmVeARZw8wi9UfIeAiP5PgOdGk+YO+dMixSkzAFZQOCDWAAAAcAUAnQEqIAAgAD5pKJBFpCKhm/qsAEAGhLOADtACI2Vo340fTasVie+dcv498KnBn3FpAAD+//EsRvPN/qYU0fu4uVC2g4CP+fr54B/qf//uRG5+KWby6is+jBk8jdlz7rxyrPVwfZOPuQZL0SIrfru9B2dSzMf2N/d+/11zVWknVo9f/iz7vc2EglfpaUgdLGSExvwnKZzESyrV2yN8fYR/W4dklCUSr/xmbcsmi49h4cmKnApntB6gsOz31fKOz4L//29s+GxHHQil82oXPJfUcgQAAA==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.hero_of_the_village.title",
+    "description": "advancements.adventure.hero_of_the_village.description"
+  },
+  "minecraft:adventure/craft_decorated_pot_using_only_sherds": {
+    "parrent": "minecraft:adventure/salvage_sherd",
+    "frame": "task",
+    "iconId": "minecraft:decorated_pot",
+    "icon": {
+      "src": "data:image/png;base64, UklGRiQBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSDEAAAABDzD/ERGCQds2giwNwCAdtKM2SANw+hJ4ABH9DzDFNu/wXRKT1Cb9j0lKwjtsMwUAAFZQOCDMAAAAkAUAnQEqIAAgAD5tLJJFpCKhmAQAQAbEsgBOmUI6dtV4X+A7tidb9MDRolrIKsAczgnGDHQA/p2b1nR3qe4rjQdSbNqbvX61K1vVtRgoGRhs2Jcg+sHTSW2mh9HyfoDt/tYOXcRurgw5T9VMOYgx6/xqQD5jaEJHvF0NY4aUXZoRquUiSgEyeShS5Ukr0Yyq3FaPACfb10kJ5x432fyO2lDRvbneWH+yzngeSq6aGtr9e1vReIR6jPby7Uzdkq8MZ0Fxwzf5R2e+wAAA",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.craft_decorated_pot_using_only_sherds.title",
+    "description": "advancements.adventure.craft_decorated_pot_using_only_sherds.description"
+  },
+  "minecraft:adventure/blowback": {
+    "parrent": "minecraft:adventure/minecraft_trials_edition",
+    "frame": "challenge",
+    "iconId": "minecraft:wind_charge",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAIVBMVEUAAADr7//g5v/T2//X2+W9yf/Hy9S3u8SrsbuWo7mElK8vBnL2AAAAAXRSTlMAQObYZgAAAExJREFUeNpjwA9mzoTQhi7pE8CMyUJujQZAOqolLUVoAZBhVeYiVLEUyFAsT0vvVAYymIXcKpwMGIBgRXmKKVhXZHvHAjCD2XQWfgsBsxQQoI8NfmgAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.blowback.title",
+    "description": "advancements.adventure.blowback.description"
+  },
+  "minecraft:adventure/arbalistic": {
+    "parrent": "minecraft:adventure/ol_betsy",
+    "frame": "challenge",
+    "iconId": "minecraft:crossbow",
+    "icon": {
+      "src": "data:image/png;base64, UklGRtoBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSEMAAAABDzD/ERGCcds2kgykgLQyu/udo/UUsMVc3wBzONNDRP8DgMSutD8mbxK6gdav8HTdWnDv8enCfG/SlR3emGGdAPZMAFZQOCBwAQAA8AgAnQEqIAAgAD5tMpRHpCKiISgIAIANiWwAsSVBUB3BTA0QQYDbnzTNfgGhVewDnw1e/kjqPP9754/7fosUQfLxGtLRx0gj272+H0dabIgA/OUuqEx3bt6odEmXhg6v1Ky+ljvcBNGC3V3f4PUsZ6HIoTaN/9mS3Ry1xleTrX5x+zWe2McN+uZudsOZ5kqyc3jIf6q5zYXBAoy6qnqY4YDO8i8DDFfxvV8CgUoL412O/956poc2A3WbXTSVtuAd3Ff0qxU3YUfvWB6v60z6cIvU5JAhqQ327Ay8gEVu2IFee10dXMIyuceW+z7JjebiOpMyCv/DzStPCf8GOL6px/syc7r+QrtbgNckMZVvltNCn229R0pCemO/B0rXj0+95z1r+P08zHLaFav9H6/FuZdNVYI1cA2f7ETOsppPHsiwVTWp1ykjW7Q8r60lhmtnDEM3i6+IyE6YYX/3RTUY/KIeXEXwSYzaOPQ9w35uAAA=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.arbalistic.title",
+    "description": "advancements.adventure.arbalistic.description"
+  },
+  "minecraft:adventure/adventuring_time": {
+    "parrent": "minecraft:adventure/sleep_in_bed",
+    "frame": "challenge",
+    "iconId": "minecraft:diamond_boots",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGFBMVEUAAAAIJSAOPzZK7dkgxbWh++gaqqf///+Sb4flAAAAAXRSTlMAQObYZgAAAEVJREFUGFediEESwCAIA00E+/8flyDW8VhzgN1t7W4k65Q/jnVn8AzedxCy75B4BDtCUAbLN30ojCq08ABAoACpho/+7QV5hQDq80bh+AAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.adventuring_time.title",
+    "description": "advancements.adventure.adventuring_time.description"
+  },
+  "minecraft:adventure/very_very_frightening": {
+    "parrent": "minecraft:adventure/throw_trident",
+    "frame": "task",
+    "iconId": "minecraft:trident",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbUlEQVQ4y2NgoAeYNm3afxCgSPONGzfABoBoog3DpRkkTrQBZGsGgezs7P96cQH/0TUT7Q2Q5oi5fWBD0DWDDCfKAIfKTDBGdglRmsXcLcEaQTQIgzTBMNE2gzSSHO8wf480zWQHGCy6yNYMBACktqum4kbbjgAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.very_very_frightening.title",
+    "description": "advancements.adventure.very_very_frightening.description"
+  },
+  "minecraft:adventure/spyglass_at_dragon": {
+    "parrent": "minecraft:adventure/spyglass_at_ghast",
+    "frame": "task",
+    "iconId": "minecraft:spyglass",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAKlBMVEUAAAD////04GNovb3ekjq9aigzkJCoX1igVhF+PzkeZWZVKSVTKwszFxLdsQeLAAAAAXRSTlMAQObYZgAAAFJJREFUeNp9yDsWwCAIBVHCR0F8+99uTpqAjdPdoUtqdnoN6cd5yNOOK68hos3fWf8IfliZy5NZzXZ5RjfljEyUtyMTVDZzdIf5phYiQEcA3XoBJtoCXYU3DgwAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.spyglass_at_dragon.title",
+    "description": "advancements.adventure.spyglass_at_dragon.description"
+  },
+  "minecraft:adventure/sniper_duel": {
+    "parrent": "minecraft:adventure/shoot_arrow",
+    "frame": "challenge",
+    "iconId": "minecraft:arrow",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAWElEQVR42mMYemDatGn/QcDFxeU/yRpv3LgBxkA26QaANHSmq4MMgGgmFYA0a8hxw20nSzOITb5mKBjumh88ePD/2LFjlGkG0fb29qQbANSEoZksQ+ieuQAKQ1gwvwu6gQAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.sniper_duel.title",
+    "description": "advancements.adventure.sniper_duel.description"
+  },
+  "minecraft:adventure/revaulting": {
+    "parrent": "minecraft:adventure/under_lock_and_key",
+    "frame": "goal",
+    "iconId": "minecraft:ominous_trial_key",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEUAAAApKCg3OzVFSkJscWtSWlGaHjOhnpSFg3reQFg5bll727BpwJw+gWtVo4YvSkI2WU0yao3pAAAAAXRSTlMAQObYZgAAAGlJREFUeNoFwbFxw0AQBDDsHT3jyGb/XSoW9SsgYKkWAjsjT57iwnYfVMqykav5cbYsQee0lME63sfJYtG0v9e7ORja6qq2DMK//SO4cJBqYQAngAHUuW8YgE9OYQCSvGAA8ekNF9BF4QvEeTNkuErGogAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.revaulting.title",
+    "description": "advancements.adventure.revaulting.description"
+  },
+  "minecraft:adventure/bullseye": {
+    "parrent": "minecraft:adventure/shoot_arrow",
+    "frame": "challenge",
+    "iconId": "minecraft:target",
+    "icon": {
+      "src": "data:image/png;base64, UklGRpYCAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSC8AAAABDzD/ERECQeI2OpiASZr1SZqAhxp4ARH9D7DFNW9IbFKX9Evmj0t6k5Lwhmu2AABWUDggQAIAALALAJ0BKiAAIAA+bSyRRaQioZgEAEAGxLYATplCPxhXFhXq8Bq2/75HlsO/isBNAUkjkCRV/4j0rP5vyufSP/L9wX9XPR39Vf6m+xn+wA7UCJNW6B6M/hoE/xMuFfd/31TLdHGuoAD+w1x/4RM6jyhLWmWe/zGOJjbi7fhayV1+CwMurvEQnfIvu52as0YUyUXJOfs/CHIo7g+Qy2okKNHY2wnTL89ekWRiiko/B08gD+qH9jxE+zqAiQSpp6lVHxoV3rw+Sp2xi9LKgYCXNvx9iHe1ZxiY5cCvgytLwDeJIsY1iJpVD02FnIwNULjVa+9bIPciSg4D6Mh3hI4/sGPbLDpRl/cyslycENG9X5kQ5rJV6NST8L7XTh4fxT+9q5h8sxhuETyTO6D3HTvbJw5KYfjjkADFEZosXd0VZhG5hjiroYSXYaaVTPDfhoiooHApgwXIPvP31f8Gvm5aTt4ynv5NZ3Cd6XGI+RT9ReXML8HBPRAaph/leves6+/Yj1B87r9CZ/4ljnf1XEFxCDAFqu+Dw5dyKq1krlznf+J9Pxthb5cma+4QH70A/+j3H4FtOnAFDKNhIr48f0ae6YTqSkaG4Rw4pe6YL1/yZJebf4/zUl5i1EIv3R3sDhF1mcXjNddV63U1unez8YOZBKW4Di2M3qnyIvJwbXkKeVIvn7aozT7ugVTM3YTn3Tqsl8T9US2FiFvwp+uzP8upMXFwG82e+EDyzO7Ca73rkOVgB+6WhyXi++v3WiTjgB8AAA==",
+      "type": "blob"
+    },
+    "title": "advancements.adventure.bullseye.title",
+    "description": "advancements.adventure.bullseye.description"
+  }
+}

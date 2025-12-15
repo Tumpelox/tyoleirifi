@@ -1,0 +1,101 @@
+{
+  "minecraft:end/root": {
+    "parrent": null,
+    "frame": "task",
+    "iconId": "minecraft:end_stone",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancements.end.root.title",
+    "description": "advancements.end.root.description"
+  },
+  "minecraft:end/kill_dragon": {
+    "parrent": "minecraft:end/root",
+    "frame": "task",
+    "iconId": "minecraft:dragon_head",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancements.end.kill_dragon.title",
+    "description": "advancements.end.kill_dragon.description"
+  },
+  "minecraft:end/respawn_dragon": {
+    "parrent": "minecraft:end/kill_dragon",
+    "frame": "goal",
+    "iconId": "minecraft:end_crystal",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAJFBMVEUAAAD5/f7cx+az2N3Pst2cvcG+ldSVTbviBifOBiRfJ323BSAEcNtzAAAAAXRSTlMAQObYZgAAAGVJREFUeNptjwEKwCAMA52ticv+/9+tnYqwBQz0pActP7FjS4Cswuy2ACs3IBEVlBYg4ABV7AUx9yAD5Hy5A8oVQ6294+zuVJrTEI9qm+MEOaUi459aQKSTmiBK6Rug2ZOWbd/bb3DuAvxs3stdAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.end.respawn_dragon.title",
+    "description": "advancements.end.respawn_dragon.description"
+  },
+  "minecraft:end/enter_end_gateway": {
+    "parrent": "minecraft:end/kill_dragon",
+    "frame": "task",
+    "iconId": "minecraft:ender_pearl",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAIVBMVEUAAACM9OIszbE0mYglhHQbe2sQXlELTUIMNzAGOTEDJiC5a2thAAAAAXRSTlMAQObYZgAAAFtJREFUeNpjwAo4OqB0swmE1WyS5rIAJGAiVJ7mBWIYas4szwLJOM1aNb0MKLc4HchwAzKWgBhmQAaXe+XMIisGIMOtvFwRpJhhabozUAYktCxtFZACsVYh2wwA2BYa2KT1S0MAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.end.enter_end_gateway.title",
+    "description": "advancements.end.enter_end_gateway.description"
+  },
+  "minecraft:end/dragon_egg": {
+    "parrent": "minecraft:end/kill_dragon",
+    "frame": "goal",
+    "iconId": "minecraft:dragon_egg",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancements.end.dragon_egg.title",
+    "description": "advancements.end.dragon_egg.description"
+  },
+  "minecraft:end/dragon_breath": {
+    "parrent": "minecraft:end/kill_dragon",
+    "frame": "goal",
+    "iconId": "minecraft:dragon_breath",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAKlBMVEUAAAD26u7U5ffu0uazz+zMr6XencXNdaTUbUldj8LFSIOpRyWsLHuXNxZfoybVAAAAAXRSTlMAQObYZgAAAEpJREFUeNpjwAo4uqEM1VAHCMN7L5TBspIByjgJZeicmQCmmUpqIHLqXmnmE8AMN2NjMMM92RDCmGYsKAZmcCYKZkK0z5w5AclmALhAD/gCXSQKAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.end.dragon_breath.title",
+    "description": "advancements.end.dragon_breath.description"
+  },
+  "minecraft:end/find_end_city": {
+    "parrent": "minecraft:end/enter_end_gateway",
+    "frame": "task",
+    "iconId": "minecraft:purpur_block",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancements.end.find_end_city.title",
+    "description": "advancements.end.find_end_city.description"
+  },
+  "minecraft:end/levitate": {
+    "parrent": "minecraft:end/find_end_city",
+    "frame": "challenge",
+    "iconId": "minecraft:shulker_shell",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGFBMVEUAAACrhKqXaZePY4+EUolsSGtSNGBDJlB0NhDwAAAAAXRSTlMAQObYZgAAAFJJREFUeNp1zzkOADEMQlFvwP1vPJJtRZMiv+N12DOS93L3I70iAit0jwkaqIaRgRVgIVqAAxVVBJC5QEURmeKCjClQtmADsoaJaJDsgn+UXq8/J2ECTZx+ohQAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.end.levitate.title",
+    "description": "advancements.end.levitate.description"
+  },
+  "minecraft:end/elytra": {
+    "parrent": "minecraft:end/find_end_city",
+    "frame": "goal",
+    "iconId": "minecraft:elytra",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAG1BMVEUAAACPj7OMjIx/f5hzc3Nwbo1paWlLS0s1NTXBGAVdAAAAAXRSTlMAQObYZgAAAFpJREFUeNqNT0kOwEAIgtEO/P/DNrWxvQ4XFtFEnEGSLemzGZIUKbXPIA2IjBQWUEU0WMUOwPX4RRSwWrxBDxKYDUwjwAmyWftKA85ruxvE3Bh4+6dWHj569AbZrwlib1Ty2AAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.end.elytra.title",
+    "description": "advancements.end.elytra.description"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "minecraft:story/root": {
+    "parrent": null,
+    "frame": "task",
+    "iconId": "minecraft:grass_block",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancements.story.root.title",
+    "description": "advancements.story.root.description"
+  },
+  "minecraft:story/mine_stone": {
+    "parrent": "minecraft:story/root",
+    "frame": "task",
+    "iconId": "minecraft:wooden_pickaxe",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAGFBMVEUAAACIZiZ1WCFqUB5JNhU3KRAoHgsgGAr7mH1CAAAAAXRSTlMAQObYZgAAAERJREFUeNpjwApCQwPANKuQsaozmBVebiwGlXQyh9AsZkYFYIZjQnEBRIAByAALMBQVQAQYCgsgAgzsUAGoFigjDc1mACKSC0HPQpJlAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.story.mine_stone.title",
+    "description": "advancements.story.mine_stone.description"
+  },
+  "minecraft:story/upgrade_tools": {
+    "parrent": "minecraft:story/mine_stone",
+    "frame": "task",
+    "iconId": "minecraft:stone_pickaxe",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAHlBMVEUAAACampqJiYl/f3+JZydoTh5JSUlJNhUoHgsYGBi6HSktAAAAAXRSTlMAQObYZgAAAEVJREFUeNpjwArS0hLANJuQsVopmJU509gDKllkCaHZI4wmgBklDZMnQAQYgAywAMOkCRABhokTIAIMnFABqBYoowPNZgA3CQ9j/SFa9AAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.story.upgrade_tools.title",
+    "description": "advancements.story.upgrade_tools.description"
+  },
+  "minecraft:story/smelt_iron": {
+    "parrent": "minecraft:story/upgrade_tools",
+    "frame": "task",
+    "iconId": "minecraft:iron_ingot",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAAnRSTlMAAHaTzTgAAABWSURBVHjalc8xEcAwDENRkzKXTgIhCEIjSGbj3sWXXjpG2/ub4mbAX7B5qqrKPLULur51FwPurS46A3aPRGqCR6TtDMjeVGZEQCtIuThFz9YUZF5cfAGg5lJ3ApNkTAAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.story.smelt_iron.title",
+    "description": "advancements.story.smelt_iron.description"
+  },
+  "minecraft:story/obtain_armor": {
+    "parrent": "minecraft:story/smelt_iron",
+    "frame": "task",
+    "iconId": "minecraft:iron_chestplate",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAAnRSTlMAAHaTzTgAAABaSURBVHjajY85EYAAEANjIyKi7PxEUjScGxg4hm8o2Cq7XfADbdyHlo5wG+rEAuTOhCRtyckRylm6O4lLAMgaTYrEBg8PMTATfIW8gsevUN4p4ixPB7jz/XUF4chIZvUULX8AAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.story.obtain_armor.title",
+    "description": "advancements.story.obtain_armor.description"
+  },
+  "minecraft:story/lava_bucket": {
+    "parrent": "minecraft:story/smelt_iron",
+    "frame": "task",
+    "iconId": "minecraft:lava_bucket",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAJ1BMVEUAAAD////Y2Njk0lyoqKjjjD+2jHuWlpaff3hycnLMRih/Piw1NTWgo7oyAAAAAXRSTlMAQObYZgAAAFxJREFUeNptz0EOwCAIRNG2gMro/c/bqQrpwr+bF2LidW7MftNaKUDQaBAxE0MZC8BBomzQToII6oZHO4N5AlOtcE24P/AEXYAEj4tKiEcIsQlKqAtS4iBkdv74C05YBCYmMm+kAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.story.lava_bucket.title",
+    "description": "advancements.story.lava_bucket.description"
+  },
+  "minecraft:story/iron_tools": {
+    "parrent": "minecraft:story/smelt_iron",
+    "frame": "task",
+    "iconId": "minecraft:iron_pickaxe",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAHlBMVEUAAAD////Y2NjBwcGJZydoTh5ERERJNhUoHgsYGBhl7cYfAAAAAXRSTlMAQObYZgAAAEVJREFUeNpjwArS0hLANJuQsVopmJU509gDKllkCaHZI4wmgBklDZMnQAQYgAywAMOkCRABhokTIAIMnFABqBYoowPNZgA3CQ9j/SFa9AAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.story.iron_tools.title",
+    "description": "advancements.story.iron_tools.description"
+  },
+  "minecraft:story/mine_diamond": {
+    "parrent": "minecraft:story/iron_tools",
+    "frame": "task",
+    "iconId": "minecraft:diamond",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIVBMVEUAAAD////V//ah++hK7dks4NggxbUaqqcckZoRcnoUXlN/hNeyAAAAAXRSTlMAQObYZgAAAFxJREFUeNqNjzkOxDAMAyORS1n8/4MXyGEnQIpMN1Po2L7S3f3wiMi+O4mUbw4kKK8QGUl6OQmUyldIAhgrhABw1BWSrKqSxjnELEmqucW/I2Ae4kEC8jbxzvubfzBNAqq5tnU2AAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.story.mine_diamond.title",
+    "description": "advancements.story.mine_diamond.description"
+  },
+  "minecraft:story/form_obsidian": {
+    "parrent": "minecraft:story/lava_bucket",
+    "frame": "task",
+    "iconId": "minecraft:obsidian",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancements.story.form_obsidian.title",
+    "description": "advancements.story.form_obsidian.description"
+  },
+  "minecraft:story/deflect_arrow": {
+    "parrent": "minecraft:story/obtain_armor",
+    "frame": "task",
+    "iconId": "minecraft:shield",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancements.story.deflect_arrow.title",
+    "description": "advancements.story.deflect_arrow.description"
+  },
+  "minecraft:story/shiny_gear": {
+    "parrent": "minecraft:story/mine_diamond",
+    "frame": "task",
+    "iconId": "minecraft:diamond_chestplate",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGFBMVEUAAAD///+h++hK7dkgxbUaqqcOPzYIJSASzXVWAAAAAXRSTlMAQObYZgAAAFNJREFUeNqNz0EOgEAIBEGkB/j/j806JmuMB/vE1I34Ua+eRx+J4T46QR3RSgxAqluAocSRmYBqwUx5Qs3Earxhwg0GbeAF8t5QuiqDZW/L1fevJzKqAlDbFhetAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.story.shiny_gear.title",
+    "description": "advancements.story.shiny_gear.description"
+  },
+  "minecraft:story/enter_the_nether": {
+    "parrent": "minecraft:story/form_obsidian",
+    "frame": "task",
+    "iconId": "minecraft:flint_and_steel",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAAnRSTlMAAHaTzTgAAABhSURBVHjabcsxEcAwCIVhNhyggRlEPAf4iII4Ya6FuOull/ZIL2z/B9BxgF+Pgb3Tmm1gZBskSh2hgTBfZIG1RBqRRJHZ6kyvzPbo+smzv1QqRFcR5QIu6lFOWIWZqcyqGwPEFZXDuhxGAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.story.enter_the_nether.title",
+    "description": "advancements.story.enter_the_nether.description"
+  },
+  "minecraft:story/enchant_item": {
+    "parrent": "minecraft:story/mine_diamond",
+    "frame": "task",
+    "iconId": "minecraft:enchanted_book",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAPFBMVEUAAADW1ta3t7fTohbUlhqZmZlbW1ukLCtlSxfFEzmdGzeJISBUPhNSLhBEMxBsFxdEJQphFBQxIQQWEAV8/BcXAAAAAXRSTlMAQObYZgAAAG1JREFUeNp1z0EWgyAMBNA0NA0WwTG5/101Ik9dOLv5ZBbQa8zsWWvOlyxLzREbr6pTbi3kPJ7/0yUx7hIAOy5aiO4Vv5jwIZoShIXI64djhfRlFsMpgGgRgzt1EeZSeh2CskYdAvhKt7j76683mGkGwVjE2/sAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.story.enchant_item.title",
+    "description": "advancements.story.enchant_item.description"
+  },
+  "minecraft:story/follow_ender_eye": {
+    "parrent": "minecraft:story/enter_the_nether",
+    "frame": "task",
+    "iconId": "minecraft:ender_eye",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJ1BMVEUAAADL/N215FqX0WuIw1pxrEllm31XkUNOg4YxY2QeSDUQLDEbKxAqU3maAAAAAXRSTlMAQObYZgAAAFxJREFUeNpjwAo4V0HpGR0Q1oy0tMwFQJqrTcg1bRaIkai8PCwbyFiZZHWqNHMDkBHqBWWkVp1yjdwAUhyyOCIbpHhGamnrbJA5Ozs6gEqAgHvnzN0QO7h3I9sMALZ6HlQBXYEgAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.story.follow_ender_eye.title",
+    "description": "advancements.story.follow_ender_eye.description"
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "parrent": "minecraft:story/enter_the_nether",
+    "frame": "goal",
+    "iconId": "minecraft:golden_apple",
+    "icon": {
+      "src": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAHlBMVEUAAAD+/+b2+JLq7lfsy0XbohOyZBF1KAJUJAlUEglKVtcNAAAAAXRSTlMAQObYZgAAAFhJREFUeNp9z0sOgCAMRVGg70P3v2EDptEY9c3uSSdt3/OjNX8PJE/7SnZOgXZ1jN77CNoFewgWIBAAArnBJECCN+BqBrOVYFF1s1aCKmgpSmeX2M58f/oACs4CWTAWE9cAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.story.cure_zombie_villager.title",
+    "description": "advancements.story.cure_zombie_villager.description"
+  },
+  "minecraft:story/enter_the_end": {
+    "parrent": "minecraft:story/follow_ender_eye",
+    "frame": "task",
+    "iconId": "minecraft:end_stone",
+    "icon": {
+      "src": null,
+      "type": "url"
+    },
+    "title": "advancements.story.enter_the_end.title",
+    "description": "advancements.story.enter_the_end.description"
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "minecraft:husbandry/root": {
+    "parrent": null,
+    "frame": "task",
+    "iconId": "minecraft:hay_block",
+    "icon": {
+      "src": "data:image/png;base64, UklGRgACAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSC8AAAABDzD/ERECQeI2OpiASZr1SZqAhxp4ARH9D7DFNW9IbFKX9Evmj0t6k5Lwhmu2AABWUDggqgEAADAKAJ0BKiAAIAA+bSqRRaQioZgEAEAGxLYATploOffbuIncDgAbcDQ1cke/bKa1TFloMsDiV/yHho97bHR7sNjIc17yzF5cGJ3ZvAxJJtcDhQu8q+7UMTlbAAD9zBgRXXRY4SrRZkKnbHAUbqRPZd8drVOv3l5dglJhuKFyPsdF6Dx5w1iNdRire9npmMQ5tNVBB/WRcV5x+GO87TComNLbwpOlvvAZinnWfn/FBqBnywMgf8QYL4I16RAkCwSpYG4gr7HGEE1UyJ+qzylS2M8qSkMuBU32ihyjaIiHZx+Ch1CxPT2WiomlVQzbOlRywMrgm+Pz2INbhoXAe13YGjbF/EyOnr0VVeNV2z1oema4vNnjcV6POPNcqyJZdGEomPT9CNpcYT8+cWRqeCvw5drvNMAlP3Odul2geAXMMj6RH/KWYrAoA1f790+f1+d3S2tlcKqX6gFLmvNpHWlDwZEVl417milKtCJSlO57KXmW/zMof2Ps5ZRsTUVB9Rp5Tw1o2OUtRP7JqdeTKPXNfSSKj3nTOs8NjJQ2pMjWf/j1rBIsbONMwkAAAA==",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.root.title",
+    "description": "advancements.husbandry.root.description"
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "parrent": "minecraft:husbandry/root",
+    "frame": "task",
+    "iconId": "minecraft:lead",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAG1BMVEUAAACFRhuuc0umm5O1qJ9yYFSLcF+mZz1eLxCyzwsuAAAAAXRSTlMAQObYZgAAAEpJREFUeNqNj0EKgEAMA5usmvn/i0UEu4gLzqVkILStf8i2oylLQBusHhco9WkUnhJJIlPVCm2DmmHs72tYidyxdyh2TBcOAFaPnrehAXmOdEC6AAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.tame_an_animal.title",
+    "description": "advancements.husbandry.tame_an_animal.description"
+  },
+  "minecraft:husbandry/tadpole_in_a_bucket": {
+    "parrent": "minecraft:husbandry/root",
+    "frame": "task",
+    "iconId": "minecraft:tadpole_bucket",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAOVBMVEUAAAD////Y2NioqKiYmJiWlpamf154eHhycnKTaUY+gnY7em85dms3cmd/TSMUV0w1NTUASj4WCgD4PmDZAAAAAXRSTlMAQObYZgAAAF9JREFUeNqNz0EOgDAIBEAVKxWKxf7/sRIqsTEe3BsTloTpZ9QzjIirJUhRCjETC2oHIW5bOyuJxoGyH3vlOKMLqCenAAtAygPMHeAGeEM2iEp0HGK2jkFyeMQXPp+7AM33BVzxNgJtAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.tadpole_in_a_bucket.title",
+    "description": "advancements.husbandry.tadpole_in_a_bucket.description"
+  },
+  "minecraft:husbandry/silk_touch_nest": {
+    "parrent": "minecraft:husbandry/root",
+    "frame": "task",
+    "iconId": "minecraft:bee_nest",
+    "icon": {
+      "src": "data:image/png;base64, UklGRk4CAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSC8AAAABDzD/ERECQeI2OpiASZr1SZqAhxp4ARH9D7DFNW9IbFKX9Evmj0t6k5Lwhmu2AABWUDgg+AEAABAKAJ0BKiAAIAA+ZSSPRaQiIRv9VABABkS2AE6ZQjwn1XiA97zCCEfV/+SuL8FazLM0gUy3xifSvsCfql/x/V06oAcyMVrePXuwXDwi8WqzJjYZkvuX8kgAAP7DXUYs2Bdw/Pg0yWMSxhkI9cp2l9BgFxTNjG9FUhlgAVkC9/UQEyPYE74L5iuGgh4dRnf7IkMk70OkcSkclROtv5YisHfK/4/ItfSNWW/lRQdwXYp4WmGMB673Z6VsB2QBRlb/woa1UkIcpBiGcT3t8T6hCFClcj0b45Ri0RBXOmnURih9xSG/z+qkkLFBKaIFfwFOrM6YvHYZhth8K21EShG89tiYCaPNZ46PsOrkezEc5m/Nwvbty5EZvHkXU0lH2z9uE6vtD3mCkr7OgZVaEG3zPSAS9+2Oqp2tGgqMHMBGJLcrvjCvhTN9id2GSZcIydAT6TbvxhJZUhJVO/n9FUS+5vmhKIbSt6ij0Ue/xvSkOvRjR8v/lOOVwIh+YiUVGSjJjzKdQV2HnZ3YZBcePooqgfplZhEhoAvxlLGKnM3hJsXWdfmBkWFQ4rMRVWSY5HJVVKjIt9LNKyC3wh48jYZT1/AL2nglNfbFww8SkRFdDUdaEQBipXvcMk4idM/z7XuYQm+AIzQeIJsgxH6dQAbU8Li+5OT6aVgAAA==",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.silk_touch_nest.title",
+    "description": "advancements.husbandry.silk_touch_nest.description"
+  },
+  "minecraft:husbandry/safely_harvest_honey": {
+    "parrent": "minecraft:husbandry/root",
+    "frame": "task",
+    "iconId": "minecraft:honey_bottle",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJ1BMVEUAAADU5ff/0y2zz+zMr6WLrdD/kRbUbUldj8LXbxi6XxupRyWXNxZSfuqYAAAAAXRSTlMAQObYZgAAAElJREFUeNpjwArYq6EMERcDCMN6D5TBzMEAZWRAGUJqDWCaUXnmDIiA1bLMBghjkiaYYTYrKQrMaJuZBmFwpE2FKGbo6GhAshkALmoPrUvQSeIAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.safely_harvest_honey.title",
+    "description": "advancements.husbandry.safely_harvest_honey.description"
+  },
+  "minecraft:husbandry/ride_a_boat_with_a_goat": {
+    "parrent": "minecraft:husbandry/root",
+    "frame": "task",
+    "iconId": "minecraft:oak_boat",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAG1BMVEUAAABHOiS8mGJZSC2fhE2DbD3Fpng5JBtvWji00CDNAAAAAXRSTlMAQObYZgAAAGpJREFUeNptz0sKQ0EIRNGuKj+1/xUH7ZAHSZzIPQPB83dsfEFBM5+mFEFa754EAFpPSrY4cBOlTHNuYw8CVOaFKDltUKFeYGVeoS6MFI2MlSZZFQHGIxXhHlk4HZXd54BMnZXu3QDw8/kLN68Cb365Uc4AAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.ride_a_boat_with_a_goat.title",
+    "description": "advancements.husbandry.ride_a_boat_with_a_goat.description"
+  },
+  "minecraft:husbandry/plant_seed": {
+    "parrent": "minecraft:husbandry/root",
+    "frame": "task",
+    "iconId": "minecraft:wheat",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAFVBMVEUAAADcu2XNsVmmlVONdz1/ajNWUTi//tJYAAAAAXRSTlMAQObYZgAAAFhJREFUeNpVjrcNBEEQwzRy/Zf8wJ/ZOWUkGAhnxmeNtioiZ2WNaUVv82cfhjymafcRHG2ORjSl9A1GdHpzOqODSFOlde4LVNsCvZJQbHFmJZvh9isKbP4B8UgB4E+3qN4AAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.plant_seed.title",
+    "description": "advancements.husbandry.plant_seed.description"
+  },
+  "minecraft:husbandry/place_dried_ghast_in_water": {
+    "parrent": "minecraft:husbandry/root",
+    "frame": "task",
+    "iconId": "minecraft:dried_ghast",
+    "icon": {
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAALVBMVEUAAACsmpqbjY2Afn5wb29wZGRlXFxTUlJISEhFPj4+ODgzMzMtLCwkIyMcGxtTVlHiAAAAAXRSTlMAQObYZgAAAPFJREFUeNrVUlViw1AMmx/bbt79jztLpXj0N1K5wsDLf0StIl/RpZTWSvmMFrC1huKjFHgb3vjxrkiE7PWtoipJuogU5pO8CfQk6L0AjL9CTJNgjsGUSrsUVbOTYIwQ9AGGsOCToI8rugBgiVyxqOii5IlcgRckN/pinhLIPQQez4vrG8HsCxkabqcmCXgUfcYHAoI9bJs8JkCAACQhHAl7q6WKuTqXRvhxrXgzsgc4kuTGWxLMwY2z694ez8NVzzeDSJghWLaxMh/EwGWyca/wIw2AANtx06ACE7A/Y4DGTRAVeqJzjLjF3LQtK2D8BrwCKSwLkMaIqk8AAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.place_dried_ghast_in_water.title",
+    "description": "advancements.husbandry.place_dried_ghast_in_water.description"
+  },
+  "minecraft:husbandry/obtain_sniffer_egg": {
+    "parrent": "minecraft:husbandry/root",
+    "frame": "task",
+    "iconId": "minecraft:sniffer_egg",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIVBMVEUAAAAfNzgmTUV4JTUva1aWMDqzQkBPgHFPnnHEWFFXGS6WBGZaAAAAAXRSTlMAQObYZgAAAGBJREFUeNpNzEkOwDAIBEEwq/n/g6MxccjcuoQgomJmpllZhOpQiUfmj8rM88jiD9whCwLokwxpKXll2yeHdqZdWKpqHunawgvi7jsuXAkFQDB8OjAiIkU0gga0gLqHOh/UrAMwV4TQygAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.obtain_sniffer_egg.title",
+    "description": "advancements.husbandry.obtain_sniffer_egg.description"
+  },
+  "minecraft:husbandry/make_a_sign_glow": {
+    "parrent": "minecraft:husbandry/root",
+    "frame": "task",
+    "iconId": "minecraft:glow_ink_sac",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJFBMVEUAAACA/8BL3rq9jIE6tbIyoaEvl5mRaF8Vc3QSbW4XUFAZMTEND/ZYAAAAAXRSTlMAQObYZgAAADxJREFUeNpjIARWLYDQXMVVUJHlq6EiXRDGqmUeq8G0mMuMDSDxEBdPLRCDu81RA6Jk9yJvoACYtQG/dQBa/hCPCUIWZQAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.make_a_sign_glow.title",
+    "description": "advancements.husbandry.make_a_sign_glow.description"
+  },
+  "minecraft:husbandry/fishy_business": {
+    "parrent": "minecraft:husbandry/root",
+    "frame": "task",
+    "iconId": "minecraft:fishing_rod",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAf0lEQVQ4y2NgGAiQkpLy38XF5T/Zmj3NRP9ryHGTbgDIVpDmDD850g2Aae5MVwdrJskL6JphYmRrhoUF2ZqJMoBQgJWUlPynKLTxuoAqmrds3gzGpqam/7G5EKdmWCqbNm0aVgOI0gzigzQia/4PBMg0BgBpxJc8QS7CqZkSAADs7H6sIgQ4AAAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.fishy_business.title",
+    "description": "advancements.husbandry.fishy_business.description"
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "parrent": "minecraft:husbandry/root",
+    "frame": "task",
+    "iconId": "minecraft:wheat",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAFVBMVEUAAADcu2XNsVmmlVONdz1/ajNWUTi//tJYAAAAAXRSTlMAQObYZgAAAFhJREFUeNpVjrcNBEEQwzRy/Zf8wJ/ZOWUkGAhnxmeNtioiZ2WNaUVv82cfhjymafcRHG2ORjSl9A1GdHpzOqODSFOlde4LVNsCvZJQbHFmJZvh9isKbP4B8UgB4E+3qN4AAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.breed_an_animal.title",
+    "description": "advancements.husbandry.breed_an_animal.description"
+  },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "parrent": "minecraft:husbandry/root",
+    "frame": "task",
+    "iconId": "minecraft:cookie",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGFBMVEUAAADomFDZgz65czWLSytXLxpLKBdFKhOKF3TuAAAAAXRSTlMAQObYZgAAAFpJREFUeNqNzzEOxDAMA0Hvipb//+ODdQiQMux2Oq6Pq9kr06oPlQAIZho2pAlyxS26my3UBSAIQgaQBhS5EBHTsPGstU7cMDNnjZRqW7dHTqqqcqb/NPv48wfCsQGUnbDkzQAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.allay_deliver_item_to_player.title",
+    "description": "advancements.husbandry.allay_deliver_item_to_player.description"
+  },
+  "minecraft:husbandry/whole_pack": {
+    "parrent": "minecraft:husbandry/tame_an_animal",
+    "frame": "challenge",
+    "iconId": "minecraft:bone",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAElBMVEUAAAD///38++3o5dLLxqV7fmuVDo9QAAAAAXRSTlMAQObYZgAAADtJREFUeNqNz7ENADAMAkFj+P1XTk2KKHRHYZl5Jc7lhSpWa6pYhzLQnvl22rZUXkn0w3IfxGEq8Jh8AHk/AOKbFvVMAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.whole_pack.title",
+    "description": "advancements.husbandry.whole_pack.description"
+  },
+  "minecraft:husbandry/wax_on": {
+    "parrent": "minecraft:husbandry/safely_harvest_honey",
+    "frame": "task",
+    "iconId": "minecraft:honeycomb",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAElBMVEUAAAD63in6vynqjhbleyTVayvu/TBzAAAAAXRSTlMAQObYZgAAAFdJREFUeNp1jLENgEAQwz7xef+VKQ4kKHBnK8pZZs6HSebrkNnV7kNj4+0tCYW4Lpkx9AkQgYQNJIMW3A9BNLZPaW0oeLsE3gFiSz2LCWV9UYueN3p+uADn9AGu+0rk4AAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.wax_on.title",
+    "description": "advancements.husbandry.wax_on.description"
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "parrent": "minecraft:husbandry/fishy_business",
+    "frame": "task",
+    "iconId": "minecraft:pufferfish_bucket",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAASFBMVEUAAACjcRe/hBt+qL1Cm7q2eCbYlRr7pwz/yQg1iqgdLCb85bz6+vruz5vSpE3///9Eb+kjT8w0X9rY2NioqKhycnKWlpY1NTU5DYdgAAAAAXRSTlMAQObYZgAAAH1JREFUeNoFwcFtwzAUBTC+LylGgAI9ev/xPEHTWpZKAgCgtSFHckQh+rbyYs12I7w/77qzrWdvis9I7t52VOsa57P3uJd5PJk6vn5r/vj2+ntdOqYx+s5Y0KEmeywDBZmqsFAIFKAQWCgE5yRqJxcFQQEKVwt2ciHgBBf8A98WLD12aXLMAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.tactical_fishing.title",
+    "description": "advancements.husbandry.tactical_fishing.description"
+  },
+  "minecraft:husbandry/repair_wolf_armor": {
+    "parrent": "minecraft:husbandry/tame_an_animal",
+    "frame": "task",
+    "iconId": "minecraft:wolf_armor",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAIVBMVEUAAADGiIS2e3atcW2Ze2CgZGCWWVR5XkeCSEhxPj5cLTA4I3JnAAAAAXRSTlMAQObYZgAAAEtJREFUeNpjwAI4mIOMQDSz8tKkoBWqAgysZkubUleGCTD9NmJUBkoIMDHMZ2JwYHQpYGBg4Vq1iqEArI+dgcEBxaB0KGZoAGNiAABtWgykz0PucgAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.repair_wolf_armor.title",
+    "description": "advancements.husbandry.repair_wolf_armor.description"
+  },
+  "minecraft:husbandry/remove_wolf_armor": {
+    "parrent": "minecraft:husbandry/tame_an_animal",
+    "frame": "task",
+    "iconId": "minecraft:shears",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAG1BMVEUAAADV1dWoqKhwcHCmTz+LQzZvNStCQkJcLR/CipSaAAAAAXRSTlMAQObYZgAAAEhJREFUeNqVzDESgEAIQ9EQJHD/EzvoDGypv3spgu+JZjztba6DbRtfr21c/pg7ADR6HYZTNY8FSGOQkiLWgEfUGA5kc8vEn26f6QFCsmQsWgAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.remove_wolf_armor.title",
+    "description": "advancements.husbandry.remove_wolf_armor.description"
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "parrent": "minecraft:husbandry/plant_seed",
+    "frame": "challenge",
+    "iconId": "minecraft:netherite_hoe",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAbElEQVR42mOgKfDStPsPw2Rpbqtug2HyDJEWEf0PwgXpBWBDjNTV/+srKv1PMDH6T7JBsWGxYIOKXZ1BhpLuGqDNYEP8bexINwDqbJBGsjRT4myEzSA+fW12dqBAs7WlNUU209XPmMmWgd4AAO5pU4PA7PyXAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.netherite_hoe.title",
+    "description": "advancements.husbandry.netherite_hoe.description"
+  },
+  "minecraft:husbandry/leash_all_frog_variants": {
+    "parrent": "minecraft:husbandry/tadpole_in_a_bucket",
+    "frame": "task",
+    "iconId": "minecraft:lead",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAG1BMVEUAAACFRhuuc0umm5O1qJ9yYFSLcF+mZz1eLxCyzwsuAAAAAXRSTlMAQObYZgAAAEpJREFUeNqNj0EKgEAMA5usmvn/i0UEu4gLzqVkILStf8i2oylLQBusHhco9WkUnhJJIlPVCm2DmmHs72tYidyxdyh2TBcOAFaPnrehAXmOdEC6AAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.leash_all_frog_variants.title",
+    "description": "advancements.husbandry.leash_all_frog_variants.description"
+  },
+  "minecraft:husbandry/feed_snifflet": {
+    "parrent": "minecraft:husbandry/obtain_sniffer_egg",
+    "frame": "task",
+    "iconId": "minecraft:torchflower_seeds",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIVBMVEUAAADTulStpFKFi053bUYog1wjb0sibkodWjkcWTgURjMXxLZDAAAAAXRSTlMAQObYZgAAAFRJREFUeNoFwYEBAyEIBLAIaO/Zf+AmAAAANg8A2AcA7Hd/ALDsFwB3sSyA8IJ94C1U3AD20qeQC4KuQkAqTDUqkNPMoE+Bqga6GnQNMAOYAQAAwB/aCwF91gLzjwAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.feed_snifflet.title",
+    "description": "advancements.husbandry.feed_snifflet.description"
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "parrent": "minecraft:husbandry/tame_an_animal",
+    "frame": "challenge",
+    "iconId": "minecraft:cod",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAFVBMVEUBAQGYbU7GonGxiVPWxa0AAABrRCsXNcZKAAAAAXRSTlMAQObYZgAAAEtJREFUeNp9zzESwDAMAkFxKPz/yWnijOzCdHsddRs+QrcO41XskrClz93CSMkKYJxakzFWfoO7GUHsBmGN8GCGS7C5YiupsSSXyy+GAwEOdr/hlwAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.complete_catalogue.title",
+    "description": "advancements.husbandry.complete_catalogue.description"
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "parrent": "minecraft:husbandry/breed_an_animal",
+    "frame": "challenge",
+    "iconId": "minecraft:golden_carrot",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIVBMVEUAAAD+/+bq7lfsy0XbohOyZBFxUAhXPQZTKQZUEgkwFgBLt1TOAAAAAXRSTlMAQObYZgAAAFZJREFUeNp9i0kOwDAIAwmryf8fXKEmDarUWlzGY+gr7vFqwkEeje47HsXtK0WBmNhswqw5EdgFD5Zq1sZ0DFFLnAGLak7CYuXy9MRKd176FKV7MukvF0a5Aj/F1yF7AAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.breed_all_animals.title",
+    "description": "advancements.husbandry.breed_all_animals.description"
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "parrent": "minecraft:husbandry/plant_seed",
+    "frame": "challenge",
+    "iconId": "minecraft:apple",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAIVBMVEUAAAD/lp3/Xmn/HCvdFyV+Nw60Ex51KAKcEBdUJAlUCQ5dkieqAAAAAXRSTlMAQObYZgAAAFhJREFUeNp9z0EOgEAIQ1GQ2jLc/8BmxhCNUbv7L2yw7+nR+/g9yNSQrqRzJCh1x+buW1BqWEOwAYEAEKgFIgESvAFnM1jWgkndppwJZoNVMvPsFklV708fJ30CoAEZcEMAAAAASUVORK5CYII=",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.balanced_diet.title",
+    "description": "advancements.husbandry.balanced_diet.description"
+  },
+  "minecraft:husbandry/allay_deliver_cake_to_note_block": {
+    "parrent": "minecraft:husbandry/allay_deliver_item_to_player",
+    "frame": "task",
+    "iconId": "minecraft:note_block",
+    "icon": {
+      "src": "data:image/png;base64, UklGRh4CAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSDAAAAABDzD/ERFCQSSpTYoAJGEdSQhgpqcqiOj/BLRzwYJUZ2JVSKKKf7EqJFKdqQm24hhWUDggyAEAADALAJ0BKiAAIAA+bTKVR6QioiEoCACADYlsAJ0yhHV3gH5Acsluc2GcCQ/+gD7jt8Bz0GmAbyXMPno+LNzgH9Ond3kX/INSz/v/7fz2v8dBqaa4eZa0tjGoRPNFWL6NNaegANb0P6h7c8Q1p/hXh5HrelkLLh7Ysf/pFxoTngAXbDDhdoPG1m8TQ8FfJSZxmktUQ2BaB1MQZstb/VuOz0xXNw36LroAxcduLg2xw1jN1zOshrGV23H0PwY3m4fDi/SnZe5xQlOMxuSYf/vCJc87K0M03If9Ot5CabSrTMn464dUy15a7wh4edIZdH+qyT9c5EoH84MJ4IPbnYN8F6DvG/F78b/icl5gpmVe5d5D/icApYuEbPgaM4fDiVMdppYogR8lSAxlGdWrygQUxPc2Ryyqtbp2aRR/253dIR8eHwblqnq3f3/FRL3nMasPSNDR9SvYW6ujaA3aePc5hiICqW274ha/BjgafqCNaVUYRnioBWX2cSfn9wwhOpXMo59DWCd7emKQoG+N4UAEdgsgyV/yw01YZpOpWecqwG5BKbzVNoZ+KwMuHdmYptaE0U8JsuAo/olsw98VbqccX7Rn+CUhRHAAAA==",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.allay_deliver_cake_to_note_block.title",
+    "description": "advancements.husbandry.allay_deliver_cake_to_note_block.description"
+  },
+  "minecraft:husbandry/wax_off": {
+    "parrent": "minecraft:husbandry/wax_on",
+    "frame": "task",
+    "iconId": "minecraft:stone_axe",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAIVBMVEUAAACampqJiYl/f39sbGyJZydoTh5JSUlJNhUoHgsYGBjWYkmQAAAAAXRSTlMAQObYZgAAAD9JREFUeNpjQAHsBVBGoThUQFgdKmBskQBmLFR2ngBmcK0wsYLItU2GMDgiuRZABIAqwAKZUONacQkwzGRABQBo6wxNqlW2uwAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.wax_off.title",
+    "description": "advancements.husbandry.wax_off.description"
+  },
+  "minecraft:husbandry/plant_any_sniffer_seed": {
+    "parrent": "minecraft:husbandry/feed_snifflet",
+    "frame": "task",
+    "iconId": "minecraft:pitcher_pod",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAG1BMVEUAAADbtXLRmWKtZT9+VU17QyRlPzNNMCY2JRsySJE7AAAAAXRSTlMAQObYZgAAAFpJREFUeNp1zzEOBDEIQ1ESzDf3P/EWSzSKRuPOT1A4PiIR+Opb4gjKvTKXBizByto50MIpPT+NS1Ii9x9cFiJxxwggygeisaG644DtuT/Snn7R28Bxx/3e/QNjHAKRVlwYHwAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.plant_any_sniffer_seed.title",
+    "description": "advancements.husbandry.plant_any_sniffer_seed.description"
+  },
+  "minecraft:husbandry/froglights": {
+    "parrent": "minecraft:husbandry/leash_all_frog_variants",
+    "frame": "challenge",
+    "iconId": "minecraft:verdant_froglight",
+    "icon": {
+      "src": "data:image/png;base64, UklGRnQBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSC8AAAABDzD/ERECQeI2OpiASZr1SZqAhxp4ARH9D7DFNW9IbFKX9Evmj0t6k5Lwhmu2AABWUDggHgEAAHAGAJ0BKiAAIAA+bSyTRqQiIaEwGAgAgA2JZwCdICZmuEjq59LwJP2Wo+xFcYKMU84YKHvPTBr8yXxUoAD+/NdNrIBHqWOqClQatvoBRYxj9o7hfk0vfE9UJ0rzm8vKrGvbbuGu6XRfQLKBau0Ayw/QkYCN2fBlJKhjyZKDME06afOXT3GXZKgYON9h0M61y0Hh+7cF5/yaon6MgmP/6WdA2urvtq1CRdU5uYS7H9xIJs4o/l/irqm/sp9BGBwtm0eWXBtGp600zpabqDpHIFzFddVnAd1YrtexMNvFOjhBctzCYCzgX/L7tDWzNQ+iKexXaul23VNVtsPAAVLTZMnFWhOGdU7DW0fEP87icXLJHuH03F/zS08EiOkVYAA=",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.froglights.title",
+    "description": "advancements.husbandry.froglights.description"
+  },
+  "minecraft:husbandry/axolotl_in_a_bucket": {
+    "parrent": "minecraft:husbandry/tactical_fishing",
+    "frame": "task",
+    "iconId": "minecraft:axolotl_bucket",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAOVBMVEUAAAD/////4vP8yOfY2NjpjtWoqKjycJOWlpbgYJTWTomxV55ycnJEb+nRNnQ0X9ojT8w1NTU6AGzhAOAvAAAAAXRSTlMAQObYZgAAAHJJREFUeNpFzlESwyAIBFBbcbXGiuT+h40Jq+FD5MnOGO76BTavHHK9e50Xf8jx+1TM3KnnHCaelZF3wyM2EmuYg9qhquMwIwiSjb+lVhb02KHz2IAOoPUGAkQEWtqGJh8BJjASzIEzMyiEJVzYYrZ+dQG/aAXHrFzbwgAAAABJRU5ErkJggg==",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.axolotl_in_a_bucket.title",
+    "description": "advancements.husbandry.axolotl_in_a_bucket.description"
+  },
+  "minecraft:husbandry/kill_axolotl_target": {
+    "parrent": "minecraft:husbandry/axolotl_in_a_bucket",
+    "frame": "task",
+    "iconId": "minecraft:tropical_fish_bucket",
+    "icon": {
+      "src": "data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAOVBMVEUAAAC7UCwjT8xpLgn0byD72MLvvaHfWQrrsI/1ikgAAABEb+n///80X9rY2NioqKhycnKWlpY1NTXbytgFAAAAAXRSTlMAQObYZgAAAGhJREFUeNptzuEOhCAMA+AbFM47xEHf/2EV3Qwm7l+/rEk/rxdF5JG/+CcRzoAkuIlRlpyBnEwY4gL8kBAMyFJLqYE02JQcsXWH47T2NsF6gRroAJ2gHeAV74yPM3tn027gonf2bb5qBxk1B3v+Mw6FAAAAAElFTkSuQmCC",
+      "type": "blob"
+    },
+    "title": "advancements.husbandry.kill_axolotl_target.title",
+    "description": "advancements.husbandry.kill_axolotl_target.description"
+  }
+}
