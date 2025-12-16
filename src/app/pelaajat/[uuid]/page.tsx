@@ -16,20 +16,6 @@ import advancements from "@/components/Advancements/advancements";
 
 type Params = Promise<{ uuid: string }>;
 
-// export async function generateStaticParams() {
-//   const players = await getAllPlayerNames()
-
-//   const names = players.map((player) => ({
-//     slug: player.name
-//   }))
-
-//   const uuids = players.map((player) => ({
-//     slug: player.uuid
-//   }))
-
-//   return [...names, ...uuids]
-// }
-
 export async function generateMetadata({
   params,
 }: {
@@ -45,8 +31,8 @@ export async function generateMetadata({
     const player = await getPlayer(uuidValidation.data as UUID);
     if (player === null) return null;
     return {
-      title: `${player.name} - profiili`,
-      description: `Pelaajan ${player.name} tiedot LaniMC:ssä`,
+      title: `${player.name} - profiili - Työleiri.fi`,
+      description: `Pelaajan ${player.name} tiedot Työleirillä`,
     };
   }
 }

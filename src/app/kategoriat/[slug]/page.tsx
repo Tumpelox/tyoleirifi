@@ -6,6 +6,28 @@ import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import { DisplaySettings, getCategory } from "../getCategory";
 import PrintTime from "@/components/PrintTime";
+import { Metadata } from "next";
+
+type Params = Promise<{ slug: string }>;
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Params;
+}): Promise<Metadata | null> {
+  const { slug } = await params;
+
+  const category = await getCategory(slug);
+
+  if (!category) {
+    return null;
+  } else {
+    return {
+      title: `${category.title} - Työleiri.fi`,
+      description: category.description,
+    };
+  }
+}
 
 const valueToOutputString = (
   value: number | string,
@@ -47,11 +69,7 @@ const totalValue = (value: number, display: DisplaySettings) => {
   }
 };
 
-export default async function Page({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
+export default async function Page({ params }: { params: Params }) {
   const { slug } = await params;
 
   const data = await getCategory(slug);

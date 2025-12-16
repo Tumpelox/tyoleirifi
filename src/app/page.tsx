@@ -2,12 +2,6 @@ import RecentPlayers from "@/components/RecentPlayers";
 import { getOnlinePlayerProfiles } from "@/services/online";
 import { getPlayerProfiles } from "@/services/playerProfile";
 
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "LaniMC",
-  description: "Pelataanpa sitä minee",
-};
 
 export default async function Home() {
   const onlinePlayers = await getOnlinePlayerProfiles();

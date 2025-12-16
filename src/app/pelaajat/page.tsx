@@ -5,8 +5,7 @@ import { getPlayerProfiles } from "@/services/playerProfile";
 import { Suspense } from "react";
 
 export const metadata = {
-  title: "LaniMC - pelaajat",
-  description: "LaniMC pelaajat",
+  title: "Työleiri.fi - Pelaajat",
 };
 
 export default async function Home() {

@@ -23,11 +23,10 @@ export const metadata: Metadata = {
     title: "Työleiri.fi - Minecraft yhteisö",
     description:
       "Työleiri.fi on laajennetun kaveripiirin Minecraft yhteisöpalvelin, jossa vallitsee äärimmmäinen kapitalismi ja yhteisöllisyys.",
-    url: "https://tyoleiri.fi",
     siteName: "Työleiri.fi",
     images: [
       {
-        url: "https://tyoleiri.fi/2025.png",
+        url: "/2025.png",
         width: 1366,
         height: 768,
         alt: "Työleiri.fi - Minecraft Yhteisöpalvelin",
