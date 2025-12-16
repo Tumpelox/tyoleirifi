@@ -8,6 +8,8 @@ export const metadata = {
   title: "Työleiri.fi - Pelaajat",
 };
 
+export const dynamic = "force-dynamic";
+
 export default async function Home() {
   const playerData = await getPlayerProfiles();
   const onlinePlayers = await getOnlinePlayers();

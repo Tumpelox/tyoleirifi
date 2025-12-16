@@ -2,6 +2,7 @@ import RecentPlayers from "@/components/RecentPlayers";
 import { getOnlinePlayerProfiles } from "@/services/online";
 import { getPlayerProfiles } from "@/services/playerProfile";
 
+export const dynamic = "force-dynamic";
 
 export default async function Home() {
   const onlinePlayers = await getOnlinePlayerProfiles();
