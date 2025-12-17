@@ -1,6 +1,9 @@
+"use cache";
+
 import ProfileLink from "@/components/ProfileLink";
 import { getOnlinePlayers } from "@/services/online";
 import { getPlayerProfiles } from "@/services/playerProfile";
+import { cacheLife } from "next/cache";
 
 import { Suspense } from "react";
 
@@ -8,9 +11,13 @@ export const metadata = {
   title: "Työleiri.fi - Pelaajat",
 };
 
-export const dynamic = "force-dynamic";
-
 export default async function Home() {
+  cacheLife({
+    stale: 300,
+    revalidate: 600,
+    expire: 3600,
+  });
+
   const playerData = await getPlayerProfiles();
   const onlinePlayers = await getOnlinePlayers();
 

@@ -1,10 +1,17 @@
+"use cache";
+
 import RecentPlayers from "@/components/RecentPlayers";
 import { getOnlinePlayerProfiles } from "@/services/online";
 import { getPlayerProfiles } from "@/services/playerProfile";
-
-export const dynamic = "force-dynamic";
+import { cacheLife } from "next/cache";
 
 export default async function Home() {
+  cacheLife({
+    stale: 300,
+    revalidate: 600,
+    expire: 3600,
+  });
+
   const onlinePlayers = await getOnlinePlayerProfiles();
 
   const recentPlayers = (

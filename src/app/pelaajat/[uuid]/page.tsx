@@ -111,7 +111,7 @@ export default async function Home({ params }: { params: Params }) {
                 )}
               </div>
             )}
-            <div className="bg-linear-to-r from-tumma/35 to-tumma/40 rounded-sm p-4 w-full grow">
+            <div className="@container bg-linear-to-r from-tumma/35 to-tumma/40 rounded-sm p-4 w-full grow">
               <table className="border-separate border-spacing-4">
                 <tbody>
                   <tr className="border-b-tumma border-b-2">
@@ -150,7 +150,7 @@ export default async function Home({ params }: { params: Params }) {
                 </tbody>
               </table>
               <Advancements
-                className="flex gap-4"
+                className="grid grid-cols-3 @lg:grid-cols-6 gap-4 mt-4"
                 showOnlyCompleted
                 hideTitle
                 advancements={Object.keys(playerAdvancements)
@@ -162,7 +162,7 @@ export default async function Home({ params }: { params: Params }) {
                     };
                   })
                   .sort((a, b) => b.value - a.value)
-                  .slice(0, 5)
+                  .slice(0, 6)
                   .reduce((acc: Record<string, string>, cur) => {
                     return { ...acc, [cur.key]: playerAdvancements[cur.key] };
                   }, {})}
