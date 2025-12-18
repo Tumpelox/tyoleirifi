@@ -1,9 +1,12 @@
+"use server";
+
 import { PlayerData, PlayerProfile, UUID } from "@/models";
 import { getAdvancement, getStatistic } from "@/services/playerData";
 import { evaluate } from "mathjs";
 import categories from "./categories";
 import { getPlayerProfile } from "@/services/playerProfile";
 import { getPlaytime } from "@/services/playtime";
+import { cacheLife } from "next/cache";
 
 export interface Kategoria {
   slug: string;
@@ -94,6 +97,10 @@ const calculate = (
 };
 
 export const getCategory = async (slug: string) => {
+  "use cache";
+
+  cacheLife("default");
+
   const time1 = Date.now();
 
   const category = categories.find((category) => category.slug === slug);

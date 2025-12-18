@@ -7,8 +7,8 @@ import { cacheLife } from "next/cache";
 
 export default async function Home() {
   cacheLife({
-    stale: 300,
-    revalidate: 600,
+    stale: 120,
+    revalidate: 60,
     expire: 3600,
   });
 
