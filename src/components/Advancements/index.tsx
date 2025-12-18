@@ -10,6 +10,7 @@ const Advancements = async ({
   filter = "",
   showOnlyCompleted = false,
   hideTitle = false,
+  sortFunction = () => 0,
   advancements,
 }: {
   children?: React.ReactNode;
@@ -17,6 +18,7 @@ const Advancements = async ({
   filter?: string;
   showOnlyCompleted?: boolean;
   hideTitle?: boolean;
+  sortFunction?: (a: string, b: string) => number;
   advancements: Record<string, string>;
 }) => {
   return (
@@ -30,6 +32,7 @@ const Advancements = async ({
             return true;
           }
         })
+        .sort(sortFunction)
         .map((key, index) => {
           return (
             <div

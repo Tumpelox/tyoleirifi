@@ -76,6 +76,23 @@ async function PlayerContent({ uuid }: { uuid: Promise<string> }) {
   const advancementsStyling =
     "grid grid-cols-3 @md:grid-cols-4 @lg:grid-cols-5 @xl:grid-cols-6 @3xl:grid-cols-8 @5xl:grid-cols-10 @6xl:grid-cols-12 gap-4 bg-linear-to-r from-tumma/35 to-tumma/40 rounded-sm py-8 px-4";
 
+  const recentAdvancements = Object.keys(playerAdvancements)
+    .filter((key) => advancements[key] !== undefined)
+    .map((key) => {
+      return {
+        key: key,
+        value: new Date(playerAdvancements[key]).getTime(),
+      };
+    })
+    .sort((a, b) => b.value - a.value)
+    .slice(0, 6)
+    .reduce((acc: Record<string, string>, cur) => {
+      return {
+        ...acc,
+        [cur.key]: playerAdvancements[cur.key],
+      };
+    }, {});
+
   return (
     <>
       <div className="flex flex-col @md:grid @md:grid-cols-5 gap-8 w-full">
@@ -159,19 +176,11 @@ async function PlayerContent({ uuid }: { uuid: Promise<string> }) {
               className="grid grid-cols-3 @lg:grid-cols-6 gap-4 mt-4"
               showOnlyCompleted
               hideTitle
-              advancements={Object.keys(playerAdvancements)
-                .filter((key) => advancements[key] !== undefined)
-                .map((key) => {
-                  return {
-                    key: key,
-                    value: new Date(playerAdvancements[key]).getTime(),
-                  };
-                })
-                .sort((a, b) => b.value - a.value)
-                .slice(0, 6)
-                .reduce((acc: Record<string, string>, cur) => {
-                  return { ...acc, [cur.key]: playerAdvancements[cur.key] };
-                }, {})}
+              sortFunction={(a, b) =>
+                new Date(recentAdvancements?.[b]).getTime() -
+                new Date(recentAdvancements?.[a]).getTime()
+              }
+              advancements={recentAdvancements}
             />
           </div>
         </div>
