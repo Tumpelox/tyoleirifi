@@ -4,6 +4,7 @@ import RecentPlayers from "@/components/RecentPlayers";
 import { getOnlinePlayerProfiles } from "@/services/online";
 import { getPlayerProfiles } from "@/services/playerProfile";
 import { cacheLife } from "next/cache";
+import { Suspense } from "react";
 
 export default async function Home() {
   cacheLife({
@@ -27,10 +28,12 @@ export default async function Home() {
   return (
     <>
       <h1 className="text-4xl font-bold">LaniMC</h1>
-      <RecentPlayers
-        initialOnlinePlayers={onlinePlayers}
-        initialRecentPlayers={recentPlayers ?? []}
-      />
+      <Suspense>
+        <RecentPlayers
+          initialOnlinePlayers={onlinePlayers}
+          initialRecentPlayers={recentPlayers ?? []}
+        />
+      </Suspense>
     </>
   );
 }

@@ -7,7 +7,12 @@ import { sortPlayersByName } from "@/utils/sortingFunctions";
 export const getOnlinePlayers = async () => {
   try {
     const playersResponse = await fetch(
-      `${process.env.API_URL}/players/online`
+      `${process.env.API_URL}/players/online`,
+      {
+        headers: {
+          Authorization: process.env.API_KEY ?? "",
+        },
+      }
     );
 
     if (!playersResponse.ok) {
