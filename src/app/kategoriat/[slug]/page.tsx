@@ -7,6 +7,7 @@ import { Suspense } from "react";
 import { DisplaySettings, getCategory } from "../getCategory";
 import PrintTime from "@/components/PrintTime";
 import { Metadata } from "next";
+import Image from "next/image";
 
 type Params = Promise<{ slug: string }>;
 
@@ -85,6 +86,18 @@ const CategoryContent = async ({ slug }: { slug: Promise<string> }) => {
   return (
     <>
       <h1 className="text-4xl font-bold ">{data.title}</h1>
+      {data.values.length === 0 && (
+        <div className="flex flex-col w-full items-center">
+          <Image
+            src="/snowgolem.png"
+            alt="Snow Golem"
+            width={300}
+            height={300}
+            className="mx-auto my-4 h-40 w-24"
+          />
+          <p>Tässä kategoriassa ei ole vielä dataa.</p>
+        </div>
+      )}
       {data.values.length > 0 && (
         <>
           <div className="relative w-full grid grid-flow-row sm:gap-5 sm:grid-cols-3 sm:justify-between">
