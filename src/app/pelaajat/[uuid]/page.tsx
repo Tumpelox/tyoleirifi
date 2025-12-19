@@ -14,6 +14,7 @@ import { getOnlinePlayers } from "@/services/online";
 import PlayerStreak from "@/components/PlayerStreak";
 import advancements from "@/components/Advancements/advancements";
 import defaultMetadata from "@/app/metadata";
+import PrintTime from "@/components/PrintTime";
 
 type Params = Promise<{ uuid: string }>;
 
@@ -149,8 +150,10 @@ async function PlayerContent({ uuid }: { uuid: Promise<string> }) {
             <table className="border-separate border-spacing-4">
               <tbody>
                 <tr className="border-b-tumma border-b-2">
-                  <td className="font-bold">Pelitunnit:</td>
-                  <td>{(playerProfile.playTime / 3600).toFixed(2)} tuntia</td>
+                  <td className="font-bold">Peliaika:</td>
+                  <td>
+                    <PrintTime duration={playerProfile.playTime} />
+                  </td>
                 </tr>
                 <tr>
                   <td className="font-bold">Viimeksi paikalla:</td>
