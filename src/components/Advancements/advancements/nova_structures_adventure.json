@@ -7,7 +7,7 @@
       "type": "blob"
     },
     "title": "nova_structures.adventure.find_all_illager_structures.title",
-    "description": "nova_structures.adventure.find_all_illager_structures"
+    "description": "nova_structures.adventure.find_all_illager_structures.description"
   },
   "nova_structures:adventure/find_tavern": {
     "frame": "task",
@@ -17,7 +17,7 @@
       "type": "blob"
     },
     "title": "nova_structures.adventure.find_tavern.title",
-    "description": "nova_structures.adventure.find_tavern"
+    "description": "nova_structures.adventure.find_tavern.description"
   },
   "nova_structures:adventure/find_illager_mansion": {
     "frame": "task",
@@ -27,7 +27,7 @@
       "type": "blob"
     },
     "title": "nova_structures.adventure.find_illager_mansion.title",
-    "description": "nova_structures.adventure.find_illager_mansion"
+    "description": "nova_structures.adventure.find_illager_mansion.description"
   },
   "nova_structures:adventure/find_pillager_outpost": {
     "frame": "task",
@@ -37,7 +37,7 @@
       "type": "blob"
     },
     "title": "nova_structures.adventure.find_pillager_outpost.title",
-    "description": "nova_structures.adventure.find_pillager_outpost"
+    "description": "nova_structures.adventure.find_pillager_outpost.description"
   },
   "nova_structures:adventure/find_swamp_village": {
     "frame": "task",
@@ -47,7 +47,7 @@
       "type": "blob"
     },
     "title": "nova_structures.adventure.find_swamp_village.title",
-    "description": "nova_structures.adventure.find_swamp_village"
+    "description": "nova_structures.adventure.find_swamp_village.description"
   },
   "nova_structures:adventure/loot_illager_hideout": {
     "frame": "task",
@@ -57,7 +57,7 @@
       "type": "blob"
     },
     "title": "nova_structures.adventure.loot_illager_hideout.title",
-    "description": "nova_structures.adventure.loot_illager_hideout"
+    "description": "nova_structures.adventure.loot_illager_hideout.description"
   },
   "nova_structures:adventure/tavern_quest": {
     "frame": "task",
@@ -67,6 +67,6 @@
       "type": "blob"
     },
     "title": "nova_structures.adventure.tavern_quest.title",
-    "description": "nova_structures.adventure.tavern_quest"
+    "description": "nova_structures.adventure.tavern_quest.description"
   }
 }

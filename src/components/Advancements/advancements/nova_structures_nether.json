@@ -7,7 +7,7 @@
       "type": "blob"
     },
     "title": "nova_structures.nether.find_nether_skeleton.title",
-    "description": "nova_structures.nether.find_nether_skeleton"
+    "description": "nova_structures.nether.find_nether_skeleton.description"
   },
   "nova_structures:nether/find_piglins": {
     "frame": "challenge",
@@ -17,7 +17,7 @@
       "type": "blob"
     },
     "title": "nova_structures.nether.find_piglins.title",
-    "description": "nova_structures.nether.find_piglins"
+    "description": "nova_structures.nether.find_piglins.description"
   },
   "nova_structures:nether/find_piglin_outpost": {
     "frame": "task",
@@ -27,7 +27,7 @@
       "type": "blob"
     },
     "title": "nova_structures.nether.find_piglin_outpost.title",
-    "description": "nova_structures.nether.find_piglin_outpost"
+    "description": "nova_structures.nether.find_piglin_outpost.description"
   },
   "nova_structures:nether/find_skeleton_tower": {
     "frame": "task",
@@ -37,7 +37,7 @@
       "type": "blob"
     },
     "title": "nova_structures.nether.find_skeleton_tower.title",
-    "description": "nova_structures.nether.find_skeleton_tower"
+    "description": "nova_structures.nether.find_skeleton_tower.description"
   },
   "nova_structures:nether/powder_snow": {
     "frame": "challenge",
@@ -47,6 +47,6 @@
       "type": "blob"
     },
     "title": "nova_structures.nether.powder_snow.title",
-    "description": "nova_structures.nether.powder_snow"
+    "description": "nova_structures.nether.powder_snow.description"
   }
 }
