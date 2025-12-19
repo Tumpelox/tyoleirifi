@@ -26,14 +26,21 @@ export const metadata: Metadata = {
     siteName: "Työleiri.fi",
     images: [
       {
-        url: "/2025.png",
-        width: 1366,
-        height: 768,
+        url: "https://storage.googleapis.com/nettisivusifi_testi/2025.webp",
+        width: 1200,
+        height: 630,
         alt: "Työleiri.fi - Minecraft Yhteisöpalvelin",
       },
     ],
     locale: "fi_FI",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Työleiri.fi - Minecraft yhteisö",
+    description:
+      "Työleiri.fi on laajennetun kaveripiirin Minecraft yhteisöpalvelin, jossa vallitsee äärimmmäinen kapitalismi ja yhteisöllisyys.",
+    images: ["https://storage.googleapis.com/nettisivusifi_testi/2025.webp"],
   },
 };
 
