@@ -5,44 +5,13 @@ import Image from "next/image";
 import tausta from "@/images/2025.png";
 import logo from "@/images/logo.png";
 import valikko from "@/images/menu_background.png";
-import { Metadata, Viewport } from "next";
+import { Viewport } from "next";
 
 const inter = Playfair_Display({ subsets: ["latin"] });
 
 interface RootLayoutProps {
   children: React.ReactNode;
 }
-
-export const metadata: Metadata = {
-  title: "Työleiri.fi - Minecraft yhteisö",
-  description:
-    "Työleiri.fi on laajennetun kaveripiirin Minecraft yhteisöpalvelin, jossa vallitsee äärimmmäinen kapitalismi ja yhteisöllisyys.",
-  authors: [{ name: "Pelipauppi" }],
-  manifest: "/site.webmanifest",
-  openGraph: {
-    title: "Työleiri.fi - Minecraft yhteisö",
-    description:
-      "Työleiri.fi on laajennetun kaveripiirin Minecraft yhteisöpalvelin, jossa vallitsee äärimmmäinen kapitalismi ja yhteisöllisyys.",
-    siteName: "Työleiri.fi",
-    images: [
-      {
-        url: "https://storage.googleapis.com/nettisivusifi_testi/2025.webp",
-        width: 1200,
-        height: 630,
-        alt: "Työleiri.fi - Minecraft Yhteisöpalvelin",
-      },
-    ],
-    locale: "fi_FI",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Työleiri.fi - Minecraft yhteisö",
-    description:
-      "Työleiri.fi on laajennetun kaveripiirin Minecraft yhteisöpalvelin, jossa vallitsee äärimmmäinen kapitalismi ja yhteisöllisyys.",
-    images: ["https://storage.googleapis.com/nettisivusifi_testi/2025.webp"],
-  },
-};
 
 export const viewport: Viewport = {
   width: "device-width",

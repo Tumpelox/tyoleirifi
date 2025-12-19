@@ -3,8 +3,12 @@
 import RecentPlayers from "@/components/RecentPlayers";
 import { getOnlinePlayerProfiles } from "@/services/online";
 import { getPlayerProfiles } from "@/services/playerProfile";
+import { Metadata } from "next";
 import { cacheLife } from "next/cache";
 import { Suspense } from "react";
+import defaultMetadata from "@/app/metadata";
+
+export const metadata: Metadata = defaultMetadata;
 
 export default async function Home() {
   cacheLife({

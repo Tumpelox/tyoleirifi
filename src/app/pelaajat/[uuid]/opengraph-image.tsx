@@ -57,13 +57,13 @@ export default async function Image({
       { input: backgroundBuffer, blend: "over" },
       { input: resizedPlayerHead, blend: "over", gravity: "center" },
     ])
-    .png()
+    .webp()
     .toBuffer();
 
   return new Response(compositeImage.buffer as ArrayBuffer, {
     status: 200,
     headers: {
-      "Content-Type": "image/png",
+      "Content-Type": "image/webp",
       "Cache-Control": "public, max-age=86400, stale-while-revalidate=3600",
     },
   });

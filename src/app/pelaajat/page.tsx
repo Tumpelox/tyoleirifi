@@ -4,11 +4,15 @@ import ProfileLink from "@/components/ProfileLink";
 import { getOnlinePlayers } from "@/services/online";
 import { getPlayerProfiles } from "@/services/playerProfile";
 import { cacheLife } from "next/cache";
-
 import { Suspense } from "react";
 
+import defaultMetadata from "@/app/metadata";
+
 export const metadata = {
+  ...defaultMetadata,
   title: "Työleiri.fi - Pelaajat",
+  description:
+    "Työleirin pelaajalistasta löydät kaikki pelaajat ja pääset tarkastelemaan profiileja.",
 };
 
 const PelaajatContent = async () => {

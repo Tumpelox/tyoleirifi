@@ -2,6 +2,14 @@ import categories from "./categories";
 import Image from "next/image";
 import Link from "next/link";
 
+import defaultMetadata from "@/app/metadata";
+
+export const metadata = {
+  ...defaultMetadata,
+  title: "Työleiri.fi - Haastekategoriat",
+  description: "Tutustu Työleirin haastekategorioihin ja niiden sisältöön.",
+};
+
 export default async function Home() {
   return (
     <>
