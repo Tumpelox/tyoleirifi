@@ -3,11 +3,22 @@ import Image from "next/image";
 import Link from "next/link";
 
 import defaultMetadata from "@/app/metadata";
+import { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   ...defaultMetadata,
   title: "Työleiri.fi - Haastekategoriat",
   description: "Tutustu Työleirin haastekategorioihin ja niiden sisältöön.",
+  openGraph: {
+    ...defaultMetadata.openGraph,
+    title: "Työleiri.fi - Haastekategoriat",
+    description: "Tutustu Työleirin haastekategorioihin ja niiden sisältöön.",
+  },
+  twitter: {
+    ...defaultMetadata.twitter,
+    title: "Työleiri.fi - Haastekategoriat",
+    description: "Tutustu Työleirin haastekategorioihin ja niiden sisältöön.",
+  },
 };
 
 export default async function Home() {

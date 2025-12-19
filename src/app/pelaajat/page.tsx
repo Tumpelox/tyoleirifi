@@ -13,6 +13,18 @@ export const metadata = {
   title: "Työleiri.fi - Pelaajat",
   description:
     "Työleirin pelaajalistasta löydät kaikki pelaajat ja pääset tarkastelemaan profiileja.",
+  openGraph: {
+    ...defaultMetadata.openGraph,
+    title: "Työleiri.fi - Pelaajat",
+    description:
+      "Työleirin pelaajalistasta löydät kaikki pelaajat ja pääset tarkastelemaan profiileja.",
+  },
+  twitter: {
+    ...defaultMetadata.twitter,
+    title: "Työleiri.fi - Pelaajat",
+    description:
+      "Työleirin pelaajalistasta löydät kaikki pelaajat ja pääset tarkastelemaan profiileja.",
+  },
 };
 
 const PelaajatContent = async () => {

@@ -13,6 +13,7 @@ import { getPlayer, getPlayerAdvancements } from "@/services/playerData";
 import { getOnlinePlayers } from "@/services/online";
 import PlayerStreak from "@/components/PlayerStreak";
 import advancements from "@/components/Advancements/advancements";
+import defaultMetadata from "@/app/metadata";
 
 type Params = Promise<{ uuid: string }>;
 
@@ -33,6 +34,16 @@ export async function generateMetadata({
     return {
       title: `${player.name} - profiili - Työleiri.fi`,
       description: `Pelaajan ${player.name} tiedot Työleirillä`,
+      openGraph: {
+        ...defaultMetadata.openGraph,
+        title: `${player.name} - profiili - Työleiri.fi`,
+        description: `Pelaajan ${player.name} tiedot Työleirillä`,
+      },
+      twitter: {
+        ...defaultMetadata.twitter,
+        title: `${player.name} - profiili - Työleiri.fi`,
+        description: `Pelaajan ${player.name} tiedot Työleirillä`,
+      },
     };
   }
 }

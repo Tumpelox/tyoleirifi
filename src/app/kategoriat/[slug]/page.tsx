@@ -8,6 +8,7 @@ import { DisplaySettings, getCategory } from "../getCategory";
 import PrintTime from "@/components/PrintTime";
 import { Metadata } from "next";
 import Image from "next/image";
+import defaultMetadata from "@/app/metadata";
 
 type Params = Promise<{ slug: string }>;
 
@@ -26,6 +27,16 @@ export async function generateMetadata({
     return {
       title: `${category.title} - Työleiri.fi`,
       description: category.description,
+      openGraph: {
+        ...defaultMetadata.openGraph,
+        title: `${category.title} - Työleiri.fi`,
+        description: category.description,
+      },
+      twitter: {
+        ...defaultMetadata.twitter,
+        title: `${category.title} - Työleiri.fi`,
+        description: category.description,
+      },
     };
   }
 }
