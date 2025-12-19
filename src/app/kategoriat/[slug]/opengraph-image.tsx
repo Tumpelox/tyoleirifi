@@ -28,7 +28,7 @@ export default async function Image({
     join(process.cwd(), "src", "static_images", "2025.png")
   );
 
-  const backgroundLayer = sharp(backgroundData).resize(1200, 630);
+  const backgroundLayer = sharp(backgroundData).resize(1200, 630).blur(8);
 
   const backgroundBuffer = await backgroundLayer.png().toBuffer();
 
@@ -38,8 +38,8 @@ export default async function Image({
   );
 
   const iconLayer = sharp(iconBuffer).resize({
-    width: category.icon.width * 15,
-    height: category.icon.height * 15,
+    width: category.icon.width * 20,
+    height: category.icon.height * 20,
     kernel: sharp.kernel.nearest,
   });
 

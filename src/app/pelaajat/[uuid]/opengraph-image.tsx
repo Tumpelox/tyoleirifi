@@ -33,7 +33,7 @@ export default async function Image({
   }
 
   const resizedPlayerHead = await sharp(playerHead)
-    .resize({ width: 240, height: 240, kernel: sharp.kernel.nearest })
+    .resize({ width: 320, height: 320, kernel: sharp.kernel.nearest })
     .png()
     .toBuffer();
 
@@ -41,7 +41,7 @@ export default async function Image({
     join(process.cwd(), "src", "static_images", "2025.png")
   );
 
-  const backgroundLayer = sharp(backgroundData).resize(1200, 630);
+  const backgroundLayer = sharp(backgroundData).resize(1200, 630).blur(8);
 
   const backgroundBuffer = await backgroundLayer.png().toBuffer();
 
