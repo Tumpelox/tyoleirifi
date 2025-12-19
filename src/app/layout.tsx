@@ -3,7 +3,7 @@ import "./globals.css";
 import { Playfair_Display } from "next/font/google";
 import Image from "next/image";
 import tausta from "@/images/2025.png";
-import logo from "@/images/logo.png";
+import logo from "@/images/tyoleirifi.png";
 import valikko from "@/images/menu_background.png";
 import { Viewport } from "next";
 
