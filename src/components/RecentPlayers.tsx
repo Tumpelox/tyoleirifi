@@ -44,6 +44,8 @@ const RecentPlayers = ({
       );
     };
 
+    fetchPlayers();
+
     const interval = setInterval(fetchPlayers, 1000 * 15);
 
     return () => clearInterval(interval);
