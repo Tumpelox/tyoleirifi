@@ -9,7 +9,7 @@
 
 **Ohjeet**
 
-1. Kirjaudu microsoft tilillesi Modrinth sovelluksessa
+1. Asenna ja kirjaudu microsoft tilillesi Modrinth sovelluksessa
 2. Luo uusi instanssi vasemmalla näkyvästä plus napista
 	- Valitse from file ja valitse lataamasi tyoleiri_2026 -tiedosto
 3. Vasemmalla valikossa olevassa **Library** näkymässä näet asennetun instanssin.
@@ -27,11 +27,11 @@ _Tällä ohjeella voit asentaa myös Windowsille jos valitset ladatessa windows 
 
 **Ohjeet**
 
-1. Kirjaudu microsoft tilille 
+1. Asenna ja kirjaudu microsoft tilille Prism Launcher sovelluksessa
 2. Lisää uusi instanssi klikkaamalla "Lisää pelipaketti" 
 3. Valitse "Tuo"
     - Lisää lataamasi tiedosto klikkaamalla selaa ja valitsemalla ladattu tiedosto
-4. Käynnistä peli ja lisää työleiri.fi palvelin normaalisti
+4. Käynnistä peli Prism Launcherissa ja lisää työleiri.fi palvelin normaalisti
 
 ### Lisätietoa
 

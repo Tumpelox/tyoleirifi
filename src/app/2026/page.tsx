@@ -17,7 +17,7 @@ const ShowOhjeet = async () => {
   const ohjeetString = ohjeet.toString();
 
   return (
-    <div className="prose">
+    <div className="prose dark:text-secondary dark:prose-headings:text-secondary dark:prose-strong:text-secondary">
       <Markdown>{ohjeetString}</Markdown>
     </div>
   );
