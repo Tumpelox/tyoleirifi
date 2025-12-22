@@ -2,6 +2,7 @@ import Markdown from "react-markdown";
 import Link from "next/link";
 import { readFile } from "fs/promises";
 import { join } from "path";
+import { Suspense } from "react";
 
 export const metadata = {
   title: "Simple voice chat asennus - Työleiri.fi",
@@ -9,11 +10,20 @@ export const metadata = {
     "Ohjeet Simple voice chat -modin asentamiseen servulla pelaamiseen",
 };
 
-export default async function Page() {
+const ShowOhjeet = async () => {
   const ohjeet = await readFile(
     join(process.cwd(), "src", "app", "2026", "ohjeet.md")
   );
+  const ohjeetString = ohjeet.toString();
 
+  return (
+    <div className="prose">
+      <Markdown>{ohjeetString}</Markdown>
+    </div>
+  );
+};
+
+export default async function Page() {
   return (
     <>
       <h1 className="text-2xl font-bold mb-4">
@@ -26,9 +36,9 @@ export default async function Page() {
         Lataa tiedosto
       </Link>
 
-      <div className="prose">
-        <Markdown>{ohjeet.toString()}</Markdown>
-      </div>
+      <Suspense>
+        <ShowOhjeet />
+      </Suspense>
     </>
   );
 }
