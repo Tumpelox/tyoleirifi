@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 
 @plugin '@tailwindcss/container-queries';
+@plugin "@tailwindcss/typography";
 
 @theme {
   --color-tumma: var(--primary);
