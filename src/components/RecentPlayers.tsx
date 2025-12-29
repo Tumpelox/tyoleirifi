@@ -15,17 +15,32 @@ const RecentPlayers = ({
   initialOnlinePlayers: PlayerProfile[];
   initialRecentPlayers: PlayerProfile[];
 }) => {
-  const [onlinePlayers, setOnlinePlayers] =
-    useState<PlayerProfile[]>(initialOnlinePlayers);
+  const [onlinePlayers, setOnlinePlayers] = useState<PlayerProfile[]>(
+    initialOnlinePlayers.sort(
+      (a, b) =>
+        new Date(b.lastJoinDate).getTime() - new Date(a.lastJoinDate).getTime()
+    )
+  );
 
-  const [recentPlayers, setRecentPlayers] =
-    useState<PlayerProfile[]>(initialRecentPlayers);
+  const [recentPlayers, setRecentPlayers] = useState<PlayerProfile[]>(
+    initialRecentPlayers
+      .filter(
+        (player) => !initialOnlinePlayers.some((p) => p.uuid === player.uuid)
+      )
+      .slice(0, 12)
+  );
 
   useEffect(() => {
     const fetchPlayers = async () => {
       const onlinePlayers = await getOnlinePlayerProfiles();
 
-      setOnlinePlayers(onlinePlayers);
+      setOnlinePlayers(
+        onlinePlayers.sort(
+          (a, b) =>
+            new Date(b.lastJoinDate).getTime() -
+            new Date(a.lastJoinDate).getTime()
+        )
+      );
 
       const players = await getPlayerProfiles();
       if (players === null) return;

@@ -19,15 +19,12 @@ export default async function Home() {
 
   const onlinePlayers = await getOnlinePlayerProfiles();
 
-  const recentPlayers = (
+  const recentPlayers =
     (await getPlayerProfiles(
       null,
       (a, b) =>
         new Date(b.lastPlayDate).getTime() - new Date(a.lastPlayDate).getTime()
-    )) ?? []
-  )
-    .filter((player) => !onlinePlayers.some((p) => p.uuid === player.uuid))
-    .slice(0, 12);
+    )) ?? [];
 
   return (
     <>
