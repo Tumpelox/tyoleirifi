@@ -27,7 +27,10 @@ const RecentPlayers = ({
       .filter(
         (player) => !initialOnlinePlayers.some((p) => p.uuid === player.uuid)
       )
-      .slice(0, 12)
+      .slice(
+        0,
+        initialRecentPlayers.length - initialOnlinePlayers.length > 16 ? 16 : 12
+      )
   );
 
   useEffect(() => {
