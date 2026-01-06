@@ -34,11 +34,19 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body className={`${inter.className}`}>
+        <div
+          className="backdrop-blur-sm dark:backdrop-brightness-50 dark:backdrop-saturate-0"
+          style={{
+            position: "fixed",
+            height: "101vh",
+            zIndex: "-9",
+            width: "100%",
+          }}
+        ></div>
         <Image
           src={tausta}
           alt="Taustakuvana maisema minecraft maailmasta"
           sizes="(min-width: 808px) 50vw, 100vw"
-          className="dark:brightness-50"
           style={{
             objectFit: "cover",
             position: "fixed",
@@ -46,7 +54,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
             zIndex: "-10",
           }}
         />
-        <div className="absolute w-full h-fit min-h-screen backdrop-blur-sm dark:backdrop-brightness-50 dark:backdrop-saturate-0 z-10 flex flex-col lg:flex-row pt-8 gap-8 lg:gap-4">
+
+        <div className="absolute w-full h-fit min-h-screen z-10 flex flex-col lg:flex-row pt-8 gap-8 lg:gap-4">
           <div className="px-4 px-4 lg:top-8 lg:left-4 lg:pb-4 lg:pr-4 lg:pt-0 lg:pl-0 lg:sticky sm:px-8 h-fit w-auto lg:aspect-square">
             <div className="w-full h-fit aspect-square sm:aspect-auto lg:aspect-square p-8 backdrop-blur-sm text-white rounded-sm shadow-lg flex flex-col overflow-hidden relative items-center lg:items-start">
               <Image
