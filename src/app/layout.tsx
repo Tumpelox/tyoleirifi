@@ -2,7 +2,8 @@ import Link from "next/link";
 import "./globals.css";
 import { Playfair_Display } from "next/font/google";
 import Image from "next/image";
-import tausta from "@/images/2025.png";
+import light_mode from "@/images/light_mode.png";
+import dark_mode from "@/images/dark_mode.png";
 import logo from "@/images/tyoleirifi.png";
 import valikko from "@/images/menu_background.png";
 import { Viewport } from "next";
@@ -35,7 +36,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       </head>
       <body className={`${inter.className}`}>
         <div
-          className="backdrop-blur-sm dark:backdrop-brightness-50 dark:backdrop-saturate-0"
+          className="backdrop-blur-sm"
           style={{
             position: "fixed",
             height: "101vh",
@@ -44,7 +45,20 @@ export default function RootLayout({ children }: RootLayoutProps) {
           }}
         ></div>
         <Image
-          src={tausta}
+          src={light_mode}
+          className="light-bg"
+          alt="Taustakuvana maisema minecraft maailmasta"
+          sizes="(min-width: 808px) 50vw, 100vw"
+          style={{
+            objectFit: "cover",
+            position: "fixed",
+            height: "101vh",
+            zIndex: "-10",
+          }}
+        />
+        <Image
+          src={dark_mode}
+          className="dark-bg"
           alt="Taustakuvana maisema minecraft maailmasta"
           sizes="(min-width: 808px) 50vw, 100vw"
           style={{
