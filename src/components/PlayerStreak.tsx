@@ -15,7 +15,13 @@ const PlayerStreak = ({
     return null;
   }
 
-  if (!longest && (!player.currentStreak || player.currentStreak <= 0)) {
+  if (
+    !longest &&
+    (!player.currentStreak || player.currentStreak <= 0) &&
+    new Date().setHours(0, 0, 0, 0) -
+      new Date(player.lastJoinDate).setHours(0, 0, 0, 0) >
+      1000 * 60 * 60 * 24
+  ) {
     return null;
   }
 
