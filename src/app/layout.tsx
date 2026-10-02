@@ -81,7 +81,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
 
             <div className="w-full h-fit min-h-[calc(100dvh-10rem)] z-10 flex flex-col lg:flex-row lg:justify-center gap-8">
               <header className="w-full lg:max-w-sm">
-                <div className="relative aspect-square sm:aspect-auto lg:aspect-square w-full p-6 text-white rounded-sm shadow-lg justify-center sm:justify-start flex flex-col items-center overflow-hidden">
+                <div className="relative lg:aspect-square sm:aspect-auto lg:aspect-square w-full p-6 text-white rounded-sm shadow-lg justify-center sm:justify-start flex flex-col items-center overflow-hidden">
                   <Image
                     src={valikko}
                     alt="Valikon taustalla kuva minecraft puusta"
