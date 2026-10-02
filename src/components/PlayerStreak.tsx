@@ -17,10 +17,11 @@ const PlayerStreak = ({
 
   if (
     !longest &&
-    (!player.currentStreak || player.currentStreak <= 0) &&
-    new Date().setHours(0, 0, 0, 0) -
-      new Date(player.lastJoinDate).setHours(0, 0, 0, 0) >
-      1000 * 60 * 60 * 24
+    (!player.currentStreak ||
+      player.currentStreak <= 0 ||
+      new Date().setHours(0, 0, 0, 0) -
+        new Date(player.lastJoinDate).setHours(0, 0, 0, 0) >
+        1000 * 60 * 60 * 24)
   ) {
     return null;
   }
