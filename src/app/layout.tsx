@@ -74,7 +74,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <Image
               src={logo}
               className={
-                "max-h-[5rem] object-contain brightness-110 dark:brightness-90"
+                "max-h-[3rem] lg:max-h-[5rem] object-contain brightness-110 dark:brightness-90"
               }
               alt="Minecraft yhteisöpalvelimen logo"
             />
