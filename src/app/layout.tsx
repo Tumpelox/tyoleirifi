@@ -70,7 +70,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
               zIndex: "-10",
             }}
           />
-          <div className="@container w-full flex flex-col items-center px-2 sm:px-4 py-6 gap-4">
+
+          <div className="w-full flex flex-col items-center px-2 sm:px-4 py-6 gap-4">
             <Image
               src={logo}
               className={
@@ -80,7 +81,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             />
 
             <div className="w-full h-fit min-h-[calc(100dvh-10rem)] z-10 flex flex-col lg:flex-row lg:justify-center gap-8">
-              <header className="w-full lg:max-w-sm">
+              <header className="w-full lg:max-w-72">
                 <div className="relative lg:aspect-square sm:aspect-auto lg:aspect-square w-full p-6 text-white rounded-sm shadow-lg justify-center sm:justify-start flex flex-col items-center overflow-hidden">
                   <Image
                     src={valikko}
@@ -94,7 +95,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                       zIndex: "-1",
                     }}
                   />
-                  <div className="flex flex-col sm:flex-row lg:flex-col gap-4 justify-center md:justify-normal text-xl lg:pt-18">
+                  <div className="flex flex-col sm:flex-row lg:flex-col gap-4 justify-center md:justify-normal text-xl lg:pt-12">
                     <Link
                       href={"/"}
                       className={
@@ -130,7 +131,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
                   </div>
                 </div>
               </header>
-              <main className="w-full h-fit min-h-60 py-8 px-8 flex flex-col gap-5 relative rounded-sm bg-white/80 dark:bg-[#0e0e0ed6] backdrop-blur-sm dark:backdrop-grayscale-0 overflow-hidden text-tumma dark:text-[#db9c5a] max-w-7xl">
+              <main className="@container w-full h-fit min-h-60 py-8 px-8 flex flex-col gap-5 relative rounded-sm bg-white/80 dark:bg-[#0e0e0ed6] backdrop-blur-sm dark:backdrop-grayscale-0 overflow-hidden text-tumma dark:text-[#db9c5a] max-w-7xl">
                 {children}
               </main>
             </div>
