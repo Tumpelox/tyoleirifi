@@ -7,6 +7,7 @@ import { cacheLife } from "next/cache";
 import { Suspense } from "react";
 
 import defaultMetadata from "@/app/metadata";
+import Loading from "@/components/Loading";
 
 export const metadata = {
   ...defaultMetadata,
@@ -67,8 +68,8 @@ const PelaajatContent = async () => {
 export default async function Home() {
   return (
     <>
-      <h1 className="text-4xl font-bold ">Pelaajat</h1>
-      <Suspense fallback={<p className="w-full">Ladataan...</p>}>
+      <h1 className="text-4xl font-bold">Pelaajat</h1>
+      <Suspense fallback={<Loading />}>
         <PelaajatContent />
       </Suspense>
     </>

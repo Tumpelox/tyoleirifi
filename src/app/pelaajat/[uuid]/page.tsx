@@ -15,6 +15,7 @@ import PlayerStreak from "@/components/PlayerStreak";
 import advancements from "@/components/Advancements/advancements";
 import defaultMetadata from "@/app/metadata";
 import PrintTime from "@/components/PrintTime";
+import Loading from "@/components/Loading";
 
 type Params = Promise<{ uuid: string }>;
 
@@ -60,7 +61,7 @@ const getPlayerData = async (uuid: Promise<string>) => {
   const playerProfile = await getPlayerProfile(uuidValidation.data as UUID);
 
   const playerAdvancements = await getPlayerAdvancements(
-    uuidValidation.data as UUID
+    uuidValidation.data as UUID,
   );
 
   const onlinePlayers = await getOnlinePlayers();
@@ -81,9 +82,8 @@ const getPlayerData = async (uuid: Promise<string>) => {
 };
 
 async function PlayerContent({ uuid }: { uuid: Promise<string> }) {
-  const { playerProfile, playerAdvancements, isOnline } = await getPlayerData(
-    uuid
-  );
+  const { playerProfile, playerAdvancements, isOnline } =
+    await getPlayerData(uuid);
 
   const advancementsStyling =
     "grid grid-cols-3 @md:grid-cols-4 @lg:grid-cols-5 @xl:grid-cols-6 @3xl:grid-cols-8 @5xl:grid-cols-10 @6xl:grid-cols-12 gap-4 bg-linear-to-r from-tumma/35 to-tumma/40 rounded-sm py-8 px-4";
@@ -172,7 +172,7 @@ async function PlayerContent({ uuid }: { uuid: Promise<string> }) {
                       Object.keys(playerAdvancements).filter(
                         (key) =>
                           Object.hasOwn(advancements, key) &&
-                          playerAdvancements[key]
+                          playerAdvancements[key],
                       ).length
                     }
                     /{Object.keys(advancements).length}
@@ -236,7 +236,7 @@ async function PlayerContent({ uuid }: { uuid: Promise<string> }) {
 
 export default async function Home({ params }: { params: Params }) {
   return (
-    <Suspense fallback={<p className="w-full">Ladataan...</p>}>
+    <Suspense fallback={<Loading />}>
       <PlayerContent uuid={params.then((p) => p.uuid)} />
     </Suspense>
   );

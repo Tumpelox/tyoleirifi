@@ -9,6 +9,7 @@ import PrintTime from "@/components/PrintTime";
 import { Metadata } from "next";
 import Image from "next/image";
 import defaultMetadata from "@/app/metadata";
+import Loading from "@/components/Loading";
 
 type Params = Promise<{ slug: string }>;
 
@@ -43,7 +44,7 @@ export async function generateMetadata({
 
 const valueToOutputString = (
   value: number | string,
-  displaySettings: DisplaySettings
+  displaySettings: DisplaySettings,
 ) => {
   switch (displaySettings.type) {
     case "time":
@@ -176,7 +177,7 @@ const CategoryContent = async ({ slug }: { slug: Promise<string> }) => {
 export default async function Page({ params }: { params: Params }) {
   return (
     <>
-      <Suspense fallback={<p className="w-full">Ladataan...</p>}>
+      <Suspense fallback={<Loading />}>
         <CategoryContent slug={params.then((p) => p.slug)} />
       </Suspense>
     </>
