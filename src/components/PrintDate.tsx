@@ -3,8 +3,10 @@
 const PrintDate = ({
   date,
   className = "",
+  onlyDate = false,
 }: {
   date: string;
+  onlyDate?: boolean;
   className?: string;
 }) => {
   const timeStamp = new Date(date);
@@ -21,9 +23,14 @@ const PrintDate = ({
             {timeStamp.getDate()}.{timeStamp.getMonth() + 1}.-
             {timeStamp.getFullYear().toString().slice(2, 4)}
           </>
-        )}{" "}
-        {timeStamp.getHours()}:
-        {String(timeStamp.getMinutes()).padStart(2, "0") + " "}
+        )}
+        {!onlyDate && (
+          <>
+            {" "}
+            {timeStamp.getHours()}:
+            {String(timeStamp.getMinutes()).padStart(2, "0") + " "}
+          </>
+        )}
       </>
     );
   } else
@@ -39,10 +46,12 @@ const PrintDate = ({
             {timeStamp.getFullYear().toString().slice(2, 4)}
           </p>
         )}
-        <p className={className}>
-          {timeStamp.getHours()}:
-          {String(timeStamp.getMinutes()).padStart(2, "0")}
-        </p>
+        {!onlyDate && (
+          <p className={className}>
+            {timeStamp.getHours()}:
+            {String(timeStamp.getMinutes()).padStart(2, "0")}
+          </p>
+        )}
       </>
     );
 };

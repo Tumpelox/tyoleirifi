@@ -18,19 +18,21 @@ const RecentPlayers = ({
   const [onlinePlayers, setOnlinePlayers] = useState<PlayerProfile[]>(
     initialOnlinePlayers.sort(
       (a, b) =>
-        new Date(b.lastJoinDate).getTime() - new Date(a.lastJoinDate).getTime()
-    )
+        new Date(b.lastJoinDate).getTime() - new Date(a.lastJoinDate).getTime(),
+    ),
   );
 
   const [recentPlayers, setRecentPlayers] = useState<PlayerProfile[]>(
     initialRecentPlayers
       .filter(
-        (player) => !initialOnlinePlayers.some((p) => p.uuid === player.uuid)
+        (player) => !initialOnlinePlayers.some((p) => p.uuid === player.uuid),
       )
       .slice(
         0,
-        initialRecentPlayers.length - initialOnlinePlayers.length > 16 ? 16 : 12
-      )
+        initialRecentPlayers.length - initialOnlinePlayers.length > 16
+          ? 16
+          : 12,
+      ),
   );
 
   useEffect(() => {
@@ -41,8 +43,8 @@ const RecentPlayers = ({
         onlinePlayers.sort(
           (a, b) =>
             new Date(b.lastJoinDate).getTime() -
-            new Date(a.lastJoinDate).getTime()
-        )
+            new Date(a.lastJoinDate).getTime(),
+        ),
       );
 
       const players = await getPlayerProfiles();
@@ -54,12 +56,12 @@ const RecentPlayers = ({
           .sort(
             (a, b) =>
               new Date(b.lastPlayDate).getTime() -
-              new Date(a.lastPlayDate).getTime()
+              new Date(a.lastPlayDate).getTime(),
           )
           .filter(
-            (player) => !onlinePlayers.some((p) => p.uuid === player.uuid)
+            (player) => !onlinePlayers.some((p) => p.uuid === player.uuid),
           )
-          .slice(0, players.length - onlinePlayers.length > 16 ? 16 : 12)
+          .slice(0, players.length - onlinePlayers.length > 16 ? 16 : 12),
       );
     };
 
@@ -83,7 +85,7 @@ const RecentPlayers = ({
             {onlinePlayers.length === 1 ? "pelaaja" : "pelaajaa"}
           </h2>
         )}
-        <div className="grid grid-cols-2 @sm:grid-cols-3 @md:grid-cols-4 @lg:grid-cols-5 @xl:grid-cols-6 @3xl:grid-cols-8 gap-4 w-full">
+        <div className="grid grid-cols-2 @sm:grid-cols-3 @md:grid-cols-4 @lg:grid-cols-5 @2xl:grid-cols-6 @4xl:grid-cols-8 gap-4 w-full">
           {onlinePlayers.map((player, index) => {
             return <PlayerCard key={index} player={player} online />;
           })}
@@ -95,7 +97,7 @@ const RecentPlayers = ({
           <div key={index} className="h-30 w-20 bg-gray-400/20 rounded-sm" />
         ))}
       >
-        <div className="grid grid-cols-2 @sm:grid-cols-3 @md:grid-cols-4 @lg:grid-cols-5 @xl:grid-cols-6 @3xl:grid-cols-8 gap-4 w-full">
+        <div className="grid grid-cols-2 @sm:grid-cols-3 @md:grid-cols-4 @lg:grid-cols-5 @2xl:grid-cols-6 @4xl:grid-cols-8 gap-4 w-full">
           {recentPlayers.map((player, index) => {
             return <PlayerCard key={index} player={player} full />;
           })}

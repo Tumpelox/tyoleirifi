@@ -29,11 +29,11 @@ const PlayerCard = ({
         );
       }
     },
-    [online]
+    [online],
   );
 
   const [playTimeSeconds, setPlayTimeSeconds] = useState<number>(
-    calculatePlayTime(player)
+    calculatePlayTime(player),
   );
 
   useEffect(() => {
@@ -50,25 +50,27 @@ const PlayerCard = ({
   }, [player, online, calculatePlayTime]);
 
   return (
-    <div
-      className={cn(
-        "bg-linear-to-r from-tumma/35 to-tumma/40 rounded-sm py-2 px-1",
-        { "bg-[#ffcd00]/80": player.op }
-      )}
+    <ProfileLink
+      player={player}
+      className={cn("relative flex flex-col items-center")}
     >
-      <p className="w-full text-sm text-center wrap-break-word font-bold mt-1 mb-2">
+      <p
+        className={
+          "w-full text-sm text-center wrap-break-word font-bold mt-1 mb-2"
+        }
+      >
         {player.name}
       </p>
-      <ProfileLink
-        player={player}
-        className="relative flex flex-col items-center"
+      <div
+        className={cn(
+          "bg-linear-to-rfrom-[#c1c1c1]to-[#cacaca] text-[#121212] w-full",
+        )}
       >
         {full && (
           <div>
-            <p className="w-full text-sm font-light text-current/80 text-center wrap-break-word">
+            <p className="w-full text-sm text-current/80 text-center wrap-break-word">
               <PrintDate date={player.lastPlayDate} />
             </p>
-
             {!online &&
               player.lastJoinDate !== "null" &&
               player.lastPlayDate && (
@@ -88,11 +90,11 @@ const PlayerCard = ({
         {online && (
           <p className="w-full text-sm text-center wrap-break-word">
             ⏱️
-            <PrintTime duration={playTimeSeconds} showSeconds />
+            <PrintTime duration={playTimeSeconds} />
           </p>
         )}
-      </ProfileLink>
-    </div>
+      </div>
+    </ProfileLink>
   );
 };
 

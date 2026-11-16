@@ -15,13 +15,13 @@ const PrintTime = ({
   if (className.length === 0) {
     return (
       <>
-        {hours > 0 && `${hours} t -`} {minutes} min
+        {hours > 0 && `${hours} t `} {minutes} m
       </>
     );
   } else
     return (
       <div className={className}>
-        {hours > 0 && `${hours} t -`} {minutes} min
+        {hours > 0 && `${hours} t `} {minutes} m
       </div>
     );
 };

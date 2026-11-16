@@ -49,17 +49,17 @@ const ProfileLink = ({
         ) : (
           <></>
         )}
-        <div className="w-20 dark:brightness-[0.85] h-20 relative flex items-center justify-center">
+        <div className="aspect-square w-full h-auto dark:brightness-[0.85] relative flex items-center justify-center">
           <Image
             src={`/api/pelaajat/profile/head?url=${encodeURIComponent(
-              player.skin ?? ""
+              player.skin ?? "",
             )}`}
             unoptimized
             alt={`Pelaajan ${player?.name} kasvot`}
             style={{ imageRendering: "pixelated" }}
             width={80}
             height={80}
-            className={`w-20 dark:brightness-[0.85] absolute z-0`}
+            className={`w-full dark:brightness-[0.85] absolute z-0`}
           />
           <PlayerStreak player={player} className="absolute -top-2 -right-1" />
         </div>
