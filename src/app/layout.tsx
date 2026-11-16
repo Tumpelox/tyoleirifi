@@ -1,6 +1,6 @@
 import Link from "next/link";
 import "./globals.css";
-import { Playfair_Display } from "next/font/google";
+import { Roboto_Slab } from "next/font/google";
 import Image from "next/image";
 import light_mode from "@/images/light_mode.png";
 import dark_mode from "@/images/dark_mode.png";
@@ -9,7 +9,7 @@ import valikko from "@/images/menu_background.png";
 import { Viewport } from "next";
 import PlausibleProvider from "next-plausible";
 
-const inter = Playfair_Display({ subsets: ["latin"] });
+const font = Roboto_Slab({ subsets: ["latin"] });
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -36,7 +36,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           />
           <link rel="manifest" href="/site.webmanifest" />
         </head>
-        <body className={`${inter.className}`}>
+        <body className={`${font.className}`}>
           <div
             className="backdrop-blur-sm"
             style={{
