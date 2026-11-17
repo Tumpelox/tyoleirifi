@@ -156,7 +156,7 @@ const CategoryContent = async ({ slug }: { slug: Promise<string> }) => {
                     <ProfileLink
                       key={index}
                       player={player}
-                      className="flex flex-col gap-2"
+                      className="flex flex-col gap-2 max-w-20 w-full"
                     >
                       <p className="font-semibold">{player.name}</p>
                     </ProfileLink>

@@ -107,7 +107,7 @@ async function PlayerContent({ uuid }: { uuid: Promise<string> }) {
 
   return (
     <>
-      <div className="flex flex-col @md:grid @md:grid-cols-5 gap-8 w-full">
+      <div className="flex flex-col @md:grid @md:grid-cols-11 gap-8 w-full">
         <SkinViewer
           type={
             "default"
@@ -117,10 +117,10 @@ async function PlayerContent({ uuid }: { uuid: Promise<string> }) {
           }
           skin={playerProfile.skin ?? ""}
           cape={playerProfile.cape}
-          className={`col-span-2 py-4 px-4 bg-linear-to-r from-tumma/35 to-tumma/40 rounded-sm`}
+          className={`col-span-5 py-4 px-4 bg-linear-to-r from-tumma/35 to-tumma/40 rounded-sm justify-center`}
           controls={true}
         />
-        <div className="flex flex-col gap-4 grow @md:col-span-3">
+        <div className="flex flex-col gap-4 grow @md:col-span-6">
           <h1 className="text-4xl font-bold relative w-fit mb-2">
             {playerProfile.name}
             <PlayerStreak
@@ -187,7 +187,7 @@ async function PlayerContent({ uuid }: { uuid: Promise<string> }) {
               </tbody>
             </table>
             <Advancements
-              className="grid grid-cols-3 @lg:grid-cols-6 gap-4 mt-4"
+              className="grid grid-cols-3 w-fit @min-sm:grid-cols-6 @min-sm:w-full gap-4 mt-4"
               showOnlyCompleted
               hideTitle
               sortFunction={(a, b) =>
