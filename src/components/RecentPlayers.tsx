@@ -80,7 +80,7 @@ const RecentPlayers = ({
           {onlinePlayers.length === 1 ? "pelaaja" : "pelaajaa"}
         </h2>
       )}
-      <div className="grid grid-cols-2 @min-xs:grid-cols-3 @md:grid-cols-4 @lg:grid-cols-5 @2xl:grid-cols-6 @4xl:grid-cols-8 gap-4 w-full">
+      <div className="grid grid-cols-2 @min-[280px]:grid-cols-3 @md:grid-cols-4 @lg:grid-cols-5 @2xl:grid-cols-6 @4xl:grid-cols-8 gap-4 w-full">
         {onlinePlayers.map((player, index) => {
           return <PlayerCard key={index} player={player} online />;
         })}
@@ -88,7 +88,7 @@ const RecentPlayers = ({
 
       <h2 className="text-2xl font-bold">Viimeksi pelanneet</h2>
 
-      <div className="grid grid-cols-2 @min-xs:grid-cols-3 @md:grid-cols-4 @lg:grid-cols-5 @2xl:grid-cols-6 @4xl:grid-cols-8 gap-4 w-full">
+      <div className="grid grid-cols-2 @min-[280px]:grid-cols-3 @md:grid-cols-4 @lg:grid-cols-5 @2xl:grid-cols-6 @4xl:grid-cols-8 gap-4 w-full">
         {recentPlayers.map((player, index) => {
           return <PlayerCard key={index} player={player} full />;
         })}
