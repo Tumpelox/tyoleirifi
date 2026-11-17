@@ -52,7 +52,7 @@ export const getPlayerStatistics = async (uuid: UUID) => {
         headers: {
           Authorization: process.env.API_KEY ?? "",
         },
-      }
+      },
     );
 
     if (!statsResponse.ok) {
@@ -76,19 +76,21 @@ export const getStatistic = async (stat: string) => {
         headers: {
           Authorization: process.env.API_KEY ?? "",
         },
-      }
+      },
     );
 
     if (!statsResponse.ok) {
-      return null;
+      return [];
     }
 
     const stats = await statsResponse.json();
 
-    return stats as PlayerData[];
+    return stats
+      .flat()
+      .filter((i: PlayerData | null) => i !== null) as PlayerData[];
   } catch (e) {
     console.error("getStatistic ", e);
-    return null;
+    return [];
   }
 };
 
@@ -100,7 +102,7 @@ export const getPlayerAdvancements = async (uuid: UUID) => {
         headers: {
           Authorization: process.env.API_KEY ?? "",
         },
-      }
+      },
     );
 
     if (!advancementsResponse.ok) {
@@ -120,24 +122,26 @@ export const getAdvancement = async (advancement: string) => {
   try {
     const statsResponse = await fetch(
       new URL(
-        `${process.env.API_URL}/advancement/${encodeURIComponent(advancement)}`
+        `${process.env.API_URL}/advancement/${encodeURIComponent(advancement)}`,
       ),
       {
         headers: {
           Authorization: process.env.API_KEY ?? "",
         },
-      }
+      },
     );
 
     if (!statsResponse.ok) {
-      return null;
+      return [];
     }
 
     const stats = await statsResponse.json();
 
-    return stats as PlayerData[];
+    return stats
+      .flat()
+      .filter((i: PlayerData | null) => i !== null) as PlayerData[];
   } catch (e) {
     console.error("getAdvancement ", e);
-    return null;
+    return [];
   }
 };

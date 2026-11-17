@@ -10,7 +10,7 @@ export const getPlayerPlaytimeLog = async (uuid: UUID) => {
         headers: {
           Authorization: process.env.API_KEY ?? "",
         },
-      }
+      },
     );
 
     if (!playtimeResponse.ok) {
@@ -59,7 +59,7 @@ export const getPlayerPlaytime = async (uuid: UUID) => {
       (acc, log) =>
         acc +
         (new Date(log.endTime).getTime() - new Date(log.startTime).getTime()),
-      0
+      0,
     );
   } catch (e) {
     console.error("getPlayerPlaytime ", e);
@@ -72,7 +72,7 @@ export const getPlaytime = async () => {
     const playtimeLog = await getPlaytimeLog();
 
     if (playtimeLog === null) {
-      return null;
+      return [];
     }
 
     return playtimeLog.reduce((acc: PlayerData[], log) => {
@@ -80,9 +80,10 @@ export const getPlaytime = async () => {
       if (playerData) {
         playerData.value +=
           new Date(log.endTime).getTime() - new Date(log.startTime).getTime();
-        return acc.map((data) =>
-          data.uuid === (log.uuid as UUID) ? playerData : data
-        );
+        return acc
+          .map((data) => (data.uuid === (log.uuid as UUID) ? playerData : data))
+          .flat()
+          .filter((i: PlayerData | null) => i !== null);
       } else {
         return [
           ...acc,
@@ -93,11 +94,13 @@ export const getPlaytime = async () => {
               new Date(log.startTime).getTime(),
             key: "playtime",
           },
-        ];
+        ]
+          .flat()
+          .filter((i: PlayerData | null) => i !== null);
       }
     }, []);
   } catch (e) {
     console.error("getPlaytime ", e);
-    return null;
+    return [];
   }
 };

@@ -4,7 +4,11 @@ import SkinView from "@/components/SkinViewer";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
-import { DisplaySettings, getCategory } from "../getCategory";
+import {
+  DisplaySettings,
+  getCategoryData,
+  getCategoryMetadata,
+} from "../getCategory";
 import PrintTime from "@/components/PrintTime";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -82,8 +86,8 @@ const totalValue = (value: number, display: DisplaySettings) => {
   }
 };
 
-const getCategoryData = async (slug: Promise<string>) => {
-  const data = await getCategory(await slug);
+const getCategory = async (slug: string) => {
+  const data = await getCategoryMetadata(slug);
 
   if (data === null) {
     return notFound();
@@ -92,13 +96,34 @@ const getCategoryData = async (slug: Promise<string>) => {
   return data;
 };
 
-const CategoryContent = async ({ slug }: { slug: Promise<string> }) => {
+const getCategoryDataValues = async (slug: string) => {
   const data = await getCategoryData(slug);
 
+  if (data === null) {
+    return notFound();
+  }
+
+  return { values: await data.values, total: await data.total };
+};
+
+const CategoryInfo = async ({ slug }: { slug: Promise<string> }) => {
+  const data = await getCategory(await slug);
+
+  return (
+    <div className="flex flex-col gap-2">
+      <h1 className="text-4xl font-bold">{data.title}</h1>
+      <p className="text-lg">{data.description}</p>
+    </div>
+  );
+};
+
+const CategoryContent = async ({ slug }: { slug: Promise<string> }) => {
+  const data = await getCategory(await slug);
+
+  const { values, total } = await getCategoryDataValues(await slug);
   return (
     <>
-      <h1 className="text-4xl font-bold ">{data.title}</h1>
-      {data.values.length === 0 && (
+      {values.length === 0 && (
         <div className="flex flex-col w-full items-center">
           <Image
             src="/snowgolem.png"
@@ -110,11 +135,11 @@ const CategoryContent = async ({ slug }: { slug: Promise<string> }) => {
           <p>Tässä kategoriassa ei ole vielä dataa.</p>
         </div>
       )}
-      {data.values.length > 0 && (
+      {values.length > 0 && (
         <>
           <div className="relative w-full grid grid-flow-row sm:gap-5 sm:grid-cols-3 sm:justify-between">
-            {data.values.length > 3 &&
-              data.values.slice(0, 3).map((player, index) => {
+            {values.length > 3 &&
+              values.slice(0, 3).map((player, index) => {
                 return (
                   <Link
                     href={`/pelaajat/${player.uuid}`}
@@ -138,12 +163,12 @@ const CategoryContent = async ({ slug }: { slug: Promise<string> }) => {
           {data.display.type !== "date" && data.display.type !== "boolean" && (
             <div className="w-full bg-tumma/90 flex justify-center items-center py-2 px-4 rounded-sm text-white">
               <h3 className="font-bold text-xl">
-                Yhteensä {totalValue(data.total, data.display)}
+                Yhteensä {totalValue(total, data.display)}
               </h3>
             </div>
           )}
           <div className="grid grid-cols-1 @lg:grid-cols-2 @3xl:grid-cols-3 @5xl:grid-cols-4 gap-4 w-full">
-            {data.values.map((player, index) => {
+            {values.map((player, index) => {
               return (
                 <div
                   className="flex flex-col gap-4 rounded-sm py-2 px-4 bg-linear-to-r from-tumma/35 to-tumma/40 relative"
@@ -178,6 +203,7 @@ export default async function Page({ params }: { params: Params }) {
   return (
     <>
       <Suspense fallback={<Loading />}>
+        <CategoryInfo slug={params.then((p) => p.slug)} />
         <CategoryContent slug={params.then((p) => p.slug)} />
       </Suspense>
     </>

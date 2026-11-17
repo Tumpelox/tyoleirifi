@@ -1,5 +1,5 @@
 import sharp from "sharp";
-import { getCategory } from "../getCategory";
+import { getCategoryMetadata } from "../getCategory";
 
 export const contentType = "image/png";
 
@@ -8,10 +8,14 @@ export const size = {
   height: 8,
 };
 
-export default async function Icon({ params }: { params: { slug: string } }) {
+export default async function Icon({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const { slug } = await params;
 
-  const category = await getCategory(slug);
+  const category = await getCategoryMetadata(slug);
 
   if (!category) {
     return null;

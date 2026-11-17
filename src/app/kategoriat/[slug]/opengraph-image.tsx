@@ -1,4 +1,4 @@
-import { getCategory } from "../getCategory";
+import { getCategoryMetadata } from "../getCategory";
 import { readFile } from "fs/promises";
 import { join } from "path";
 import sharp from "sharp";
@@ -19,13 +19,13 @@ export default async function Image({
 }) {
   const { slug } = await params;
 
-  const category = await getCategory(slug);
+  const category = await getCategoryMetadata(slug);
 
   if (!category) {
     return null;
   }
   const backgroundData = await readFile(
-    join(process.cwd(), "src", "static_images", "2025.png")
+    join(process.cwd(), "src", "static_images", "2025.png"),
   );
 
   const backgroundLayer = sharp(backgroundData).resize(1200, 630).blur(8);
@@ -34,7 +34,7 @@ export default async function Image({
 
   const iconBuffer = Buffer.from(
     category.icon.src.split(",")[1].trim(),
-    "base64"
+    "base64",
   );
 
   const iconLayer = sharp(iconBuffer).resize({
