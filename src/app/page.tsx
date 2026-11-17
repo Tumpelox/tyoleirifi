@@ -23,13 +23,24 @@ export default async function Home() {
     (await getPlayerProfiles(
       null,
       (a, b) =>
-        new Date(b.lastPlayDate).getTime() - new Date(a.lastPlayDate).getTime()
+        new Date(b.lastPlayDate).getTime() - new Date(a.lastPlayDate).getTime(),
     )) ?? [];
 
   return (
     <>
       <h1 className="text-4xl font-bold">LaniMC</h1>
-      <Suspense>
+      <Suspense
+        fallback={
+          <div className="grid grid-cols-2 @min-xs:grid-cols-3 @md:grid-cols-4 @lg:grid-cols-5 @2xl:grid-cols-6 @4xl:grid-cols-8 gap-4 w-full">
+            {Array.from({ length: 12 }).map((_, index) => (
+              <div
+                key={index}
+                className="h-44 w-auto bg-gray-400/20 rounded-sm"
+              />
+            ))}
+          </div>
+        }
+      >
         <RecentPlayers
           initialOnlinePlayers={onlinePlayers}
           initialRecentPlayers={recentPlayers ?? []}

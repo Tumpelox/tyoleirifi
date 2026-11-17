@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { PlayerProfile } from "@/models";
 
 import { getOnlinePlayerProfiles } from "@/services/online";
@@ -74,35 +74,25 @@ const RecentPlayers = ({
 
   return (
     <>
-      <Suspense
-        fallback={Array.from({ length: 12 }).map((_, index) => (
-          <div key={index} className="h-30 w-20 bg-gray-400/20 rounded-sm" />
-        ))}
-      >
-        {onlinePlayers.length > 0 && (
-          <h2 className="text-2xl font-bold">
-            Paikalla nyt - {onlinePlayers.length}{" "}
-            {onlinePlayers.length === 1 ? "pelaaja" : "pelaajaa"}
-          </h2>
-        )}
-        <div className="grid grid-cols-2 @sm:grid-cols-3 @md:grid-cols-4 @lg:grid-cols-5 @2xl:grid-cols-6 @4xl:grid-cols-8 gap-4 w-full">
-          {onlinePlayers.map((player, index) => {
-            return <PlayerCard key={index} player={player} online />;
-          })}
-        </div>
-      </Suspense>
-      <h2 className="text-2xl font-bold">Viimeksi pelanneet</h2>{" "}
-      <Suspense
-        fallback={Array.from({ length: 12 }).map((_, index) => (
-          <div key={index} className="h-30 w-20 bg-gray-400/20 rounded-sm" />
-        ))}
-      >
-        <div className="grid grid-cols-2 @sm:grid-cols-3 @md:grid-cols-4 @lg:grid-cols-5 @2xl:grid-cols-6 @4xl:grid-cols-8 gap-4 w-full">
-          {recentPlayers.map((player, index) => {
-            return <PlayerCard key={index} player={player} full />;
-          })}
-        </div>
-      </Suspense>
+      {onlinePlayers.length > 0 && (
+        <h2 className="text-2xl font-bold">
+          Paikalla nyt - {onlinePlayers.length}{" "}
+          {onlinePlayers.length === 1 ? "pelaaja" : "pelaajaa"}
+        </h2>
+      )}
+      <div className="grid grid-cols-2 @min-xs:grid-cols-3 @md:grid-cols-4 @lg:grid-cols-5 @2xl:grid-cols-6 @4xl:grid-cols-8 gap-4 w-full">
+        {onlinePlayers.map((player, index) => {
+          return <PlayerCard key={index} player={player} online />;
+        })}
+      </div>
+
+      <h2 className="text-2xl font-bold">Viimeksi pelanneet</h2>
+
+      <div className="grid grid-cols-2 @min-xs:grid-cols-3 @md:grid-cols-4 @lg:grid-cols-5 @2xl:grid-cols-6 @4xl:grid-cols-8 gap-4 w-full">
+        {recentPlayers.map((player, index) => {
+          return <PlayerCard key={index} player={player} full />;
+        })}
+      </div>
     </>
   );
 };
